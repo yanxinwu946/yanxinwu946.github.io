@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101513">
+  <meta name="description" content="SuperBay，让散落的工具成为顺手的工作台。面向 Windows 的开源本地工具启动器，把工具、运行环境与使用心得放在一起。">
+  <title>SuperBay — 工具，各就各位。</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="flow.css">
+</head>
+<body>
+  <div class="flow-atmosphere" aria-hidden="true"><i></i><i></i><i></i><div class="flow-ring"></div></div>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="nav wrap">
+    <a class="brand" href="#" aria-label="SuperBay 首页"><img src="icon.svg" alt="" width="30" height="30">SuperBay</a>
+    <nav aria-label="主导航"><a href="#commands">命令启动</a><a href="#workflow">工作方式</a><a href="#start">开始使用</a></nav>
+    <a class="github-link" href="https://github.com/yanxinwu946/SuperBay" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> WINDOWS 上的开源工具工作台</div>
+        <h1 id="hero-title">工具，<br><span>各就各位。</span></h1>
+        <p class="hero-desc">那些散落的工具、反复输入的命令，<br class="desktop-break">还有用过才懂的经验。<br>现在，都有一个顺手的位置。</p>
+        <div class="hero-actions"><a class="button primary" href="#start">让工作顺起来 <span aria-hidden="true">↗</span></a><a class="text-link" href="#experience">先感受一下 <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span>Windows 10 / 11</span><i></i><span>本地优先</span><i></i><span>MIT 开源</span></div>
+      </div>
+      <div class="hero-visual" id="experience">
+        <div class="visual-topline"><span>YOUR TOOLS. ONE BAY.</span><span class="demo-label">可交互体验演示</span></div>
+        <div class="workbench">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>SuperBay</span><span class="window-glyph">⌘</span></div>
+          <div class="bench-body">
+            <aside class="bench-side"><img src="icon.svg" width="32" height="32" alt=""><span class="side-caption">我的工作台</span><div role="tablist" aria-label="体验功能"><button role="tab" aria-selected="true" aria-controls="tools-panel" id="tools-tab" data-panel="tools-panel"><span>▦</span>全部工具 <small>03</small></button><button role="tab" aria-selected="false" aria-controls="plans-panel" id="plans-tab" data-panel="plans-panel" tabindex="-1"><span>↗</span>启动方案</button><button role="tab" aria-selected="false" aria-controls="env-panel" id="env-tab" data-panel="env-panel" tabindex="-1"><span>◎</span>运行环境</button></div><div class="side-bottom"><span class="live-dot"></span> 一切就绪</div></aside>
+            <div class="bench-content">
+              <div id="tools-panel" role="tabpanel" aria-labelledby="tools-tab">
+                <div class="bench-heading"><h2>随时待命。</h2><span>03 TOOLS</span></div>
+                <label class="demo-search"><span aria-hidden="true">⌕</span><input id="tool-search" aria-label="搜索演示工具" placeholder="搜索你的下一个灵感…" autocomplete="off"><kbd>⌕</kbd></label>
+                <div class="tools-list">
+                  <button class="tool-row" data-name="oneforall 信息收集"><span class="tool-icon teal">O<span>↗</span></span><span class="tool-info"><b>OneForAll</b><small>信息收集 · Python</small></span><span class="tool-arrow">↗</span></button>
+                  <button class="tool-row" data-name="burp suite web安全"><span class="tool-icon orange">B<span>↗</span></span><span class="tool-info"><b>Burp Suite</b><small>Web 安全 · Java</small></span><span class="tool-arrow">↗</span></button>
+                  <button class="tool-row" data-name="subfinder 域名发现"><span class="tool-icon violet">S<span>↗</span></span><span class="tool-info"><b>subfinder</b><small>域名发现 · 独立程序</small></span><span class="tool-arrow">↗</span></button>
+                </div>
+                <p id="no-results" hidden>没有匹配的演示工具，换个关键词试试。</p>
+                <div class="bench-status" id="demo-status" aria-live="polite"><span class="status-mark">✓</span> 找到工具，只是开始。</div>
+              </div>
+              <div id="plans-panel" role="tabpanel" aria-labelledby="plans-tab" hidden><div class="bench-heading"><h2>这次，怎么用？</h2><span>LAUNCH PLANS</span></div><p class="panel-desc">同一个工具，不止一种顺手的用法。</p><label class="demo-field">选择启动方案<select id="plan-select"><option>常用扫描</option><option>查看帮助</option><option>导出结果</option></select></label><label class="demo-field">本次目标<input id="demo-target" value="example.test" spellcheck="false"></label><button class="demo-run" id="preview-plan">预览本次方案 <span>↗</span></button><p class="plan-result" id="plan-result" aria-live="polite">填写目标，再看看本次方案。</p></div>
+              <div id="env-panel" role="tabpanel" aria-labelledby="env-tab" hidden><div class="bench-heading"><h2>环境，各得其所。</h2><span>RUNTIME</span></div><p class="panel-desc">为工具选择适合的版本，继续专注眼前的事。</p><div class="env-row"><span class="env-icon">Py</span><span><b>Python</b><small>属于 OneForAll 的运行环境</small></span><span class="env-bound">已绑定</span></div><div class="env-row"><span class="env-icon">J</span><span><b>Java</b><small>属于 Burp Suite 的运行环境</small></span><span class="env-bound">已绑定</span></div><div class="env-note"><span>◎</span> 通过 Scoop 连接 Python、Java 与 Node 环境，为每个工具保留自己的选择。</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="floating-note"><span>⌘</span><div><b>少一点来回折腾。</b><small>多一点，心流。</small></div><span class="note-star">✳</span></div>
+        <div class="visual-bottomline"><span>01 — THE WORKSPACE</span><span>试试搜索，或切换左侧功能 ↑</span></div>
+      </div>
+    </section>
+    <div class="manifesto"><div class="wrap manifesto-inner"><p>不是工具太多。<br><strong>是它们，还没聚在一起。</strong></p><span>FIND YOUR FLOW.<br>MAKE ROOM FOR WORK.</span></div></div>
+
+    <section class="command-section wrap" id="commands" aria-labelledby="command-title">
+      <div class="command-intro reveal"><div class="eyebrow">COMMANDS, IN YOUR FLOW</div><h2 id="command-title">一条命令。<br><span>变成你的顺手操作。</span></h2><p>从第一次配置，到每天重复使用。<br>把运行方式设置好，把变化留给参数。</p></div>
+      <div class="command-lab reveal">
+        <div class="lab-top"><span><i class="live-dot"></i> 启动配置体验台</span><small>交互演示 · 不执行真实命令</small></div>
+        <div class="lab-grid">
+          <div class="lab-editor">
+            <div class="lab-mode" role="group" aria-label="命令配置模式"><button type="button" data-command-mode="default" aria-pressed="true">默认命令</button><button type="button" data-command-mode="plan" aria-pressed="false">参数方案</button></div>
+            <p class="lab-mode-desc" id="mode-description">设置工具的默认启动方式。临时参数可以在启动时追加。</p>
+            <label class="lab-label" for="command-input">启动命令 <span>按你习惯的方式写</span></label>
+            <textarea id="command-input" rows="3" spellcheck="false">python -u "main.py"</textarea>
+            <div id="default-fields"><label class="lab-label" for="command-args">本次追加参数 <span>可选</span></label><input id="command-args" value="--help" spellcheck="false"></div>
+            <div id="scheme-fields" hidden><div class="lab-two"><label>本次目标<input id="command-target" value="example.test" spellcheck="false"></label><label>输出目录 · 示例路径<input id="command-output" value="D:\Results" spellcheck="false"></label></div><p class="field-note">在应用中，可点选插入文本、文件、目录参数，运行时用表单填写。</p></div>
+            <div class="lab-two settings-row"><label>运行方式<select id="command-shell"><option value="cmd">cmd</option><option value="powershell">PowerShell</option></select></label><label>打开到哪个终端<select id="command-terminal"><option>默认控制台</option><option>Windows Terminal</option><option>WezTerm</option><option>Alacritty</option></select></label></div>
+            <label class="lab-label" for="command-runtime">运行环境 <span>为当前工具单独选择</span></label><select id="command-runtime"><option>继承系统环境</option><option>绑定 Scoop Python</option><option>绑定 Scoop Java</option><option>绑定 Scoop Node</option></select>
+            <label class="admin-control"><input type="checkbox" id="command-admin"><span>以管理员身份启动</span><small>需要时再开启</small></label>
+          </div>
+          <div class="lab-preview"><div class="preview-heading"><span>你的这次启动</span><span class="preview-indicator">LIVE PREVIEW</span></div><h3 id="command-preview-title">准备好，就出发。</h3><div class="command-language" id="command-language">CMD</div><pre class="command-output"><code id="command-result" aria-live="polite">python -u "main.py" --help</code></pre><dl class="launch-summary"><div><dt>工作目录</dt><dd>工具所在目录 <code>D:\Tools\OneForAll</code></dd></div><div><dt>运行环境</dt><dd id="runtime-summary">继承系统环境</dd></div><div><dt>终端</dt><dd id="terminal-summary">默认控制台</dd></div><div><dt>权限</dt><dd id="admin-summary">普通权限</dd></div></dl><p class="preview-explanation" id="preview-explanation">自定义命令优先生效。命令留空时，应用会尝试识别入口；找不到时打开工具目录。</p><button type="button" id="reset-command" class="lab-reset">恢复示例设置 ↺</button><div class="preview-footnote">这里仅展示配置效果。真正的启动，发生在你的本地工作台。</div></div>
+        </div>
+      </div>
+      <div class="command-details">
+        <article class="reveal"><span class="detail-index">01</span><h3>默认启动，设置一次。</h3><p>在详情侧栏「启动 → 编辑」填写命令，并选择 cmd 或 PowerShell。工作目录会自动使用工具目录；单文件条目使用其所在文件夹。</p><div class="detail-example"><code>python -u "main.py"</code><span>留空 → 自动识别入口</span></div></article>
+        <article class="reveal"><span class="detail-index">02</span><h3>临时参数，随用随加。</h3><p>按 Shift+Enter 输入本次追加参数，保留默认命令不变。适合偶尔切换目标、输出格式，或快速查看工具帮助。</p><div class="detail-example"><code>--target example.test</code><span>上次填写，下次回填</span></div></article>
+        <article class="reveal"><span class="detail-index">03</span><h3>常用用法，存成方案。</h3><p>给不同用法起个名字，保存各自的命令、运行方式与管理员选项。支持从当前命令创建、复制方案，再点选插入参数。</p><div class="detail-example"><code>常用扫描 / 查看帮助 / 导出结果</code><span>每个方案记住自己的填写值</span></div></article>
+      </div>
+    </section>
+    <section class="parameter-story wrap reveal" aria-labelledby="parameter-title"><div><div class="eyebrow muted">LESS RETYPING. MORE DOING.</div><h2 id="parameter-title">把会变化的部分，<br>留到运行时。</h2><p>启动方案中的占位符，会变成清晰的填写表单。<br>无需每次在长命令里寻找那个要替换的位置。</p><a href="#commands" class="text-link">上面切换「参数方案」试试 ↑</a></div><div class="parameter-map"><div><span class="parameter-tag">文本</span><code>{目标}</code><p>填写本次目标、端口或其他文字</p></div><div><span class="parameter-tag">文件</span><code>{字典:file}</code><p>选择或拖入已有文件</p></div><div><span class="parameter-tag">目录</span><code>{输出目录:dir}</code><p>选择或拖入已有目录</p></div><small>占位符仅在启动方案中展开。路径含空格时，在命令模板中为对应参数加双引号；运行前可以检查最终命令。</small></div></section>
+
+    <section class="workflow wrap" id="workflow">
+      <div class="section-intro reveal"><div class="eyebrow muted">A BETTER WAY TO WORK</div><h2>从想到，到做到。<br><span>中间少几步。</span></h2><p>让工具管理退到身后，<br>让真正重要的事，走到眼前。</p></div>
+      <div class="story-grid">
+        <article class="story-card find reveal"><span class="section-number">01 / 找到</span><h3>记得一点，<br>就能找到。</h3><p>名称、标签、笔记，甚至只是拼音缩写。<br>不必记住工具放在第几层目录。</p><div class="search-art"><span>⌕</span><span id="type-word">信息收集</span><i></i><kbd>Enter ↵</kbd></div><div class="search-tags"><span>拼音搜索</span><span>自定义别名</span><span>固定与最近</span></div></article>
+        <article class="story-card launch reveal"><span class="section-number">02 / 出发</span><h3>熟悉的用法，<br>不用从头来。</h3><p>把常用命令存成方案。下次打开，<br>只需填目标、选文件，然后出发。</p><div class="plan-art"><div><span>常用扫描</span><span class="art-badge">已保存</span></div><div class="art-field"><span>目标</span><b>example.test</b><span class="art-cursor"></span></div><div class="art-launch">准备就绪 <span>↗</span></div></div></article>
+      </div>
+      <article class="notes-story reveal"><div class="notes-copy"><span class="section-number">03 / 留下</span><h3>工具会常用。<br>经验，也值得常在。</h3><p>踩过的坑、好用的参数、下一次的灵感。<br>随工具留一页笔记，让每次使用都有积累。</p><span class="quiet-label">MARKDOWN 笔记 · 本地保存</span></div><div class="note-paper"><div class="paper-tab">NOTE.md <span>↗</span></div><span class="note-heading">下次，记得这些。</span><p><span class="check">✓</span> 先确认目标与运行环境</p><p><span class="check">✓</span> 把顺手的参数保存成方案</p><div class="note-divider"></div><span class="note-script">好用的经验，就留在工具旁边。</span></div></article>
+    </section>
+
+    <section class="feature-atlas wrap" id="features"><div class="atlas-header reveal"><div class="eyebrow muted">THE DETAILS THAT MAKE IT YOURS</div><h2>顺手，藏在这些细节里。</h2><p>把工具的整个使用过程，照顾得再完整一点。</p></div><div class="atlas-grid">
+      <article class="reveal"><span>⌕</span><h3>搜得到，也找得准。</h3><p>搜索名称、标签、路径与笔记；支持拼音、首字母和自定义别名。用类型与标签筛选，缩小查找范围。</p><code>xxsj · 标签:扫描 · 类型:工具</code></article>
+      <article class="reveal"><span>▦</span><h3>文件整理，有条不紊。</h3><p>拖入文件或目录导入，创建分类、重命名、移动工具，批量追加标签。通过应用移动时，配置与使用次数一起保留。</p><small>导入采用复制，同名目标不会覆盖。</small></article>
+      <article class="reveal"><span>◎</span><h3>环境绑定，各自独立。</h3><p>连接 Scoop，给工具选择 Python、Java 或 Node 的具体版本。工具启动时使用自己的绑定，不改动系统默认环境。</p><small>解释器或绑定版本失效时，可通过健康检查发现问题。</small></article>
+      <article class="reveal"><span>↗</span><h3>终端，用自己习惯的。</h3><p>在「设置 → 启动」选择 Windows Terminal、WezTerm 或 Alacritty。可按终端需要配置启动参数模板。</p><code>{cwd} 工作目录 · {command} 启动命令</code></article>
+      <article class="reveal"><span>≡</span><h3>运行结果，有迹可循。</h3><p>在运行记录中查看受跟踪启动的状态、输出、错误与退出结果。最近列表支持单项移除或清空，累计次数继续保留。</p><small>交给外部终端运行的命令，不在应用内收集输出日志。</small></article>
+      <article class="reveal"><span>↳</span><h3>文件与经验，就在旁边。</h3><p>详情栏分为启动、笔记、信息。浏览工具内文件、预览文本、打开终端；用 Markdown 保存说明与实践心得。</p><small>工具笔记保留在原目录，配置支持备份与迁移。</small></article>
+    </div></section>
+    <section class="quick-guide wrap reveal"><div><div class="eyebrow muted">FROM SETUP TO FIRST LAUNCH</div><h2>第一次配置，<br>照着这四步。</h2></div><ol><li><span>1</span><div><h3>选中工具，打开「启动」</h3><p>已有程序可先识别入口；需要自定义用法时点「编辑」。</p></div></li><li><span>2</span><div><h3>填写命令，选好运行方式</h3><p>确认使用 cmd 还是 PowerShell；需要指定解释器版本时再绑定环境。</p></div></li><li><span>3</span><div><h3>把重复用法存成方案</h3><p>为常用命令命名，通过文本、文件、目录按钮插入变化项。</p></div></li><li><span>4</span><div><h3>填写本次参数，检查后运行</h3><p>需要提权时使用管理员启动；日常用 Enter，临时参数用 Shift+Enter。</p></div></li></ol></section>
+    <section class="command-faq wrap reveal"><h2>启动前，你可能想知道。</h2><details><summary>默认命令与启动方案，有什么区别？<span>＋</span></summary><p>默认命令决定点击工具「启动」时执行什么；启动方案用于保存同一个工具的多种用法。参数占位符在方案中展开，普通默认命令继续按你填写的内容执行。</p></details><details><summary>需要先把 Python 或 Java 加到系统 PATH 吗？<span>＋</span></summary><p>可以继承系统环境，也可以通过 Scoop 绑定具体版本。绑定环境仅对当前工具生效；相应解释器仍需在本机安装。Python 工具已有项目虚拟环境时，入口识别会优先建议该环境。</p></details><details><summary>管理员启动，还会打开我选的外部终端吗？<span>＋</span></summary><p>当前外部终端接管适用于非管理员命令启动。启用管理员权限时会走系统提权流程，不保证使用所选外部终端。</p></details><details><summary>配置备份，会包含工具程序和运行日志吗？<span>＋</span></summary><p>备份保存目录设置、工具元数据、命令、方案、环境绑定与使用统计。工具程序、笔记与运行日志不打包；换电脑时需要另行复制工具目录，并安装所需环境。</p></details></section>
+
+    <section class="principles wrap reveal"><div class="principle-heading"><div class="eyebrow muted">MADE TO STAY WITH YOU</div><h2>你的工具。<br>你的节奏。</h2></div><div class="principle-items"><article><span>↳</span><div><h3>整理，自有章法。</h3><p>拖入工具，归好分类。换个位置，配置也跟着走。</p></div></article><article><span>◎</span><div><h3>本地，才更自在。</h3><p>工具与笔记留在自己的目录，不必为了管理而改变习惯。</p></div></article><article><span>↗</span><div><h3>换电脑，接着来。</h3><p>带上配置备份，迁移目录与环境绑定，继续熟悉的工作。</p></div></article></div></section>
+    <section class="start-section" id="start"><div class="wrap start-grid"><div><div class="eyebrow muted">WELCOME TO YOUR BAY</div><h2>下一次启动，<br><span>从容一点。</span></h2><p>SuperBay 免费、开源，面向 Windows。<br>准备好 Python 3.10+，让工具先归个队。</p><a class="button primary" href="https://github.com/yanxinwu946/SuperBay" target="_blank" rel="noopener">在 GitHub 探索 <span aria-hidden="true">↗</span></a><a class="guide-link" href="https://github.com/yanxinwu946/SuperBay/blob/main/docs/user-guide.md" target="_blank" rel="noopener">阅读使用指南 →</a></div><div class="install-card"><div class="install-head"><span><i></i> 从源码开始</span><button id="copy-install" aria-label="复制安装命令">复制命令 <span>⧉</span></button></div><pre><code id="install-code">git clone https://github.com/yanxinwu946/SuperBay.git
+cd SuperBay
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe main.py</code></pre><div class="install-footer"><span>首次启动，选择你的工具根目录。</span><span aria-hidden="true">↵</span></div><p class="copy-status" id="copy-status" aria-live="polite"></p></div></div></section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="#"><img src="icon.svg" alt="" width="26" height="26">SuperBay</a><p>让散落的工具，成为顺手的工作台。</p><div><span>MIT LICENSE</span><a href="https://github.com/yanxinwu946/SuperBay" target="_blank" rel="noopener">Built in the open ↗</a></div></footer>
+  <script src="app.js"></script>
+</body>
+</html>

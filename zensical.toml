@@ -1,0 +1,25 @@
+[project]
+site_name = "yanxinwu946 文档库"
+site_url = "https://yanxinwu946.github.io/"
+site_description = "项目、工具与实践文档。"
+repo_url = "https://github.com/yanxinwu946"
+repo_name = "GitHub"
+nav = [
+  { "文档库" = "index.md" },
+  { "SuperBay" = [
+    { "产品介绍" = "superbay/index.md" },
+    { "快速开始" = "superbay/user-guide.md" },
+    { "目录规划" = "superbay/directory-planning.md" },
+    { "使用与配置" = "superbay/reference.md" },
+    { "工具管理" = "superbay/toolbox-features.md" },
+    { "打包说明" = "superbay/packaging.md" },
+  ] },
+]
+extra_css = ["assets/site.css"]
+[project.theme]
+language = "zh"
+features = ["navigation.sections", "navigation.top", "search.highlight", "content.code.copy"]
+[project.theme.palette]
+primary = "green"
+accent = "green"
+

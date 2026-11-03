@@ -1,0 +1,43 @@
+:root > * { --md-primary-fg-color: #183528; --md-accent-fg-color: #238455; }
+.md-typeset .hero { padding: 3.5rem 2.5rem; margin: 1rem 0 3rem; border-radius: 1rem; background: #14261d; color: #edf7e9; }
+.md-typeset .hero h1 { color: #c2ed9f; font-weight: 700; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.2; letter-spacing: -.04em; margin: 1rem 0; }
+.md-typeset .hero p { max-width: 42rem; font-size: 1rem; line-height: 1.9; }
+.md-typeset .hero-label { color: #c2ed9f; font-size: .7rem; letter-spacing: .12em; font-weight: 700; }
+.md-typeset .hero .md-button { color: #e5f5e3; border-color: #91b995; margin: .5rem .5rem 0 0; }
+.md-typeset .hero .md-button--primary { background: #c2ed9f; border-color: #c2ed9f; color: #14261d; }
+.md-typeset .intro { padding: 1rem 0 2rem; max-width: 48rem; }
+.md-typeset .grid.cards > ul > li { border-radius: .65rem; padding: 1.4rem; }
+@media (max-width: 600px) { .md-typeset .hero { padding: 2rem 1.25rem; } }
+
+/* Documentation library home */
+.md-typeset .library-home { max-width: 58rem; padding-bottom: 3rem; }
+.md-typeset .library-intro { padding: 3.5rem 0 2.5rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.md-typeset .library-label, .md-typeset .project-number { color: var(--md-accent-fg-color); font-size: .65rem; font-weight: 700; letter-spacing: .12em; }
+.md-typeset .library-intro h1 { color: var(--md-default-fg-color); font-size: clamp(2.4rem, 6vw, 3.8rem); font-weight: 700; letter-spacing: -.04em; margin: .55rem 0; }
+.md-typeset .library-intro p { max-width: 36rem; color: var(--md-default-fg-color--light); line-height: 1.8; }
+.md-typeset .library-search-hint { display: inline-block; margin-top: .8rem; color: var(--md-default-fg-color--light); font-size: .75rem; }
+.md-typeset .library-heading { padding-top: 1.5rem; }
+.md-typeset .library-heading h2, .md-typeset .library-links h2 { color: var(--md-default-fg-color); font-size: 1.15rem; font-weight: 700; margin-bottom: .35rem; }
+.md-typeset .library-heading p { color: var(--md-default-fg-color--light); margin-top: 0; font-size: .8rem; }
+.md-typeset .library-project { border: 1px solid var(--md-default-fg-color--lightest); border-radius: .65rem; padding: 1.4rem 1.6rem; margin: 1.2rem 0 2.5rem; }
+.md-typeset .library-project h3 { font-size: 1.25rem; font-weight: 700; margin: .4rem 0; }
+.md-typeset .library-project p { color: var(--md-default-fg-color--light); max-width: 40rem; margin: .5rem 0; }
+.md-typeset .library-project a { font-weight: 600; }
+.md-typeset .library-links { border-top: 1px solid var(--md-default-fg-color--lightest); padding-top: 1rem; }
+.md-typeset .library-links p { margin: .5rem 0; }
+.md-typeset .library-links a { display: block; padding: .7rem 0; color: var(--md-default-fg-color); border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+@media (max-width: 600px) { .md-typeset .library-intro { padding-top: 2rem; } .md-typeset .library-project { padding: 1.2rem; } }
+
+/* Flat library identity */
+:root > * { --md-primary-fg-color: #12394a; --md-accent-fg-color: #087f8c; }
+.md-typeset .library-home { max-width: 64rem; }
+.md-typeset .library-intro { padding: 3.5rem 2.5rem; border: 0; border-left: .4rem solid #10a7a0; background: #e8f5f3; }
+.md-typeset .library-label, .md-typeset .project-number { color: #087f8c; }
+.md-typeset .library-intro h1 { color: #12394a; font-size: clamp(2.8rem, 6vw, 4.6rem); }
+.md-typeset .library-intro p { color: #355a62; font-size: 1rem; }
+.md-typeset .library-search-hint { color: #087f8c; font-weight: 600; }
+.md-typeset .library-heading { padding-top: 2rem; }
+.md-typeset .library-project { border: 0; border-left: .25rem solid #10a7a0; border-radius: 0; background: #f2f7f6; padding: 1.6rem 2rem; }
+.md-typeset .library-project h3 { color: #12394a; }
+.md-typeset .library-links a:hover { color: #087f8c; }
+@media (max-width: 600px) { .md-typeset .library-intro { padding: 2rem 1.25rem; } .md-typeset .library-project { padding: 1.2rem; } }
