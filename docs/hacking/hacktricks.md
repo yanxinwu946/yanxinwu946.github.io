@@ -1,0 +1,1152 @@
+# HackTricks 目录
+
+这里只聚合公开文章标题与来源链接。全文、更新及署名以原站为准。
+
+- [HackTricks](https://book.hacktricks.wiki/zh/index.html) · Web 与 API 
+- [HackTricks Values & FAQ](https://book.hacktricks.wiki/zh/welcome/hacktricks-values-and-faq.html) · Web 与 API 
+- [Cookies Policy](https://book.hacktricks.wiki/zh/welcome/cookies-policy.html) · Web 与 API 
+- [About the author](https://book.hacktricks.wiki/zh/welcome/about-the-author.html) · Web 与 API 
+- [Pentesting Methodology](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-methodology.html) · Web 与 API 
+- [Post-Exploitation Collection Tools](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/post-exploitation-collection-tools.html) · Web 与 API 
+- [Fuzzing Methodology](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/fuzzing.html) · Web 与 API 
+- [Proof Assistant and Formal Verification Security](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/proof-assistant-formal-verification-security.html) · Web 与 API 
+- [External Recon Methodology](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/external-recon-methodology/index.html) · Web 与 API 侦察 信息收集
+- [Reconnaissance and Threat-Intelligence APIs](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/external-recon-methodology/reconnaissance-and-threat-intelligence-apis.html) · Web 与 API 侦察 信息收集
+- [Database Leaks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/external-recon-methodology/database-leaks.html) · Web 与 API 侦察 信息收集
+- [Wide Source Code Search](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/external-recon-methodology/wide-source-code-search.html) · Web 与 API 侦察 信息收集
+- [Github Dorks & Leaks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.html) · Web 与 API 侦察 信息收集
+- [Pentesting Network](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/index.html) · Web 与 API 
+- [DHCPv6](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/dhcpv6.html) · Web 与 API 
+- [DDS/RTPS Security and Service Impersonation](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/dds-rtps-security.html) · Web 与 API 
+- [EIGRP Attacks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/eigrp-attacks.html) · Web 与 API 
+- [GLBP & HSRP Attacks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/glbp-and-hsrp-attacks.html) · Web 与 API 
+- [IDS and IPS Evasion](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/ids-evasion.html) · Web 与 API 
+- [Lateral VLAN Segmentation Bypass](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/lateral-vlan-segmentation-bypass.html) · Web 与 API 
+- [Network Protocols Explained (ESP)](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/network-protocols-explained-esp.html) · Web 与 API 
+- [Nmap Summary (ESP)](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/nmap-summary-esp.html) · Web 与 API 
+- [Pentesting IPv6](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/pentesting-ipv6.html) · Web 与 API 
+- [Telecom Network Exploitation](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/telecom-network-exploitation.html) · Web 与 API 
+- [WebRTC DoS](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/webrtc-dos.html) · Web 与 API 
+- [Spoofing LLMNR, NBT-NS, mDNS/DNS and WPAD and Relay Attacks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/spoofing-llmnr-nbt-ns-mdns-dns-and-wpad-and-relay-attacks.html) · Web 与 API 
+- [Spoofing SSDP and UPnP Devices with EvilSSDP](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-network/spoofing-ssdp-and-upnp-devices.html) · Web 与 API 
+- [Wi-Fi Pentesting Methodology](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/index.html) · Web 与 API 
+- [Wi-Fi Fundamentals](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-fundamentals.html) · Web 与 API 
+- [Hardware, Drivers and Linux](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-hardware-drivers-and-linux.html) · 主机与提权 主机 提权
+- [Nexmon Monitor and Injection on Android (formerly “Enable Nexmon Monitor And Injection On Android”)](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/enable-nexmon-monitor-and-injection-on-android.html) · 移动与逆向 安卓 移动
+- [Reconnaissance and Wardriving](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-reconnaissance-and-wardriving.html) · Web 与 API 侦察 信息收集
+- [Wi-Fi Reconnaissance Setups](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-reconnaissance-setups.html) · Web 与 API 侦察 信息收集
+- [Wi-Fi Tools Reference](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-tools-reference.html) · Web 与 API 
+- [Open Wi-Fi (OPN)](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/open-wifi-opn.html) · Web 与 API 
+- [WEP](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wep.html) · Web 与 API 
+- [WPS](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wps.html) · Web 与 API 
+- [WPA and TKIP](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wpa-tkip.html) · Web 与 API 
+- [WPA2-Personal and PSK](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wpa2-personal-psk.html) · Web 与 API 
+- [WPA3-Personal and SAE](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wpa3-personal-sae.html) · Web 与 API 
+- [OWE](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/owe.html) · Web 与 API 
+- [WPA-Enterprise and 802.1X](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wpa-enterprise-8021x.html) · Web 与 API 
+- [EAP Methods and Attacks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/eap-methods.html) · Web 与 API 
+- [Passpoint, Hotspot 2.0 and OpenRoaming](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/passpoint-hotspot-2.0-and-openroaming.html) · Web 与 API 
+- [Protected Management Frames](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/protected-management-frames-pmf.html) · Web 与 API 
+- [Captive Portals](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/captive-portals.html) · Web 与 API 
+- [Wi-Fi Easy Connect and DPP](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-easy-connect-dpp.html) · Web 与 API 
+- [Wi-Fi Direct, Aware, AWDL and IoT Provisioning](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-direct-and-iot-provisioning.html) · Web 与 API 
+- [Wi-Fi Mesh and EasyMesh](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-mesh-and-easymesh.html) · Web 与 API 
+- [Modern Wi-Fi: Roaming, 6 GHz and MLO](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/modern-wifi-roaming-6ghz-and-mlo.html) · Web 与 API 
+- [Evil Twin, Rogue AP and Client Association Attacks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/evil-twin-rogue-ap-and-client-association-attacks.html) · Web 与 API 
+- [Enterprise EAP Evil Twin (including EAP-TLS) / Evil Twin EAP-TLS](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/evil-twin-eap-tls.html) · Web 与 API 
+- [Wi-Fi DoS and Management-Frame Attacks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-dos-and-management-frame-attacks.html) · Web 与 API 
+- [Post-Association and Client-Isolation Attacks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-post-association-and-client-isolation-attacks.html) · Web 与 API 
+- [FragAttacks and Fragile Frames](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/fragattacks.html) · Web 与 API 
+- [Wi-Fi Privacy, Tracking and Side Channels](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-privacy-tracking-and-side-channels.html) · Web 与 API 
+- [Client and Supplicant Assessment](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-client-and-supplicant-assessment.html) · Web 与 API 
+- [Defense, Monitoring and WIDS](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/pentesting-wifi/wifi-defense-monitoring-and-wids.html) · Web 与 API 
+- [Phishing Methodology](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/index.html) · Web 与 API 
+- [Ai Agent Abuse Local Ai Cli Tools And Mcp](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/ai-agent-abuse-local-ai-cli-tools-and-mcp.html) · Web 与 API 
+- [Ai Agent Mode Phishing Abusing Hosted Agent Browsers](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/ai-agent-mode-phishing-abusing-hosted-agent-browsers.html) · Web 与 API 
+- [Clipboard Hijacking](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/clipboard-hijacking.html) · Web 与 API 
+- [Clone a Website](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/clone-a-website.html) · Web 与 API 
+- [Detecting Phishing](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/detecting-phising.html) · Web 与 API 
+- [Discord Invite Hijacking](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/discord-invite-hijacking.html) · Web 与 API 
+- [Homograph Attacks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/homograph-attacks.html) · Web 与 API 
+- [Mobile Phishing Malicious Apps](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/mobile-phishing-malicious-apps.html) · 移动与逆向 
+- [Phishing Files & Documents](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/phishing-methodology/phishing-documents.html) · Web 与 API 
+- [Basic Forensic Methodology](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/index.html) · Web 与 API 
+- [Adaptixc2 Config Extraction And Ttps](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/adaptixc2-config-extraction-and-ttps.html) · Web 与 API 
+- [Baseline Monitoring](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/file-integrity-monitoring.html) · Web 与 API 
+- [Anti-Forensic Techniques](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/anti-forensic-techniques.html) · Web 与 API 
+- [Docker Forensics](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/docker-forensics.html) · 云与容器 容器
+- [Image Acquisition & Mount](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/image-acquisition-and-mount.html) · Web 与 API 
+- [Ios Backup Forensics](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/ios-backup-forensics.html) · 移动与逆向 苹果 移动
+- [Android Forensics](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/android-forensics.html) · 移动与逆向 安卓 移动
+- [Linux Forensics](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/linux-forensics.html) · 主机与提权 主机 提权
+- [Malware Analysis](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/malware-analysis.html) · Web 与 API 
+- [Android Malware Post-Exploitation](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/android-malware-post-exploitation.html) · 移动与逆向 安卓 移动
+- [Memory dump analysis](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/index.html) · Web 与 API 
+- [Volatility - CheatSheet](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet.html) · Web 与 API 
+- [Partitions/File Systems/Carving](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/partitions-file-systems-carving/index.html) · Web 与 API 
+- [File/Data Carving & Recovery Tools](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/partitions-file-systems-carving/file-data-carving-recovery-tools.html) · Web 与 API 
+- [Pcap Inspection](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/index.html) · Web 与 API 
+- [DNSCat pcap analysis](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/dnscat-exfiltration.html) · Web 与 API 
+- [Suricata & Iptables cheatsheet](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/suricata-and-iptables-cheatsheet.html) · Web 与 API 
+- [USB Keystrokes](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/usb-keystrokes.html) · Web 与 API 
+- [Wifi Pcap Analysis](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/wifi-pcap-analysis.html) · Web 与 API 
+- [Wireshark tricks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/wireshark-tricks.html) · Web 与 API 
+- [Specific Software/File-Type Tricks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/index.html) · Web 与 API 
+- [Decompile compiled python binaries (exe, elf) - Retreive from .pyc](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/.pyc.html) · Web 与 API 
+- [Browser Artifacts](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/browser-artifacts.html) · Web 与 API 
+- [Deofuscation vbs (cscript.exe)](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/desofuscation-vbs-cscript.exe.html) · Web 与 API 
+- [Discord Cache Forensics](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/discord-cache-forensics.html) · Web 与 API 缓存
+- [Local Cloud Storage](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/local-cloud-storage.html) · 云与容器 
+- [Mach O Entitlements And Ipsw Indexing](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/mach-o-entitlements-and-ipsw-indexing.html) · Web 与 API 
+- [Office file analysis](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/office-file-analysis.html) · Web 与 API 
+- [PDF File analysis](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/pdf-file-analysis.html) · Web 与 API 
+- [PNG tricks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/png-tricks.html) · Web 与 API 
+- [Structural File Format Exploit Detection](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/structural-file-format-exploit-detection.html) · Web 与 API 
+- [Svg Font Glyph Analysis And Web Drm Deobfuscation](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/svg-font-glyph-analysis-and-web-drm-deobfuscation.html) · Web 与 API 
+- [Video and Audio file analysis](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/video-and-audio-file-analysis.html) · Web 与 API 
+- [ZIPs tricks](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/zips-tricks.html) · Web 与 API 
+- [Windows Artifacts](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/windows-forensics/index.html) · 主机与提权 主机 提权
+- [Interesting Windows Registry Keys](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/basic-forensic-methodology/windows-forensics/interesting-windows-registry-keys.html) · 主机与提权 主机 提权
+- [Rust Basics](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/rust-basics.html) · Web 与 API 
+- [Python Sandbox Escape & Pyscript](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/index.html) · Web 与 API 
+- [Bypass Python sandboxes](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/bypass-python-sandboxes/index.html) · Web 与 API 
+- [Js2py Sandbox Escape Cve 2024 28397](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/bypass-python-sandboxes/js2py-sandbox-escape-cve-2024-28397.html) · Web 与 API 
+- [LOAD_NAME / LOAD_CONST opcode OOB Read](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/bypass-python-sandboxes/load_name-load_const-opcode-oob-read.html) · Web 与 API 
+- [Reportlab Xhtml2pdf Triple Brackets Expression Evaluation Rce Cve 2023 33733](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/bypass-python-sandboxes/reportlab-xhtml2pdf-triple-brackets-expression-evaluation-rce-cve-2023-33733.html) · Web 与 API 
+- [Class Pollution (Python's Prototype Pollution)](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/class-pollution-pythons-prototype-pollution.html) · Web 与 API 原型链污染
+- [Keras Model Deserialization Rce And Gadget Hunting](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/keras-model-deserialization-rce-and-gadget-hunting.html) · Web 与 API 反序列化
+- [Python Internal Read Gadgets](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/python-internal-read-gadgets.html) · Web 与 API 
+- [Pyscript](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/pyscript.html) · Web 与 API 
+- [Web Requests](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/web-requests.html) · Web 与 API 
+- [Basic Python](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/python/basic-python.html) · Web 与 API 
+- [Side Channel Attacks On Messaging Protocols](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/side-channel-attacks-on-messaging-protocols.html) · Web 与 API 
+- [Threat Modeling](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/threat-modeling.html) · Web 与 API 
+- [Lua Sandbox Escape](https://book.hacktricks.wiki/zh/generic-methodologies-and-resources/lua/bypass-lua-sandboxes/index.html) · Web 与 API 
+- [Offensive Privacy, Attribution Evasion and OPSEC](https://book.hacktricks.wiki/zh/privacy/index.html) · Web 与 API 
+- [Anonymous Internet Access Technique Catalog](https://book.hacktricks.wiki/zh/privacy/anonymous-internet-access-techniques.html) · Web 与 API 
+- [Anonymous Payment Technique Catalog](https://book.hacktricks.wiki/zh/privacy/anonymous-payment-techniques.html) · Web 与 API 
+- [Capture-Resilient Authorized Field Nodes](https://book.hacktricks.wiki/zh/privacy/capture-resilient-authorized-field-nodes.html) · Web 与 API 
+- [Offensive Infrastructure and Attribution Evasion](https://book.hacktricks.wiki/zh/privacy/offensive-infrastructure-and-attribution-evasion.html) · Web 与 API 
+- [Covert Physical and Wireless Access](https://book.hacktricks.wiki/zh/privacy/covert-physical-wireless-access.html) · Web 与 API 
+- [Government and APT Case Studies](https://book.hacktricks.wiki/zh/privacy/government-and-apt-case-studies.html) · Web 与 API 
+- [Financial Obfuscation Tradecraft](https://book.hacktricks.wiki/zh/privacy/financial-obfuscation-tradecraft.html) · Web 与 API 
+- [Attribution, Detection and Countermeasures](https://book.hacktricks.wiki/zh/privacy/attribution-detection-and-countermeasures.html) · Web 与 API 
+- [Authorized Adversary-Emulation Labs](https://book.hacktricks.wiki/zh/privacy/authorized-adversary-emulation-labs.html) · Web 与 API 
+- [Threat Modeling and Identity Separation](https://book.hacktricks.wiki/zh/privacy/threat-modeling-and-identity-separation.html) · Web 与 API 
+- [Network Privacy and Anonymous Connectivity](https://book.hacktricks.wiki/zh/privacy/network-privacy-and-anonymous-connectivity.html) · Web 与 API 
+- [Advanced Network Privacy Architectures](https://book.hacktricks.wiki/zh/privacy/advanced-network-privacy-architectures.html) · Web 与 API 
+- [Privacy Operating Systems](https://book.hacktricks.wiki/zh/privacy/privacy-operating-systems.html) · Web 与 API 
+- [Privacy-Preserving Communications and Sharing](https://book.hacktricks.wiki/zh/privacy/privacy-preserving-communications-and-sharing.html) · Web 与 API 
+- [Authorized Red-Team Infrastructure](https://book.hacktricks.wiki/zh/privacy/authorized-red-team-infrastructure.html) · Web 与 API 
+- [Private Digital Payments](https://book.hacktricks.wiki/zh/privacy/private-digital-payments.html) · Web 与 API 
+- [Cryptocurrency Privacy](https://book.hacktricks.wiki/zh/privacy/cryptocurrency-privacy.html) · Web 与 API 
+- [Privacy-Preserving Payment Protocols](https://book.hacktricks.wiki/zh/privacy/privacy-preserving-payment-protocols.html) · Web 与 API 
+- [Reproducible Privacy Testing](https://book.hacktricks.wiki/zh/privacy/reproducible-privacy-testing.html) · Web 与 API 
+- [Operational Privacy Playbooks](https://book.hacktricks.wiki/zh/privacy/operational-privacy-playbooks.html) · Web 与 API 
+- [Archive Extraction Path Traversal](https://book.hacktricks.wiki/zh/generic-hacking/archive-extraction-path-traversal.html) · Web 与 API 目录穿越
+- [Brute Force - CheatSheet](https://book.hacktricks.wiki/zh/generic-hacking/brute-force.html) · Web 与 API 
+- [Exfiltration](https://book.hacktricks.wiki/zh/generic-hacking/exfiltration.html) · Web 与 API 
+- [Reverse Shells (Linux, Windows, MSFVenom)](https://book.hacktricks.wiki/zh/generic-hacking/reverse-shells/index.html) · 移动与逆向 主机 提权 主机 提权 逆向
+- [MSFVenom - CheatSheet](https://book.hacktricks.wiki/zh/generic-hacking/reverse-shells/msfvenom.html) · 移动与逆向 逆向
+- [Reverse Shells - Windows](https://book.hacktricks.wiki/zh/generic-hacking/reverse-shells/windows.html) · 移动与逆向 主机 提权 逆向
+- [Reverse Shells - Linux](https://book.hacktricks.wiki/zh/generic-hacking/reverse-shells/linux.html) · 移动与逆向 主机 提权 逆向
+- [Full TTYs](https://book.hacktricks.wiki/zh/generic-hacking/reverse-shells/full-ttys.html) · 移动与逆向 逆向
+- [Expose Local Services to the Internet](https://book.hacktricks.wiki/zh/generic-hacking/expose-local-to-the-internet.html) · Web 与 API 
+- [Search Exploits](https://book.hacktricks.wiki/zh/generic-hacking/search-exploits.html) · Web 与 API 
+- [Tunneling and Port Forwarding](https://book.hacktricks.wiki/zh/generic-hacking/tunneling-and-port-forwarding.html) · Web 与 API 
+- [Linux - Hardening Overview](https://book.hacktricks.wiki/zh/linux-hardening/index.html) · 主机与提权 主机 提权
+- [Linux - Basics (formerly “Linux Basics”)](https://book.hacktricks.wiki/zh/linux-hardening/linux-basics/index.html) · 主机与提权 主机 提权
+- [Linux - Privilege Escalation](https://book.hacktricks.wiki/zh/linux-hardening/linux-basics/linux-privilege-escalation/index.html) · 主机与提权 主机 提权
+- [Linux - Shell Startup, Aliases, and History](https://book.hacktricks.wiki/zh/linux-hardening/linux-basics/shell-startup-aliases-and-history.html) · 主机与提权 主机 提权
+- [Linux - Useful Commands](https://book.hacktricks.wiki/zh/linux-hardening/linux-basics/useful-linux-commands.html) · 主机与提权 主机 提权 命令执行
+- [Linux - Environment Variables](https://book.hacktricks.wiki/zh/linux-hardening/linux-basics/linux-environment-variables.html) · 主机与提权 主机 提权
+- [Linux - Bypass Restrictions](https://book.hacktricks.wiki/zh/linux-hardening/linux-basics/bypass-linux-restrictions/index.html) · 主机与提权 主机 提权
+- [Linux - Bypass FS protections: read-only / no-exec / Distroless](https://book.hacktricks.wiki/zh/linux-hardening/linux-basics/bypass-linux-restrictions/bypass-fs-protections-read-only-no-exec-distroless/index.html) · 主机与提权 主机 提权
+- [Linux - DDexec / EverythingExec](https://book.hacktricks.wiki/zh/linux-hardening/linux-basics/bypass-linux-restrictions/bypass-fs-protections-read-only-no-exec-distroless/ddexec.html) · 主机与提权 主机 提权
+- [Linux - Main System Information (formerly “Main System Information”)](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/index.html) · 主机与提权 主机 提权
+- [Linux - Kernel Vulnerability Assessment](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/kernel-vulnerability-assessment.html) · 主机与提权 主机 提权
+- [Linux - Kernel Modules and modprobe Abuse](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/kernel-modules-and-modprobe.html) · 主机与提权 主机 提权
+- [Linux - Sudo Command Abuse](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/sudo-command-abuse.html) · 主机与提权 主机 提权 提权 命令执行
+- [Linux - SUSE Session and Disk-Service Escalation Indicators](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/suse-session-and-disk-service-escalation.html) · 主机与提权 主机 提权
+- [Linux - Symlinks, Hardlinks, and File Descriptors](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/filesystem-links-and-file-descriptors.html) · 主机与提权 主机 提权
+- [Linux - Filesystem, Inodes and Recovery](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/filesystem-inodes-and-recovery.html) · 主机与提权 主机 提权
+- [Linux - Privilege Escalation Checklist](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/linux-privilege-escalation-checklist.html) · 主机与提权 主机 提权
+- [Linux - Escaping from Jails](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/escaping-from-limited-bash.html) · 主机与提权 主机 提权
+- [Linux - Kernel/LPE/CVE Material (formerly “Kernel/LPE/CVE material”)](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/kernel-lpe-cves/index.html) · 主机与提权 主机 提权
+- [Linux - Vmware Tools Service Discovery Untrusted Search Path Cve 2025 41244](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/kernel-lpe-cves/vmware-tools-service-discovery-untrusted-search-path-cve-2025-41244.html) · 主机与提权 主机 提权
+- [Linux - Copy Fail Af Alg Splice Page Cache Overwrite Cve 2026 31431](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/kernel-lpe-cves/copy-fail-af_alg-splice-page-cache-overwrite-cve-2026-31431.html) · 主机与提权 主机 提权 缓存
+- [Open vSwitch Forwarded SKB Marker Stripping to ESP Page Cache Writes](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/kernel-lpe-cves/open-vswitch-forwarded-skb-marker-stripping-esp-page-cache-write.html) · 主机与提权 主机 提权 缓存
+- [Linux - Ptrace Exit Race Pidfd Getfd Fd Theft (Linux Ptrace Exit Race Pidfd Getfd Fd Theft) / Linux - Ptrace Exit Race Pidfd Getfd Fd Theft (formerly “Linux Ptrace Exit Race Pidfd Getfd Fd Theft”)](https://book.hacktricks.wiki/zh/linux-hardening/main-system-information/kernel-lpe-cves/linux-ptrace-exit-race-pidfd_getfd-fd-theft.html) · 主机与提权 主机 提权
+- [Linux - User Information (formerly “User Information”)](https://book.hacktricks.wiki/zh/linux-hardening/user-information/index.html) · 主机与提权 主机 提权
+- [Linux - Users, Sessions, and Credential Artifacts](https://book.hacktricks.wiki/zh/linux-hardening/user-information/user-and-session-triage.html) · 主机与提权 凭据 主机 提权
+- [Linux - euid, ruid, suid](https://book.hacktricks.wiki/zh/linux-hardening/user-information/euid-ruid-suid.html) · 主机与提权 主机 提权 提权
+- [Linux - Interesting Groups for Privilege Escalation](https://book.hacktricks.wiki/zh/linux-hardening/user-information/interesting-groups-linux-pe/index.html) · 主机与提权 主机 提权
+- [Linux - lxd/lxc Group - Privilege escalation](https://book.hacktricks.wiki/zh/linux-hardening/user-information/interesting-groups-linux-pe/lxd-privilege-escalation.html) · 主机与提权 主机 提权
+- [Linux - SSH Forward Agent exploitation](https://book.hacktricks.wiki/zh/linux-hardening/user-information/ssh-forward-agent-exploitation.html) · 主机与提权 主机 提权
+- [Linux - Active Directory](https://book.hacktricks.wiki/zh/linux-hardening/user-information/linux-active-directory.html) · 域与身份 主机 提权
+- [Linux - Interesting Files & Permissions (formerly “Interesting Files & Permissions”)](https://book.hacktricks.wiki/zh/linux-hardening/interesting-files-permissions/index.html) · 主机与提权 主机 提权
+- [Linux - SUID, SGID, ACLs, and Sensitive Files](https://book.hacktricks.wiki/zh/linux-hardening/interesting-files-permissions/suid-sgid-and-acl-triage.html) · 主机与提权 主机 提权 提权 权限 访问控制
+- [Linux - Arbitrary File Write to Root](https://book.hacktricks.wiki/zh/linux-hardening/interesting-files-permissions/write-to-root.html) · 主机与提权 主机 提权
+- [Linux - Capabilities](https://book.hacktricks.wiki/zh/linux-hardening/interesting-files-permissions/linux-capabilities.html) · 主机与提权 主机 提权
+- [Linux - SUID Shared Library and Linker Abuse](https://book.hacktricks.wiki/zh/linux-hardening/interesting-files-permissions/suid-shared-library-and-linker-abuse.html) · 主机与提权 主机 提权 提权
+- [Linux - ld.so privesc exploit example](https://book.hacktricks.wiki/zh/linux-hardening/interesting-files-permissions/ld.so.conf-example.html) · 主机与提权 主机 提权
+- [Linux - NFS no_root_squash/no_all_squash misconfiguration PE](https://book.hacktricks.wiki/zh/linux-hardening/interesting-files-permissions/nfs-no_root_squash-misconfiguration-pe.html) · 主机与提权 主机 提权
+- [Linux - Wildcards Spare tricks](https://book.hacktricks.wiki/zh/linux-hardening/interesting-files-permissions/wildcards-spare-tricks.html) · 主机与提权 主机 提权
+- [Linux - SELinux](https://book.hacktricks.wiki/zh/linux-hardening/interesting-files-permissions/selinux.html) · 主机与提权 主机 提权
+- [Linux - Network Information (formerly “Network Information”)](https://book.hacktricks.wiki/zh/linux-hardening/network-information/index.html) · 主机与提权 主机 提权
+- [Linux - Traffic Capture, Firewall, and Egress Triage](https://book.hacktricks.wiki/zh/linux-hardening/network-information/traffic-capture-and-firewall-egress.html) · 主机与提权 主机 提权
+- [Linux - Local Network and Socket Triage](https://book.hacktricks.wiki/zh/linux-hardening/network-information/local-network-and-socket-triage.html) · 主机与提权 主机 提权
+- [Linux - Socket Command Injection](https://book.hacktricks.wiki/zh/linux-hardening/network-information/socket-command-injection.html) · 主机与提权 主机 提权 命令执行
+- [Linux - Cisco - vmanage](https://book.hacktricks.wiki/zh/linux-hardening/network-information/cisco-vmanage.html) · 主机与提权 主机 提权
+- [Linux - Software Information (formerly “Software Information”)](https://book.hacktricks.wiki/zh/linux-hardening/software-information/index.html) · 主机与提权 主机 提权
+- [Linux - Local Web and Authentication Services](https://book.hacktricks.wiki/zh/linux-hardening/software-information/local-web-and-auth-services.html) · 主机与提权 主机 提权
+- [Linux - Databases and Secret Material](https://book.hacktricks.wiki/zh/linux-hardening/software-information/databases-and-secret-material.html) · 主机与提权 主机 提权
+- [Linux - PAM - Pluggable Authentication Modules](https://book.hacktricks.wiki/zh/linux-hardening/software-information/pam-pluggable-authentication-modules.html) · 主机与提权 主机 提权
+- [Linux - FreeIPA Pentesting](https://book.hacktricks.wiki/zh/linux-hardening/software-information/freeipa-pentesting.html) · 主机与提权 主机 提权
+- [Linux - Logstash](https://book.hacktricks.wiki/zh/linux-hardening/software-information/logstash.html) · 主机与提权 主机 提权
+- [Linux - Splunk LPE and Persistence](https://book.hacktricks.wiki/zh/linux-hardening/software-information/splunk-lpe-and-persistence.html) · 主机与提权 主机 提权
+- [Linux - Node inspector/CEF debug abuse](https://book.hacktricks.wiki/zh/linux-hardening/software-information/electron-cef-chromium-debugger-abuse.html) · 主机与提权 主机 提权
+- [Linux - Android Rooting Frameworks Manager Auth Bypass Syscall Hook](https://book.hacktricks.wiki/zh/linux-hardening/software-information/android-rooting-frameworks-manager-auth-bypass-syscall-hook.html) · 移动与逆向 主机 提权 安卓 移动
+- [Linux - Processes, Crontab, Systemd, D-Bus (formerly “Processes, Crontab, Systemd, D-Bus”)](https://book.hacktricks.wiki/zh/linux-hardening/processes-crontab-systemd-dbus/index.html) · 主机与提权 主机 提权
+- [Linux - Process Enumeration and Service Paths](https://book.hacktricks.wiki/zh/linux-hardening/processes-crontab-systemd-dbus/process-enumeration-and-service-paths.html) · 主机与提权 主机 提权
+- [Linux - Cron Jobs and Systemd Timers](https://book.hacktricks.wiki/zh/linux-hardening/processes-crontab-systemd-dbus/cron-and-systemd-timers.html) · 主机与提权 主机 提权
+- [Linux - D-Bus Enumeration & Command Injection Privilege Escalation](https://book.hacktricks.wiki/zh/linux-hardening/processes-crontab-systemd-dbus/d-bus-enumeration-and-command-injection-privilege-escalation.html) · 主机与提权 主机 提权 命令执行
+- [Linux - Payloads to execute](https://book.hacktricks.wiki/zh/linux-hardening/processes-crontab-systemd-dbus/payloads-to-execute.html) · 主机与提权 主机 提权
+- [Linux - Containers, Namespaces (formerly “Containers, Namespaces”)](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/index.html) · 云与容器 主机 提权
+- [Linux - Containerd (ctr) Privilege Escalation](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/containerd-ctr-privilege-escalation.html) · 云与容器 主机 提权
+- [Linux - RunC Privilege Escalation](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/runc-privilege-escalation.html) · 云与容器 主机 提权
+- [Linux - Container Security](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/index.html) · 云与容器 主机 提权
+- [Linux - Runtimes And Engines](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/runtimes-and-engines.html) · 云与容器 主机 提权
+- [Linux - Runtime API And Daemon Exposure](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/runtime-api-and-daemon-exposure.html) · 云与容器 主机 提权
+- [Linux - Authorization Plugins](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/authorization-plugins.html) · 云与容器 主机 提权
+- [Linux - Image Security And Secrets](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/image-security-and-secrets.html) · 云与容器 主机 提权
+- [Linux - Assessment And Hardening](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/assessment-and-hardening.html) · 云与容器 主机 提权
+- [Linux - Sensitive Host Mounts](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/sensitive-host-mounts.html) · 云与容器 主机 提权
+- [Linux - Privileged Containers](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/privileged-containers.html) · 云与容器 主机 提权
+- [Linux - Distroless](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/distroless.html) · 云与容器 主机 提权
+- [Linux - Protections](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/index.html) · 云与容器 主机 提权
+- [Linux - AppArmor](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/apparmor.html) · 云与容器 主机 提权
+- [Linux - Capabilities](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/capabilities.html) · 云与容器 主机 提权
+- [Linux - CGroups](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/cgroups.html) · 云与容器 主机 提权
+- [Linux - Masked Paths](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/masked-paths.html) · 云与容器 主机 提权
+- [Linux - No New Privileges](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/no-new-privileges.html) · 云与容器 主机 提权
+- [Linux - Read Only Paths](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/read-only-paths.html) · 云与容器 主机 提权
+- [Linux - Seccomp](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/seccomp.html) · 云与容器 主机 提权
+- [Linux - SELinux](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/selinux.html) · 云与容器 主机 提权
+- [Linux - Namespaces](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/namespaces/index.html) · 云与容器 主机 提权
+- [Linux - CGroup Namespace](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/namespaces/cgroup-namespace.html) · 云与容器 主机 提权
+- [Linux - IPC Namespace](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/namespaces/ipc-namespace.html) · 云与容器 主机 提权
+- [Linux - PID Namespace](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/namespaces/pid-namespace.html) · 云与容器 主机 提权
+- [Linux - Mount Namespace](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/namespaces/mount-namespace.html) · 云与容器 主机 提权
+- [Linux - Network Namespace](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/namespaces/network-namespace.html) · 云与容器 主机 提权
+- [Linux - Time Namespace](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/namespaces/time-namespace.html) · 云与容器 主机 提权
+- [Linux - User Namespace](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/namespaces/user-namespace.html) · 云与容器 主机 提权
+- [Linux - UTS Namespace](https://book.hacktricks.wiki/zh/linux-hardening/containers-namespaces/container-security/protections/namespaces/uts-namespace.html) · 云与容器 主机 提权
+- [Linux - Post-Exploitation (formerly “Post-Exploitation”)](https://book.hacktricks.wiki/zh/linux-hardening/post-exploitation/index.html) · 主机与提权 主机 提权
+- [Linux - Cloud Instance Metadata](https://book.hacktricks.wiki/zh/linux-hardening/post-exploitation/cloud-instance-metadata.html) · 云与容器 主机 提权
+- [Linux Fileless Execution](https://book.hacktricks.wiki/zh/linux-hardening/post-exploitation/linux-fileless-execution.html) · 主机与提权 主机 提权
+- [Linux - Trojanized System Daemons and Reverse Proxies](https://book.hacktricks.wiki/zh/linux-hardening/post-exploitation/trojanized-system-daemons-and-reverse-proxies.html) · 移动与逆向 主机 提权 逆向
+- [macOS Security & Privilege Escalation](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/index.html) · 移动与逆向 
+- [macOS Apps - Inspecting, debugging and Fuzzing](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-apps-inspecting-debugging-and-fuzzing/index.html) · 移动与逆向 
+- [Objects in memory](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-apps-inspecting-debugging-and-fuzzing/objects-in-memory.html) · 移动与逆向 
+- [Introduction to x64](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-apps-inspecting-debugging-and-fuzzing/introduction-to-x64.html) · 移动与逆向 
+- [Introduction to ARM64v8](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-apps-inspecting-debugging-and-fuzzing/arm64-basic-assembly.html) · 移动与逆向 
+- [macOS AppleFS](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-applefs.html) · 移动与逆向 
+- [macOS Bypassing Firewalls](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-bypassing-firewalls.html) · 移动与逆向 
+- [macOS Defensive Apps](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-defensive-apps.html) · 移动与逆向 
+- [macOS GCD - Grand Central Dispatch](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-gcd-grand-central-dispatch.html) · 移动与逆向 
+- [macOS Kernel & System Extensions](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/index.html) · 移动与逆向 
+- [macOS IOKit](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/macos-iokit.html) · 移动与逆向 
+- [macOS Kernel Extensions & Kernelcache](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/macos-kernel-extensions.html) · 移动与逆向 缓存
+- [macOS Kernel Vulnerabilities](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/macos-kernel-vulnerabilities.html) · 移动与逆向 
+- [macOS System Extensions](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/macos-system-extensions.html) · 移动与逆向 
+- [macOS NVRAM](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/macos-nvram.html) · 移动与逆向 
+- [macOS Network Services & Protocols](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-protocols.html) · 移动与逆向 
+- [macOS File Extension & URL scheme app handlers](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-file-extension-apps.html) · 移动与逆向 
+- [macOS Files, Folders, Binaries & Memory](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/index.html) · 移动与逆向 
+- [macOS Bundles](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/macos-bundles.html) · 移动与逆向 
+- [macOS Installers Abuse](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/macos-installers-abuse.html) · 移动与逆向 
+- [macOS Memory Dumping](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/macos-memory-dumping.html) · 移动与逆向 
+- [macOS Sensitive Locations & Interesting Daemons](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/macos-sensitive-locations.html) · 移动与逆向 
+- [macOS Universal binaries & Mach-O Format](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/universal-binaries-and-mach-o-format.html) · 移动与逆向 
+- [macOS Objective-C](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-basic-objective-c.html) · 移动与逆向 
+- [macOS Privilege Escalation](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-privilege-escalation.html) · 移动与逆向 
+- [macOS Process Abuse](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/index.html) · 移动与逆向 
+- [macOS Dirty NIB](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-dirty-nib.html) · 移动与逆向 
+- [macOS Chromium Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-chromium-injection.html) · 移动与逆向 
+- [macOS Shell Applications Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-bash-applications-injection.html) · 移动与逆向 
+- [macOS Electron Applications Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-electron-applications-injection.html) · 移动与逆向 
+- [macOS Function Hooking](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-function-hooking.html) · 移动与逆向 
+- [Reflective Mach-O Loading](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/reflective-mach-o-loading.html) · 移动与逆向 
+- [ARM64/ARM64e Call-Stack Spoofing](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/arm64-arm64e-call-stack-spoofing.html) · 移动与逆向 
+- [macOS IPC - Inter Process Communication](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/index.html) · 移动与逆向 
+- [macOS MIG - Mach Interface Generator](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-mig-mach-interface-generator.html) · 移动与逆向 
+- [macOS XPC](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/index.html) · 移动与逆向 
+- [macOS XPC Authorization](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-authorization.html) · 移动与逆向 
+- [macOS XPC Connecting Process Check](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/index.html) · 移动与逆向 
+- [macOS PID Reuse](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/macos-pid-reuse.html) · 移动与逆向 
+- [macOS xpc_connection_get_audit_token Attack](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/macos-xpc_connection_get_audit_token-attack.html) · 移动与逆向 
+- [macOS Thread Injection via Task port](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-thread-injection-via-task-port.html) · 移动与逆向 
+- [macOS Java Applications Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-java-apps-injection.html) · 移动与逆向 
+- [macOS Node.js Applications Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-nodejs-applications-injection.html) · 移动与逆向 
+- [macOS Library Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-library-injection/index.html) · 移动与逆向 
+- [macOS Dyld Hijacking & DYLD_INSERT_LIBRARIES](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-library-injection/macos-dyld-hijacking-and-dyld_insert_libraries.html) · 移动与逆向 
+- [macOS Dyld Process](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-library-injection/macos-dyld-process.html) · 移动与逆向 
+- [macOS Interpreter Startup Injection (PHP, Lua, Julia, Octave, R, Ruby, Erlang/Elixir)](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-interpreter-startup-file-injection.html) · 移动与逆向 
+- [macOS Perl Applications Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-perl-applications-injection.html) · 移动与逆向 
+- [macOS PowerShell Applications Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-powershell-applications-injection.html) · 移动与逆向 
+- [macOS Python Applications Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-python-applications-injection.html) · 移动与逆向 
+- [macOS Vim/Neovim Applications Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-vim-applications-injection.html) · 移动与逆向 
+- [macOS .Net Applications Injection](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-.net-applications-injection.html) · 移动与逆向 
+- [macOS Quick Look Generators](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-quicklook-generators.html) · 移动与逆向 
+- [macOS Automator, Preference Panes & NSServices](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-automator-preference-panes-nsservices.html) · 移动与逆向 
+- [macOS XPC Mach Services Abuse](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-xpc-mach-services-abuse.html) · 移动与逆向 
+- [macOS Security Protections](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/index.html) · 移动与逆向 
+- [macOS Gatekeeper / Quarantine / XProtect](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-gatekeeper.html) · 移动与逆向 
+- [macOS Launch/Environment Constraints & Trust Cache](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-launch-environment-constraints.html) · 移动与逆向 缓存
+- [macOS Sandbox](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-sandbox/index.html) · 移动与逆向 
+- [macOS Default Sandbox Debug](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-sandbox/macos-default-sandbox-debug.html) · 移动与逆向 
+- [macOS Sandbox Debug & Bypass](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-sandbox/macos-sandbox-debug-and-bypass/index.html) · 移动与逆向 
+- [macOS Office Sandbox Bypasses](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-sandbox/macos-sandbox-debug-and-bypass/macos-office-sandbox-bypasses.html) · 移动与逆向 
+- [macOS Authorizations DB & Authd](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-authorizations-db-and-authd.html) · 移动与逆向 
+- [macOS SIP](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-sip.html) · 移动与逆向 
+- [macOS TCC](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-tcc/index.html) · 移动与逆向 
+- [macOS Apple Events](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-tcc/macos-apple-events.html) · 移动与逆向 
+- [macOS TCC Bypasses](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-tcc/macos-tcc-bypasses/index.html) · 移动与逆向 
+- [macOS Apple Scripts](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-tcc/macos-tcc-bypasses/macos-apple-scripts.html) · 移动与逆向 
+- [macOS TCC Payloads](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-tcc/macos-tcc-payloads.html) · 移动与逆向 
+- [macOS TCC Credential & Data Theft](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-tcc/macos-tcc-credential-and-data-theft.html) · 移动与逆向 凭据
+- [macOS Dangerous Entitlements & TCC perms](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-dangerous-entitlements.html) · 移动与逆向 
+- [macOS - AMFI - AppleMobileFileIntegrity](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-amfi-applemobilefileintegrity.html) · 移动与逆向 
+- [macOS MACF - Mandatory Access Control Framework](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-macf-mandatory-access-control-framework.html) · 移动与逆向 
+- [macOS Code Signing](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-code-signing.html) · 移动与逆向 
+- [macOS Code Signing Weaknesses & Sandbox Escapes](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-code-signing-weaknesses-and-sandbox-escapes.html) · 移动与逆向 
+- [macOS Sealed System Volume & DataVault](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-sealed-system-volume-and-datavault.html) · 移动与逆向 
+- [macOS Input Monitoring, Screen Capture & Accessibility](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-input-monitoring-screen-capture-accessibility.html) · 移动与逆向 
+- [macOS FS Tricks](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-fs-tricks/index.html) · 移动与逆向 
+- [macOS xattr-acls extra stuff](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-security-protections/macos-fs-tricks/macos-xattr-acls-extra-stuff.html) · 移动与逆向 权限 访问控制
+- [macOS Users & External Accounts](https://book.hacktricks.wiki/zh/macos-hardening/macos-security-and-privilege-escalation/macos-users.html) · 移动与逆向 
+- [macOS Red Teaming](https://book.hacktricks.wiki/zh/macos-hardening/macos-red-teaming/index.html) · 移动与逆向 
+- [macOS MDM](https://book.hacktricks.wiki/zh/macos-hardening/macos-red-teaming/macos-mdm/index.html) · 移动与逆向 
+- [Enrolling Devices in Other Organisations](https://book.hacktricks.wiki/zh/macos-hardening/macos-red-teaming/macos-mdm/enrolling-devices-in-other-organisations.html) · 移动与逆向 
+- [macOS Serial Number](https://book.hacktricks.wiki/zh/macos-hardening/macos-red-teaming/macos-mdm/macos-serial-number.html) · 移动与逆向 
+- [macOS Keychain](https://book.hacktricks.wiki/zh/macos-hardening/macos-red-teaming/macos-keychain.html) · 移动与逆向 
+- [macOS Useful Commands](https://book.hacktricks.wiki/zh/macos-hardening/macos-useful-commands.html) · 移动与逆向 命令执行
+- [macOS Auto Start](https://book.hacktricks.wiki/zh/macos-hardening/macos-auto-start-locations.html) · 移动与逆向 
+- [Authentication Credentials Uac And Efs](https://book.hacktricks.wiki/zh/windows-hardening/authentication-credentials-uac-and-efs.html) · 主机与提权 凭据 主机 提权
+- [Checklist - Local Windows Privilege Escalation](https://book.hacktricks.wiki/zh/windows-hardening/checklist-windows-privilege-escalation.html) · 主机与提权 主机 提权
+- [Visual Studio VSIX Extension Abuse](https://book.hacktricks.wiki/zh/windows-hardening/visual-studio-vsix-extension-abuse.html) · 主机与提权 主机 提权
+- [Visual Studio Project Design-Time MSBuild Execution](https://book.hacktricks.wiki/zh/windows-hardening/visual-studio-project-msbuild-execution.html) · 主机与提权 主机 提权
+- [Windows Local Privilege Escalation](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/index.html) · 主机与提权 主机 提权
+- [Abusing Auto Updaters And Ipc](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/abusing-auto-updaters-and-ipc.html) · 主机与提权 主机 提权
+- [Arbitrary Kernel Rw Token Theft](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/arbitrary-kernel-rw-token-theft.html) · 主机与提权 主机 提权
+- [Windows Kernel Rootkits and DKOM](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/windows-kernel-rootkits-and-dkom.html) · 主机与提权 主机 提权
+- [Kernel Race Condition Object Manager Slowdown](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/kernel-race-condition-object-manager-slowdown.html) · 主机与提权 主机 提权
+- [Kernel-Mode File Access Check Bypasses](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/kernel-mode-file-access-check-bypass.html) · 主机与提权 主机 提权
+- [Windows MDL-Mapped Buffer Double-Fetch](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/cloud-files-placeholder-name-toctou.html) · 云与容器 主机 提权
+- [Notepad Plus Plus Plugin Autoload Persistence](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/notepad-plus-plus-plugin-autoload-persistence.html) · 主机与提权 主机 提权
+- [Abusing Tokens](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/privilege-escalation-abusing-tokens.html) · 主机与提权 主机 提权
+- [Access Tokens](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/access-tokens.html) · 主机与提权 主机 提权
+- [ACLs - DACLs/SACLs/ACEs](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/acls-dacls-sacls-aces.html) · 主机与提权 访问控制 权限 主机 提权 权限 访问控制
+- [AppendData/AddSubdirectory permission over service registry](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/appenddata-addsubdirectory-permission-over-service-registry.html) · 主机与提权 主机 提权
+- [Create MSI with WIX](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/create-msi-with-wix.html) · 主机与提权 主机 提权
+- [COM Hijacking](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/com-hijacking.html) · 主机与提权 主机 提权
+- [DLL Hijacking](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/dll-hijacking/index.html) · 主机与提权 主机 提权
+- [Advanced Html Staged DLL Sideloading](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/dll-hijacking/advanced-html-staged-dll-sideloading.html) · 主机与提权 主机 提权
+- [Windows CPython Build-Landmark and sys.path Hijacking](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/dll-hijacking/windows-cpython-build-landmark-sys-path-hijacking.html) · 主机与提权 主机 提权
+- [Writable Sys Path +DLL Hijacking Privesc](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/dll-hijacking/writable-sys-path-dll-hijacking-privesc.html) · 主机与提权 主机 提权
+- [DPAPI - Extracting Passwords](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/dpapi-extracting-passwords.html) · 主机与提权 密码 口令 主机 提权
+- [From High Integrity to SYSTEM with Name Pipes](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/from-high-integrity-to-system-with-name-pipes.html) · 主机与提权 主机 提权
+- [Integrity Levels](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/integrity-levels.html) · 主机与提权 主机 提权
+- [JuicyPotato](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/juicypotato.html) · 主机与提权 主机 提权
+- [Leaked Handle Exploitation](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/leaked-handle-exploitation.html) · 主机与提权 主机 提权
+- [Local NTLM Reflection via SMB Arbitrary Port](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/local-ntlm-reflection-via-smb-arbitrary-port.html) · 域与身份 认证 中继 主机 提权
+- [MSI Wrapper](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/msi-wrapper.html) · 主机与提权 主机 提权
+- [Named Pipe Client Impersonation](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/named-pipe-client-impersonation.html) · 主机与提权 主机 提权
+- [Privilege Escalation with Autoruns](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/privilege-escalation-with-autorun-binaries.html) · 主机与提权 主机 提权
+- [RoguePotato, PrintSpoofer, SharpEfsPotato, GodPotato](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/roguepotato-and-printspoofer.html) · 主机与提权 主机 提权
+- [SeDebug + SeImpersonate copy token](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/sedebug-%2B-seimpersonate-copy-token.html) · 主机与提权 主机 提权
+- [SeImpersonate from High To System](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/seimpersonate-from-high-to-system.html) · 主机与提权 主机 提权
+- [Semanagevolume Perform Volume Maintenance Tasks](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/semanagevolume-perform-volume-maintenance-tasks.html) · 主机与提权 主机 提权
+- [Service Triggers](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/service-triggers.html) · 主机与提权 主机 提权
+- [Telephony Tapsrv Arbitrary Dword Write To Rce](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/telephony-tapsrv-arbitrary-dword-write-to-rce.html) · 主机与提权 主机 提权
+- [Secure Desktop Accessibility Registry Propagation LPE (RegPwn)](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/secure-desktop-accessibility-registry-propagation-regpwn.html) · 移动与逆向 主机 提权
+- [Uiaccess Admin Protection Bypass](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/uiaccess-admin-protection-bypass.html) · 主机与提权 主机 提权
+- [Windows C Payloads](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/windows-c-payloads.html) · 主机与提权 主机 提权
+- [Active Directory Methodology](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/index.html) · 域与身份 主机 提权
+- [Abusing Active Directory ACLs/ACEs](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/acl-persistence-abuse/index.html) · 域与身份 主机 提权 权限 访问控制
+- [BadSuccessor](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/acl-persistence-abuse/BadSuccessor.html) · 域与身份 主机 提权 权限 访问控制
+- [Shadow Credentials](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/acl-persistence-abuse/shadow-credentials.html) · 域与身份 凭据 主机 提权 权限 访问控制
+- [AD Certificates](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ad-certificates/index.html) · 域与身份 证书 主机 提权
+- [AD CS Account Persistence](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ad-certificates/account-persistence.html) · 域与身份 证书 主机 提权
+- [AD CS Domain Escalation](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ad-certificates/domain-escalation.html) · 域与身份 证书 主机 提权
+- [AD CS Domain Persistence](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ad-certificates/domain-persistence.html) · 域与身份 证书 主机 提权
+- [AD CS Certificate Theft](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ad-certificates/certificate-theft.html) · 域与身份 证书 主机 提权
+- [Ad Certificates](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ad-certificates.html) · 域与身份 证书 主机 提权
+- [Ad Dynamic Objects Anti Forensics](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ad-dynamic-objects-anti-forensics.html) · 域与身份 主机 提权
+- [AD information in printers](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ad-information-in-printers.html) · 域与身份 主机 提权
+- [AD DNS Records](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ad-dns-records.html) · 域与身份 主机 提权
+- [Adws Enumeration](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/adws-enumeration.html) · 域与身份 主机 提权
+- [ASREPRoast](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/asreproast.html) · 域与身份 主机 提权
+- [Badsuccessor Dmsa Migration Abuse](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/badsuccessor-dmsa-migration-abuse.html) · 域与身份 主机 提权
+- [BloodHound & Other AD Enum Tools](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/bloodhound.html) · 域与身份 主机 提权
+- [Constrained Delegation](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/constrained-delegation.html) · 域与身份 委派 主机 提权
+- [Custom SSP](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/custom-ssp.html) · 域与身份 主机 提权
+- [DCShadow](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/dcshadow.html) · 域与身份 主机 提权
+- [DCSync](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/dcsync.html) · 域与身份 主机 提权
+- [Diamond Ticket](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/diamond-ticket.html) · 域与身份 主机 提权
+- [DSRM Credentials](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/dsrm-credentials.html) · 域与身份 凭据 主机 提权
+- [External Forest Domain - OneWay (Inbound) or bidirectional](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/external-forest-domain-oneway-inbound.html) · 域与身份 主机 提权
+- [External Forest Domain - One-Way (Outbound)](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/external-forest-domain-one-way-outbound.html) · 域与身份 主机 提权
+- [Golden Dmsa Gmsa](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/golden-dmsa-gmsa.html) · 域与身份 主机 提权
+- [Golden Ticket](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/golden-ticket.html) · 域与身份 主机 提权
+- [Kerberoast](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/kerberoast.html) · 域与身份 主机 提权
+- [Kerberos Authentication](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/kerberos-authentication.html) · 域与身份 域认证 票据 主机 提权
+- [Kerberos Double Hop Problem](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/kerberos-double-hop-problem.html) · 域与身份 域认证 票据 主机 提权
+- [Lansweeper Security](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/lansweeper-security.html) · 域与身份 主机 提权
+- [LAPS](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/laps.html) · 域与身份 主机 提权
+- [MSSQL AD Abuse](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/abusing-ad-mssql.html) · 域与身份 数据库 注入 主机 提权
+- [Ldap Signing And Channel Binding](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/ldap-signing-and-channel-binding.html) · 域与身份 主机 提权
+- [Over Pass the Hash/Pass the Key](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/over-pass-the-hash-pass-the-key.html) · 域与身份 主机 提权
+- [Pass the Ticket](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/pass-the-ticket.html) · 域与身份 主机 提权
+- [Password Spraying / Brute Force](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/password-spraying.html) · 域与身份 密码 口令 主机 提权
+- [PrintNightmare](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/printnightmare.html) · 域与身份 主机 提权
+- [Force NTLM Privileged Authentication](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/printers-spooler-service-abuse.html) · 域与身份 认证 中继 主机 提权
+- [Privileged Groups](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/privileged-groups-and-token-privileges.html) · 域与身份 主机 提权
+- [RDP Sessions Abuse](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/rdp-sessions-abuse.html) · 域与身份 主机 提权
+- [Resource-based Constrained Delegation](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/resource-based-constrained-delegation.html) · 域与身份 委派 主机 提权
+- [SCCM / MECM Abuse (formerly “Sccm Management Point Relay Sql Policy Secrets”) / SCCM / MECM Abuse (Sccm Management Point Relay Sql Policy Secrets)](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/sccm-management-point-relay-sql-policy-secrets.html) · 域与身份 数据库 注入 主机 提权
+- [Security Descriptors](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/security-descriptors.html) · 域与身份 主机 提权
+- [SID-History Injection](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/sid-history-injection.html) · 域与身份 主机 提权
+- [Silver Ticket](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/silver-ticket.html) · 域与身份 主机 提权
+- [Skeleton Key](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/skeleton-key.html) · 域与身份 主机 提权
+- [Timeroasting](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/TimeRoasting.html) · 域与身份 主机 提权
+- [Unconstrained Delegation](https://book.hacktricks.wiki/zh/windows-hardening/active-directory-methodology/unconstrained-delegation.html) · 域与身份 委派 主机 提权
+- [Windows Security Controls](https://book.hacktricks.wiki/zh/windows-hardening/authentication-credentials-uac-and-efs/index.html) · 主机与提权 凭据 主机 提权
+- [UAC - User Account Control](https://book.hacktricks.wiki/zh/windows-hardening/authentication-credentials-uac-and-efs/uac-user-account-control.html) · 主机与提权 凭据 主机 提权
+- [NTLM](https://book.hacktricks.wiki/zh/windows-hardening/ntlm/index.html) · 域与身份 认证 中继 主机 提权
+- [Places to steal NTLM creds](https://book.hacktricks.wiki/zh/windows-hardening/ntlm/places-to-steal-ntlm-creds.html) · 域与身份 认证 中继 主机 提权
+- [Lateral Movement](https://book.hacktricks.wiki/zh/windows-hardening/lateral-movement/index.html) · 主机与提权 主机 提权
+- [AtExec / SchtasksExec](https://book.hacktricks.wiki/zh/windows-hardening/lateral-movement/atexec.html) · 主机与提权 主机 提权
+- [DCOM Exec](https://book.hacktricks.wiki/zh/windows-hardening/lateral-movement/dcomexec.html) · 主机与提权 主机 提权
+- [Remote Service Execution (PsExec, SMBExec, SCMExec)](https://book.hacktricks.wiki/zh/windows-hardening/lateral-movement/psexec-and-winexec.html) · 主机与提权 主机 提权
+- [WinRM](https://book.hacktricks.wiki/zh/windows-hardening/lateral-movement/winrm.html) · 主机与提权 主机 提权
+- [WmiExec](https://book.hacktricks.wiki/zh/windows-hardening/lateral-movement/wmiexec.html) · 主机与提权 主机 提权
+- [Stealing Windows Credentials](https://book.hacktricks.wiki/zh/windows-hardening/stealing-credentials/index.html) · 主机与提权 凭据 主机 提权
+- [Windows Credentials Protections](https://book.hacktricks.wiki/zh/windows-hardening/stealing-credentials/credentials-protections.html) · 主机与提权 凭据 主机 提权
+- [Mimikatz](https://book.hacktricks.wiki/zh/windows-hardening/stealing-credentials/credentials-mimikatz.html) · 主机与提权 凭据 主机 提权
+- [WTS Impersonator](https://book.hacktricks.wiki/zh/windows-hardening/stealing-credentials/wts-impersonator.html) · 主机与提权 凭据 主机 提权
+- [Windows Registry Hive Exploitation](https://book.hacktricks.wiki/zh/windows-hardening/windows-local-privilege-escalation/windows-registry-hive-exploitation.html) · 主机与提权 主机 提权
+- [Basic Win CMD for Pentesters](https://book.hacktricks.wiki/zh/windows-hardening/basic-cmd-for-pentesters.html) · 主机与提权 主机 提权
+- [Basic PowerShell for Pentesters](https://book.hacktricks.wiki/zh/windows-hardening/basic-powershell-for-pentesters/index.html) · 主机与提权 主机 提权
+- [PowerView/SharpView](https://book.hacktricks.wiki/zh/windows-hardening/basic-powershell-for-pentesters/powerview.html) · 主机与提权 主机 提权
+- [Antivirus (AV) Bypass](https://book.hacktricks.wiki/zh/windows-hardening/av-bypass.html) · 主机与提权 主机 提权
+- [Virtualized Payload Execution and Custom VM Evasion](https://book.hacktricks.wiki/zh/windows-hardening/virtualized-payload-execution.html) · 主机与提权 主机 提权
+- [Cobalt Strike](https://book.hacktricks.wiki/zh/windows-hardening/cobalt-strike.html) · 主机与提权 主机 提权
+- [Mythic](https://book.hacktricks.wiki/zh/windows-hardening/mythic.html) · 主机与提权 主机 提权
+- [Protocol Handler Shell Execute Abuse](https://book.hacktricks.wiki/zh/windows-hardening/protocol-handler-shell-execute-abuse.html) · 主机与提权 主机 提权
+- [eSIM / Java Card VM Exploitation](https://book.hacktricks.wiki/zh/mobile-pentesting/esim-javacard-exploitation.html) · 移动与逆向 
+- [Android APK Checklist](https://book.hacktricks.wiki/zh/mobile-pentesting/android-checklist.html) · 移动与逆向 安卓 移动
+- [Android Applications Pentesting](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/index.html) · 移动与逆向 安卓 移动
+- [Abusing Android Media Pipelines Image Parsers](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/abusing-android-media-pipelines-image-parsers.html) · 移动与逆向 安卓 移动
+- [Accessibility Services Abuse](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/accessibility-services-abuse.html) · 移动与逆向 安卓 移动
+- [Android Anti Instrumentation And Ssl Pinning Bypass](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-anti-instrumentation-and-ssl-pinning-bypass.html) · 移动与逆向 安卓 移动
+- [Android Application Level Virtualization](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-application-level-virtualization.html) · 移动与逆向 安卓 移动
+- [Android Applications Basics](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-applications-basics.html) · 移动与逆向 安卓 移动
+- [Android SELinux Policy Analysis](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-selinux-policy-analysis.html) · 移动与逆向 主机 提权 安卓 移动
+- [Android Enterprise Work Profile Bypass](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-enterprise-work-profile-bypass.html) · 移动与逆向 安卓 移动
+- [Android Hce Nfc Emv Relay Attacks](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-hce-nfc-emv-relay-attacks.html) · 移动与逆向 安卓 移动
+- [Android Physical Attacks](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-physical-attacks.html) · 移动与逆向 安卓 移动
+- [Android SELinux Domains, AVC Denials and Policy Manipulation](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-selinux-domains-and-policy-manipulation.html) · 移动与逆向 主机 提权 安卓 移动
+- [Android Task Hijacking](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-task-hijacking.html) · 移动与逆向 安卓 移动
+- [Android VPN Bypass](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/android-vpn-bypass.html) · 移动与逆向 安卓 移动
+- [ADB Commands](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/adb-commands.html) · 移动与逆向 安卓 移动 命令执行
+- [APK decompilers](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/apk-decompilers.html) · 移动与逆向 安卓 移动
+- [AVD - Android Virtual Device](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/avd-android-virtual-device.html) · 移动与逆向 安卓 移动
+- [Baseband Modem And SoC Isolation Exploitation](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/baseband-and-soc-isolation-exploitation.html) · 移动与逆向 安卓 移动
+- [Bypass Biometric Authentication (Android)](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/bypass-biometric-authentication-android.html) · 移动与逆向 安卓 移动
+- [content:// protocol](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/content-protocol.html) · 移动与逆向 安卓 移动
+- [Drozer Tutorial](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/drozer-tutorial/index.html) · 移动与逆向 安卓 移动
+- [Exploiting Content Providers](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/drozer-tutorial/exploiting-content-providers.html) · 移动与逆向 安卓 移动
+- [Exploiting a debuggeable application](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/exploiting-a-debuggeable-applciation.html) · 移动与逆向 安卓 移动
+- [Firmware Level Zygote Backdoor Libandroid Runtime](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/firmware-level-zygote-backdoor-libandroid_runtime.html) · 移动与逆向 安卓 移动
+- [Flutter](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/flutter.html) · 移动与逆向 安卓 移动
+- [Frida Tutorial](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/frida-tutorial/index.html) · 移动与逆向 安卓 移动
+- [Frida Tutorial 1](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/frida-tutorial/frida-tutorial-1.html) · 移动与逆向 安卓 移动
+- [Frida Tutorial 2](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/frida-tutorial/frida-tutorial-2.html) · 移动与逆向 安卓 移动
+- [Frida Tutorial 3](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/frida-tutorial/owaspuncrackable-1.html) · 移动与逆向 安卓 移动
+- [Objection Tutorial](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/frida-tutorial/objection-tutorial.html) · 移动与逆向 安卓 移动
+- [Google CTF 2018 - Shall We Play a Game?](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/google-ctf-2018-shall-we-play-a-game.html) · 移动与逆向 安卓 移动
+- [In Memory Jni Shellcode Execution](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/in-memory-jni-shellcode-execution.html) · 移动与逆向 安卓 移动
+- [Inputmethodservice Ime Abuse](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/inputmethodservice-ime-abuse.html) · 移动与逆向 安卓 移动
+- [Insecure In App Update Rce](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/insecure-in-app-update-rce.html) · 移动与逆向 安卓 移动
+- [Install Burp Certificate](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/install-burp-certificate.html) · 移动与逆向 证书 安卓 移动
+- [Intent Injection](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/intent-injection.html) · 移动与逆向 安卓 移动
+- [Make APK Accept CA Certificate](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/make-apk-accept-ca-certificate.html) · 移动与逆向 证书 安卓 移动
+- [Manual DeObfuscation](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/manual-deobfuscation.html) · 移动与逆向 安卓 移动
+- [Play Integrity Attestation Bypass](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/play-integrity-attestation-bypass.html) · 移动与逆向 安卓 移动
+- [React Native Application](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/react-native-application.html) · 移动与逆向 安卓 移动
+- [Reversing Native Libraries](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/reversing-native-libraries.html) · 移动与逆向 安卓 移动
+- [Shizuku Privileged Api](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/shizuku-privileged-api.html) · 移动与逆向 安卓 移动
+- [Smali - Decompiling, Modifying, Compiling](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/smali-changes.html) · 移动与逆向 安卓 移动
+- [Spoofing your location in Play Store](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/spoofing-your-location-in-play-store.html) · 移动与逆向 安卓 移动
+- [Tapjacking](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/tapjacking.html) · 移动与逆向 安卓 移动
+- [Telegram Mini App Privacy Analysis](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/telegram-mini-app-privacy-analysis.html) · 移动与逆向 安卓 移动
+- [Webview Attacks](https://book.hacktricks.wiki/zh/mobile-pentesting/android-app-pentesting/webview-attacks.html) · 移动与逆向 安卓 移动
+- [iOS Pentesting Checklist](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting-checklist.html) · 移动与逆向 苹果 移动
+- [iOS Pentesting](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/index.html) · 移动与逆向 苹果 移动
+- [Air Keyboard Remote Input Injection](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/air-keyboard-remote-input-injection.html) · 移动与逆向 苹果 移动
+- [iOS App Extensions](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-app-extensions.html) · 移动与逆向 苹果 移动
+- [iOS Basics](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-basics.html) · 移动与逆向 苹果 移动
+- [iOS Basic Testing Operations](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/basic-ios-testing-operations.html) · 移动与逆向 苹果 移动
+- [iOS Burp Suite Configuration](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/burp-configuration-for-ios.html) · 移动与逆向 苹果 移动
+- [iOS Custom URI Handlers / Deeplinks / Custom Schemes](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-custom-uri-handlers-deeplinks-custom-schemes.html) · 移动与逆向 苹果 移动
+- [iOS Extracting Entitlements From Compiled Application](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/extracting-entitlements-from-compiled-application.html) · 移动与逆向 苹果 移动
+- [iOS Frida Configuration](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/frida-configuration-in-ios.html) · 移动与逆向 苹果 移动
+- [iOS Hooking With Objection](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-hooking-with-objection.html) · 移动与逆向 苹果 移动
+- [iOS Pentesting withuot Jailbreak](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-pentesting-without-jailbreak.html) · 移动与逆向 苹果 移动
+- [iOS Protocol Handlers](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-protocol-handlers.html) · 移动与逆向 苹果 移动
+- [iOS Serialisation and Encoding](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-serialisation-and-encoding.html) · 移动与逆向 苹果 移动
+- [iOS Testing Environment](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-testing-environment.html) · 移动与逆向 苹果 移动
+- [iOS UIActivity Sharing](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-uiactivity-sharing.html) · 移动与逆向 苹果 移动
+- [iOS Universal Links](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-universal-links.html) · 移动与逆向 苹果 移动
+- [iOS UIPasteboard](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-uipasteboard.html) · 移动与逆向 苹果 移动
+- [iOS WebViews](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/ios-webviews.html) · 移动与逆向 苹果 移动
+- [Itunesstored Bookassetd Sandbox Escape](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/itunesstored-bookassetd-sandbox-escape.html) · 移动与逆向 苹果 移动
+- [Zero Click Messaging Image Parser Chains](https://book.hacktricks.wiki/zh/mobile-pentesting/ios-pentesting/zero-click-messaging-image-parser-chains.html) · 移动与逆向 苹果 移动
+- [Cordova Apps](https://book.hacktricks.wiki/zh/mobile-pentesting/cordova-apps.html) · 移动与逆向 
+- [Xamarin Apps](https://book.hacktricks.wiki/zh/mobile-pentesting/xamarin-apps.html) · 移动与逆向 
+- [4222 Pentesting Nats](https://book.hacktricks.wiki/zh/network-services-pentesting/4222-pentesting-nats.html) · Web 与 API 
+- [Pentesting JDWP - Java Debug Wire Protocol](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-jdwp-java-debug-wire-protocol.html) · Web 与 API 
+- [Pentesting SAP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-sap.html) · Web 与 API 
+- [Pentesting Veeam Backup & Replication](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-veeam-backup-and-replication.html) · Web 与 API 
+- [3478 - WebRTC TURN Relay](https://book.hacktricks.wiki/zh/network-services-pentesting/3478-pentesting-turn.html) · Web 与 API 
+- [Pentesting VoIP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-voip/index.html) · Web 与 API 
+- [Basic VoIP Protocols](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-voip/basic-voip-protocols/index.html) · Web 与 API 
+- [SIP (Session Initiation Protocol)](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-voip/basic-voip-protocols/sip-session-initiation-protocol.html) · Web 与 API 
+- [Pentesting Remote GdbServer](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-remote-gdbserver.html) · Web 与 API 
+- [7/tcp/udp - Pentesting Echo](https://book.hacktricks.wiki/zh/network-services-pentesting/7-tcp-udp-pentesting-echo.html) · Web 与 API 
+- [21 - Pentesting FTP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-ftp/index.html) · Web 与 API 
+- [FTP Bounce attack - Scan](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-ftp/ftp-bounce-attack.html) · Web 与 API 
+- [FTP Bounce - Download 2ºFTP file](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-ftp/ftp-bounce-download-2oftp-file.html) · Web 与 API 
+- [22 - Pentesting SSH/SFTP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-ssh.html) · Web 与 API 
+- [23 - Pentesting Telnet](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-telnet.html) · Web 与 API 
+- [25,465,587 - Pentesting SMTP/s](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-smtp/index.html) · Web 与 API 
+- [SMTP Smuggling](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-smtp/smtp-smuggling.html) · Web 与 API 请求走私
+- [SMTP - Commands](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-smtp/smtp-commands.html) · Web 与 API 命令执行
+- [43 - Pentesting WHOIS](https://book.hacktricks.wiki/zh/network-services-pentesting/43-pentesting-whois.html) · Web 与 API 
+- [49 - Pentesting TACACS+](https://book.hacktricks.wiki/zh/network-services-pentesting/49-pentesting-tacacs%2B.html) · Web 与 API 
+- [53 - Pentesting DNS](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-dns.html) · Web 与 API 
+- [69/UDP TFTP/Bittorrent-tracker](https://book.hacktricks.wiki/zh/network-services-pentesting/69-udp-tftp.html) · Web 与 API 
+- [79 - Pentesting Finger](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-finger.html) · Web 与 API 
+- [80,443 - Pentesting Web Methodology](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/index.html) · Web 与 API 
+- [AEM - Adobe Experience Cloud](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/aem-adobe-experience-cloud.html) · 云与容器 
+- [Adobe ColdFusion](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/adobe-coldfusion.html) · Web 与 API 
+- [Angular](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/angular.html) · Web 与 API 
+- [Apache Tapestry](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/apache-tapestry.html) · Web 与 API 
+- [Apache](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/apache.html) · Web 与 API 
+- [Artifactory Hacking guide](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/artifactory-hacking-guide.html) · Web 与 API 
+- [Bolt CMS](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/bolt-cms.html) · Web 与 API 
+- [Buckets](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/buckets/index.html) · Web 与 API 
+- [Firebase Database](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/buckets/firebase-database.html) · Web 与 API 
+- [CGI](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/cgi.html) · Web 与 API 
+- [Citrix NetScaler ADC and Gateway](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/citrix-netscaler.html) · Web 与 API 
+- [Custom Protocols](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/custom-protocols.html) · Web 与 API 
+- [Exposed Debug, Metrics and Admin Endpoints](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/debug-and-admin-endpoints.html) · Web 与 API 
+- [Django](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/django.html) · Web 与 API 
+- [Dotnet Soap Wsdl Client Exploitation](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/dotnet-soap-wsdl-client-exploitation.html) · Web 与 API 
+- [DotNetNuke (DNN)](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/dotnetnuke-dnn.html) · Web 与 API 
+- [Drupal](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/drupal/index.html) · Web 与 API 
+- [Drupal RCE](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/drupal/drupal-rce.html) · Web 与 API 
+- [Electron Desktop Apps](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/electron-desktop-apps/index.html) · Web 与 API 
+- [Electron contextIsolation RCE via preload code](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/electron-desktop-apps/electron-contextisolation-rce-via-preload-code.html) · Web 与 API 
+- [Electron contextIsolation RCE via Electron internal code](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/electron-desktop-apps/electron-contextisolation-rce-via-electron-internal-code.html) · Web 与 API 
+- [Electron contextIsolation RCE via IPC](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/electron-desktop-apps/electron-contextisolation-rce-via-ipc.html) · Web 与 API 
+- [Flask](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/flask.html) · Web 与 API 
+- [Fortinet Fortiweb](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/fortinet-fortiweb.html) · Web 与 API 
+- [Git](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/git.html) · Web 与 API 
+- [GeoNetwork](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/geonetwork.html) · Web 与 API 
+- [Golang](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/golang.html) · Web 与 API 
+- [Grafana](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/grafana.html) · Web 与 API 
+- [GraphQL](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/graphql.html) · Web 与 API 接口 API
+- [H2 - Java SQL database](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/h2-java-sql-database.html) · Web 与 API 数据库 注入
+- [IIS - Internet Information Services](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/iis-internet-information-services.html) · Web 与 API 
+- [ImageMagick Security](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/imagemagick-security.html) · Web 与 API 
+- [Ispconfig](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/ispconfig.html) · Web 与 API 
+- [JBOSS](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/jboss.html) · Web 与 API 
+- [Jira & Confluence](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/jira.html) · Web 与 API 
+- [Joomla](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/joomla.html) · Web 与 API 
+- [JSP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/jsp.html) · Web 与 API 
+- [Java Servlet-Filter Memory Shells](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/java-servlet-filter-memory-shells.html) · Web 与 API 
+- [Laravel](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/laravel.html) · Web 与 API 
+- [MeshCentral](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/meshcentral.html) · Web 与 API 
+- [Microsoft Sharepoint](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/microsoft-sharepoint.html) · Web 与 API 
+- [Moodle](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/moodle.html) · Web 与 API 
+- [NextJS](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/nextjs.html) · Web 与 API 
+- [Nginx](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/nginx.html) · Web 与 API 
+- [NodeJS Express](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/nodejs-express.html) · Web 与 API 
+- [React](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/react.html) · Web 与 API 
+- [Sitecore](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/sitecore/index.html) · Web 与 API 
+- [PHP Tricks](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/index.html) · Web 与 API 
+- [PHP - Useful Functions & disable_functions/open_basedir bypass](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/index.html) · Web 与 API 
+- [disable_functions bypass - php-fpm/FastCGI](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-fpm-fastcgi.html) · Web 与 API 
+- [disable_functions bypass - dl function](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-dl-function.html) · Web 与 API 
+- [disable_functions bypass - PHP 7.0-7.4 (\-nix only)](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-7.0-7.4-nix-only.html) · Web 与 API 
+- [disable_functions bypass - Imagick <= 3.3.0 PHP >= 5.4 Exploit](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-imagick-less-than-3.3.0-php-greater-than-5.4-exploit.html) · Web 与 API 
+- [disable_functions - PHP 5.x Shellshock Exploit](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-php-5.x-shellshock-exploit.html) · Web 与 API 
+- [disable_functions - PHP 5.2.4 ionCube extension Exploit](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-php-5.2.4-ioncube-extension-exploit.html) · Web 与 API 
+- [disable_functions bypass - PHP <= 5.2.9 on windows](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-less-than-5.2.9-on-windows.html) · 主机与提权 主机 提权
+- [disable_functions bypass - PHP 5.2.4 and 5.2.5 PHP cURL](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-5.2.4-and-5.2.5-php-curl.html) · Web 与 API 
+- [disable_functions bypass - PHP safe_mode bypass via proc_open() and custom environment Exploit](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-safe_mode-bypass-via-proc_open-and-custom-environment-exploit.html) · Web 与 API 
+- [disable_functions bypass - PHP Perl Extension Safe_mode Bypass Exploit](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-perl-extension-safe_mode-bypass-exploit.html) · Web 与 API 
+- [disable_functions bypass - PHP 5.2.3 - Win32std ext Protections Bypass](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-5.2.3-win32std-ext-protections-bypass.html) · Web 与 API 
+- [disable_functions bypass - PHP 5.2 - FOpen Exploit](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-5.2-fopen-exploit.html) · Web 与 API 
+- [disable_functions bypass - via mem](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-via-mem.html) · Web 与 API 
+- [disable_functions bypass - mod_cgi](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-mod_cgi.html) · Web 与 API 
+- [disable_functions bypass - PHP 4 >= 4.2.0, PHP 5 pcntl_exec](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-4-greater-than-4.2.0-php-5-pcntl_exec.html) · Web 与 API 
+- [Php Rce Abusing Object Creation New Usd Get A Usd Get B](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-rce-abusing-object-creation-new-usd_get-a-usd_get-b.html) · Web 与 API 
+- [PHP SSRF](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/php-tricks-esp/php-ssrf.html) · Web 与 API 服务端请求伪造
+- [Perl Tricks](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/perl-tricks.html) · Web 与 API 
+- [PrestaShop](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/prestashop.html) · Web 与 API 
+- [Proxmox VE](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/proxmox-ve.html) · Web 与 API 
+- [Python](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/python.html) · Web 与 API 
+- [Rocket Chat](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/rocket-chat.html) · Web 与 API 
+- [Ruby Tricks](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/ruby-tricks.html) · Web 与 API 
+- [Source code Review / SAST Tools](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/code-review-tools.html) · Web 与 API 
+- [Roundcube](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/roundcube.html) · Web 与 API 
+- [Salesforce](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/salesforce.html) · Web 与 API 
+- [ServiceNow](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/servicenow.html) · Web 与 API 
+- [SSR Meta-Frameworks (Nuxt, SvelteKit, Remix / React Router, Vite)](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/ssr-meta-frameworks.html) · Web 与 API 
+- [Spring Actuators](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/spring-actuators.html) · Web 与 API 
+- [Spring Data Binding ClassLoader Manipulation](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/spring-data-binding-classloader-manipulation.html) · Web 与 API 
+- [Supabase & PostgREST](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/supabase-postgrest.html) · Web 与 API 
+- [Swagger UI and OpenAPI Docs](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/swagger-openapi-ui.html) · Web 与 API 
+- [Symfony](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/symphony.html) · Web 与 API 
+- [Traefik](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/traefik.html) · Web 与 API 
+- [Tomcat](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/tomcat/index.html) · Web 与 API 
+- [Telerik Ui Aspnet Ajax Unsafe Reflection Webresource Axd](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/telerik-ui-aspnet-ajax-unsafe-reflection-webresource-axd.html) · Web 与 API 
+- [Uncovering CloudFlare](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/uncovering-cloudflare.html) · 云与容器 
+- [Veeam Service Provider Console](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/veeam-service-provider-console.html) · Web 与 API 
+- [Vuejs](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/vuejs.html) · Web 与 API 
+- [VMWare (ESX, VCenter...)](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/vmware-esx-vcenter....html) · Web 与 API 
+- [WebDav](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/put-method-webdav.html) · Web 与 API 
+- [Werkzeug / Flask Debug](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/werkzeug.html) · Web 与 API 
+- [Wordpress](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/wordpress.html) · Web 与 API 
+- [WSGI / uWSGI](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/wsgi.html) · Web 与 API 
+- [Zabbix](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/zabbix.html) · Web 与 API 
+- [ZoneMinder, motionEye & Motion](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-web/zoneminder-motioneye-motion.html) · Web 与 API 
+- [88tcp/udp - Pentesting Kerberos](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-kerberos-88/index.html) · 域与身份 域认证 票据
+- [Harvesting tickets from Windows](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-kerberos-88/harvesting-tickets-from-windows.html) · 域与身份 域认证 票据 主机 提权
+- [Harvesting tickets from Linux](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-kerberos-88/harvesting-tickets-from-linux.html) · 域与身份 域认证 票据 主机 提权
+- [102 - Pentesting IEC 61850 MMS](https://book.hacktricks.wiki/zh/network-services-pentesting/102-pentesting-iec-61850-mms.html) · Web 与 API 
+- [110,995 - Pentesting POP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-pop.html) · Web 与 API 
+- [111/TCP/UDP - Pentesting Portmapper](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-rpcbind.html) · Web 与 API 
+- [113 - Pentesting Ident](https://book.hacktricks.wiki/zh/network-services-pentesting/113-pentesting-ident.html) · Web 与 API 
+- [123/udp - Pentesting NTP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-ntp.html) · Web 与 API 
+- [135, 593 - Pentesting MSRPC](https://book.hacktricks.wiki/zh/network-services-pentesting/135-pentesting-msrpc.html) · Web 与 API 
+- [137,138,139 - Pentesting NetBios](https://book.hacktricks.wiki/zh/network-services-pentesting/137-138-139-pentesting-netbios.html) · 移动与逆向 苹果 移动
+- [139,445 - Pentesting SMB](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-smb/index.html) · Web 与 API 
+- [Ksmbd Attack Surface And Fuzzing Syzkaller](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-smb/ksmbd-attack-surface-and-fuzzing-syzkaller.html) · Web 与 API 
+- [rpcclient enumeration](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-smb/rpcclient-enumeration.html) · Web 与 API 
+- [143,993 - Pentesting IMAP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-imap.html) · Web 与 API 
+- [161,162,10161,10162/udp - Pentesting SNMP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-snmp/index.html) · Web 与 API 
+- [Cisco SNMP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-snmp/cisco-snmp.html) · Web 与 API 
+- [SNMP RCE](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-snmp/snmp-rce.html) · Web 与 API 
+- [194,6667,6660-7000 - Pentesting IRC](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-irc.html) · Web 与 API 
+- [264 - Pentesting Check Point FireWall-1](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-264-check-point-firewall-1.html) · Web 与 API 
+- [389, 636, 3268, 3269 - Pentesting LDAP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-ldap.html) · 域与身份 
+- [500/udp - Pentesting IPsec/IKE VPN](https://book.hacktricks.wiki/zh/network-services-pentesting/ipsec-ike-vpn-pentesting.html) · Web 与 API 
+- [502 - Pentesting Modbus](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-modbus.html) · Web 与 API 
+- [512 - Pentesting Rexec](https://book.hacktricks.wiki/zh/network-services-pentesting/512-pentesting-rexec.html) · Web 与 API 
+- [513, 514 - Pentesting Rlogin and Rsh](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-rlogin.html) · Web 与 API 
+- [515 - Pentesting Line Printer Daemon (LPD)](https://book.hacktricks.wiki/zh/network-services-pentesting/515-pentesting-line-printer-daemon-lpd.html) · Web 与 API 
+- [548 - Pentesting Apple Filing Protocol (AFP)](https://book.hacktricks.wiki/zh/network-services-pentesting/584-pentesting-afp.html) · Web 与 API 
+- [554,8554 - Pentesting RTSP](https://book.hacktricks.wiki/zh/network-services-pentesting/554-8554-pentesting-rtsp.html) · Web 与 API 
+- [623/UDP/TCP - IPMI](https://book.hacktricks.wiki/zh/network-services-pentesting/623-udp-ipmi.html) · Web 与 API 
+- [631 - Internet Printing Protocol(IPP)](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-631-internet-printing-protocol-ipp.html) · Web 与 API 
+- [700 - Pentesting EPP](https://book.hacktricks.wiki/zh/network-services-pentesting/700-pentesting-epp.html) · Web 与 API 
+- [873 - Pentesting Rsync](https://book.hacktricks.wiki/zh/network-services-pentesting/873-pentesting-rsync.html) · Web 与 API 
+- [1026 - Pentesting Rusersd](https://book.hacktricks.wiki/zh/network-services-pentesting/1026-pentesting-rusersd.html) · Web 与 API 
+- [1080 - Pentesting Socks](https://book.hacktricks.wiki/zh/network-services-pentesting/1080-pentesting-socks.html) · Web 与 API 
+- [1098/1099/1050 - Pentesting Java RMI - RMI-IIOP](https://book.hacktricks.wiki/zh/network-services-pentesting/1099-pentesting-java-rmi.html) · Web 与 API 
+- [1414 - Pentesting IBM MQ](https://book.hacktricks.wiki/zh/network-services-pentesting/1414-pentesting-ibmmq.html) · Web 与 API 
+- [1433 - Pentesting MSSQL - Microsoft SQL Server](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-mssql-microsoft-sql-server/index.html) · Web 与 API 数据库 注入
+- [Types of MSSQL Users](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-mssql-microsoft-sql-server/types-of-mssql-users.html) · Web 与 API 数据库 注入
+- [1521,1522-1529 - Pentesting Oracle TNS Listener](https://book.hacktricks.wiki/zh/network-services-pentesting/1521-1522-1529-pentesting-oracle-listener.html) · Web 与 API 权限 访问控制
+- [1723 - Pentesting PPTP](https://book.hacktricks.wiki/zh/network-services-pentesting/1723-pentesting-pptp.html) · Web 与 API 
+- [1883 - Pentesting MQTT (Mosquitto)](https://book.hacktricks.wiki/zh/network-services-pentesting/1883-pentesting-mqtt-mosquitto.html) · Web 与 API 
+- [Pentesting ISO 8583 Payment Sockets](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-iso-8583-payment-sockets.html) · Web 与 API 
+- [2049 - Pentesting NFS Service](https://book.hacktricks.wiki/zh/network-services-pentesting/nfs-service-pentesting.html) · Web 与 API 
+- [2301,2381 - Pentesting Compaq/HP Insight Manager](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-compaq-hp-insight-manager.html) · Web 与 API 
+- [2375, 2376 Pentesting Docker](https://book.hacktricks.wiki/zh/network-services-pentesting/2375-pentesting-docker.html) · 云与容器 容器
+- [2404 - Pentesting IEC 60870-5-104](https://book.hacktricks.wiki/zh/network-services-pentesting/2404-pentesting-iec-60870-5-104.html) · Web 与 API 
+- [3128 - Pentesting Squid](https://book.hacktricks.wiki/zh/network-services-pentesting/3128-pentesting-squid.html) · Web 与 API 
+- [3260 - Pentesting ISCSI](https://book.hacktricks.wiki/zh/network-services-pentesting/3260-pentesting-iscsi.html) · Web 与 API 
+- [3299 - Pentesting SAPRouter](https://book.hacktricks.wiki/zh/network-services-pentesting/3299-pentesting-saprouter.html) · Web 与 API 
+- [3306 - Pentesting Mysql](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-mysql.html) · Web 与 API 数据库 注入
+- [3389 - Pentesting RDP](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-rdp.html) · Web 与 API 
+- [3632 - Pentesting distcc](https://book.hacktricks.wiki/zh/network-services-pentesting/3632-pentesting-distcc.html) · Web 与 API 
+- [3690 - Pentesting Subversion (svn server)](https://book.hacktricks.wiki/zh/network-services-pentesting/3690-pentesting-subversion-svn-server.html) · Web 与 API 
+- [3702/UDP - Pentesting WS-Discovery](https://book.hacktricks.wiki/zh/network-services-pentesting/3702-udp-pentesting-ws-discovery.html) · Web 与 API 
+- [4000,10080 - Pentesting TiDB](https://book.hacktricks.wiki/zh/network-services-pentesting/4000-10080-pentesting-tidb.html) · Web 与 API 
+- [4369 - Pentesting Erlang Port Mapper Daemon (epmd)](https://book.hacktricks.wiki/zh/network-services-pentesting/4369-pentesting-erlang-port-mapper-daemon-epmd.html) · Web 与 API 
+- [4786 - Cisco Smart Install](https://book.hacktricks.wiki/zh/network-services-pentesting/4786-cisco-smart-install.html) · Web 与 API 
+- [4840 - OPC Unified Architecture](https://book.hacktricks.wiki/zh/network-services-pentesting/4840-pentesting-opc-ua.html) · Web 与 API 
+- [5000 - Pentesting Docker Registry](https://book.hacktricks.wiki/zh/network-services-pentesting/5000-pentesting-docker-registry.html) · 云与容器 容器
+- [5353/UDP Multicast DNS (mDNS) and DNS-SD](https://book.hacktricks.wiki/zh/network-services-pentesting/5353-udp-multicast-dns-mdns.html) · Web 与 API 
+- [5432,5433 - Pentesting Postgresql](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-postgresql.html) · Web 与 API 数据库 注入
+- [5439 - Pentesting Redshift](https://book.hacktricks.wiki/zh/network-services-pentesting/5439-pentesting-redshift.html) · Web 与 API 
+- [5555 - Android Debug Bridge](https://book.hacktricks.wiki/zh/network-services-pentesting/5555-android-debug-bridge.html) · 移动与逆向 安卓 移动
+- [5601 - Pentesting Kibana](https://book.hacktricks.wiki/zh/network-services-pentesting/5601-pentesting-kibana.html) · Web 与 API 
+- [5671,5672 - Pentesting AMQP](https://book.hacktricks.wiki/zh/network-services-pentesting/5671-5672-pentesting-amqp.html) · Web 与 API 
+- [5800,5801,5900,5901 - Pentesting VNC](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-vnc.html) · Web 与 API 
+- [5984,6984 - Pentesting CouchDB](https://book.hacktricks.wiki/zh/network-services-pentesting/5984-pentesting-couchdb.html) · Web 与 API 
+- [5985,5986 - Pentesting WinRM](https://book.hacktricks.wiki/zh/network-services-pentesting/5985-5986-pentesting-winrm.html) · Web 与 API 
+- [5985,5986 - Pentesting OMI](https://book.hacktricks.wiki/zh/network-services-pentesting/5985-5986-pentesting-omi.html) · Web 与 API 
+- [6000 - Pentesting X11](https://book.hacktricks.wiki/zh/network-services-pentesting/6000-pentesting-x11.html) · Web 与 API 
+- [6379 - Pentesting Redis](https://book.hacktricks.wiki/zh/network-services-pentesting/6379-pentesting-redis.html) · Web 与 API 
+- [8009 - Pentesting Apache JServ Protocol (AJP)](https://book.hacktricks.wiki/zh/network-services-pentesting/8009-pentesting-apache-jserv-protocol-ajp.html) · Web 与 API 
+- [8086 - Pentesting InfluxDB](https://book.hacktricks.wiki/zh/network-services-pentesting/8086-pentesting-influxdb.html) · Web 与 API 
+- [8000, 8089 - Pentesting Splunk (8089 - Pentesting Splunkd) / 8000, 8089 - Pentesting Splunk (formerly “8089 - Pentesting Splunkd”)](https://book.hacktricks.wiki/zh/network-services-pentesting/8089-splunkd.html) · Web 与 API 
+- [8333,18333,38333,18444 - Pentesting Bitcoin](https://book.hacktricks.wiki/zh/network-services-pentesting/8333-18333-38333-18444-pentesting-bitcoin.html) · Web 与 API 
+- [9000 - Pentesting FastCGI](https://book.hacktricks.wiki/zh/network-services-pentesting/9000-pentesting-fastcgi.html) · Web 与 API 
+- [9001 - Pentesting HSQLDB](https://book.hacktricks.wiki/zh/network-services-pentesting/9001-pentesting-hsqldb.html) · Web 与 API 数据库 注入
+- [9042/9160 - Pentesting Cassandra](https://book.hacktricks.wiki/zh/network-services-pentesting/cassandra.html) · Web 与 API 
+- [9100 - Pentesting Raw Printing (JetDirect, AppSocket, PDL-datastream)](https://book.hacktricks.wiki/zh/network-services-pentesting/9100-pjl.html) · Web 与 API 
+- [9200 - Pentesting Elasticsearch](https://book.hacktricks.wiki/zh/network-services-pentesting/9200-pentesting-elasticsearch.html) · Web 与 API 
+- [10000 - Pentesting Network Data Management Protocol (ndmp)](https://book.hacktricks.wiki/zh/network-services-pentesting/10000-network-data-management-protocol-ndmp.html) · Web 与 API 
+- [11211 - Pentesting Memcache](https://book.hacktricks.wiki/zh/network-services-pentesting/11211-memcache/index.html) · Web 与 API 缓存
+- [Memcache Commands](https://book.hacktricks.wiki/zh/network-services-pentesting/11211-memcache/memcache-commands.html) · Web 与 API 缓存 命令执行
+- [12346/udp - Pentesting Cisco Catalyst SD-WAN Control Plane](https://book.hacktricks.wiki/zh/network-services-pentesting/12346-udp-pentesting-cisco-sd-wan-control-plane.html) · Web 与 API 
+- [15672 - Pentesting RabbitMQ Management](https://book.hacktricks.wiki/zh/network-services-pentesting/15672-pentesting-rabbitmq-management.html) · Web 与 API 
+- [20000 - Pentesting DNP3](https://book.hacktricks.wiki/zh/network-services-pentesting/20000-pentesting-dnp3.html) · Web 与 API 
+- [24007,24008,24009,49152 - Pentesting GlusterFS](https://book.hacktricks.wiki/zh/network-services-pentesting/24007-24008-24009-49152-pentesting-glusterfs.html) · Web 与 API 
+- [27017,27018 - Pentesting MongoDB](https://book.hacktricks.wiki/zh/network-services-pentesting/27017-27018-mongodb.html) · Web 与 API 
+- [32100 Udp - Pentesting Pppp Cs2 P2p Cameras](https://book.hacktricks.wiki/zh/network-services-pentesting/32100-udp-pentesting-pppp-cs2-p2p-cameras.html) · Web 与 API 
+- [44134 - Pentesting Tiller (Helm)](https://book.hacktricks.wiki/zh/network-services-pentesting/44134-pentesting-tiller-helm.html) · Web 与 API 
+- [44818/UDP/TCP - Pentesting EthernetIP](https://book.hacktricks.wiki/zh/network-services-pentesting/44818-ethernetip.html) · Web 与 API 
+- [47808/udp - Pentesting BACNet](https://book.hacktricks.wiki/zh/network-services-pentesting/47808-udp-bacnet.html) · Web 与 API 
+- [PROFINET - Pentesting PROFINET IO](https://book.hacktricks.wiki/zh/network-services-pentesting/pentesting-profinet.html) · Web 与 API 
+- [50030,50060,50070,50075,50090 - Pentesting Hadoop](https://book.hacktricks.wiki/zh/network-services-pentesting/50030-50060-50070-50075-50090-pentesting-hadoop.html) · Web 与 API 
+- [55555 - Pentesting SolarWinds Access Rights Manager gRPC](https://book.hacktricks.wiki/zh/network-services-pentesting/55555-pentesting-solarwinds-arm.html) · Web 与 API 
+- [OT/ICS Assessment and Safety](https://book.hacktricks.wiki/zh/industrial-control-systems/index.html) · Web 与 API 
+- [Web Vulnerabilities Methodology](https://book.hacktricks.wiki/zh/pentesting-web/web-vulnerabilities-methodology.html) · Web 与 API 
+- [Web API Pentesting](https://book.hacktricks.wiki/zh/pentesting-web/web-api-pentesting.html) · Web 与 API 
+- [HTTP 401/403 Authorization Bypasses](https://book.hacktricks.wiki/zh/pentesting-web/403-and-401-bypasses.html) · Web 与 API 
+- [Special HTTP Headers](https://book.hacktricks.wiki/zh/pentesting-web/special-http-headers.html) · Web 与 API 
+- [Sensitive Information Exfiltration from a Web Page](https://book.hacktricks.wiki/zh/pentesting-web/sensitive-information-exfiltration.html) · Web 与 API 
+- [Referer Header and Referrer Policy Leakage](https://book.hacktricks.wiki/zh/pentesting-web/referer-header-and-referrer-policy.html) · Web 与 API 
+- [Burp Suite: Intruder and Session Testing](https://book.hacktricks.wiki/zh/pentesting-web/burp-suite.html) · Web 与 API 
+- [Reflecting Techniques - PoCs and Polygloths CheatSheet](https://book.hacktricks.wiki/zh/pentesting-web/pocs-and-polygloths-cheatsheet/index.html) · Web 与 API 
+- [Web Vulns List](https://book.hacktricks.wiki/zh/pentesting-web/pocs-and-polygloths-cheatsheet/web-vulns-list.html) · Web 与 API 
+- [2FA/MFA/OTP Bypass](https://book.hacktricks.wiki/zh/pentesting-web/2fa-bypass.html) · Web 与 API 
+- [Account Takeover](https://book.hacktricks.wiki/zh/pentesting-web/account-takeover.html) · Web 与 API 
+- [Application-Layer DoS (Unrestricted Resource Consumption)](https://book.hacktricks.wiki/zh/pentesting-web/application-layer-dos.html) · Web 与 API 
+- [Browser Extension Pentesting Methodology](https://book.hacktricks.wiki/zh/pentesting-web/browser-extension-pentesting-methodology/index.html) · Web 与 API 
+- [BrowExt - ClickJacking](https://book.hacktricks.wiki/zh/pentesting-web/browser-extension-pentesting-methodology/browext-clickjacking.html) · Web 与 API 
+- [BrowExt - permissions & host_permissions](https://book.hacktricks.wiki/zh/pentesting-web/browser-extension-pentesting-methodology/browext-permissions-and-host_permissions.html) · Web 与 API 
+- [BrowExt - XSS Example](https://book.hacktricks.wiki/zh/pentesting-web/browser-extension-pentesting-methodology/browext-xss-example.html) · Web 与 API 跨站脚本
+- [Forced Extension Load Preferences Mac Forgery Windows](https://book.hacktricks.wiki/zh/pentesting-web/browser-extension-pentesting-methodology/forced-extension-load-preferences-mac-forgery-windows.html) · 主机与提权 主机 提权
+- [Bypass Payment Process](https://book.hacktricks.wiki/zh/pentesting-web/bypass-payment-process.html) · Web 与 API 
+- [Business Logic Vulnerabilities](https://book.hacktricks.wiki/zh/pentesting-web/business-logic-vulnerabilities.html) · Web 与 API 
+- [Captcha Bypass](https://book.hacktricks.wiki/zh/pentesting-web/captcha-bypass.html) · Web 与 API 
+- [Cache Poisoning and Cache Deception](https://book.hacktricks.wiki/zh/pentesting-web/cache-deception/index.html) · Web 与 API 缓存
+- [Cache Poisoning via URL discrepancies](https://book.hacktricks.wiki/zh/pentesting-web/cache-deception/cache-poisoning-via-url-discrepancies.html) · Web 与 API 缓存
+- [Cache Poisoning to DoS](https://book.hacktricks.wiki/zh/pentesting-web/cache-deception/cache-poisoning-to-dos.html) · Web 与 API 缓存
+- [Clickjacking](https://book.hacktricks.wiki/zh/pentesting-web/clickjacking.html) · Web 与 API 
+- [Client Side Template Injection (CSTI)](https://book.hacktricks.wiki/zh/pentesting-web/client-side-template-injection-csti.html) · Web 与 API 
+- [Client Side Path Traversal](https://book.hacktricks.wiki/zh/pentesting-web/client-side-path-traversal.html) · Web 与 API 目录穿越
+- [Command Injection](https://book.hacktricks.wiki/zh/pentesting-web/command-injection.html) · Web 与 API 命令执行
+- [Apache Commons Text String Interpolation Injection](https://book.hacktricks.wiki/zh/pentesting-web/commons-text-string-interpolation.html) · Web 与 API 
+- [Content Security Policy (CSP) Bypass](https://book.hacktricks.wiki/zh/pentesting-web/content-security-policy-csp-bypass/index.html) · Web 与 API 
+- [CSP bypass: self + 'unsafe-inline' with Iframes](https://book.hacktricks.wiki/zh/pentesting-web/content-security-policy-csp-bypass/csp-bypass-self-%2B-unsafe-inline-with-iframes.html) · Web 与 API 
+- [Content Spoofing (Text and HTML Injection)](https://book.hacktricks.wiki/zh/pentesting-web/content-spoofing-text-injection.html) · Web 与 API 
+- [Cookies Hacking](https://book.hacktricks.wiki/zh/pentesting-web/hacking-with-cookies/index.html) · Web 与 API 
+- [Cookie Tossing](https://book.hacktricks.wiki/zh/pentesting-web/hacking-with-cookies/cookie-tossing.html) · Web 与 API 
+- [Cookie Jar Overflow](https://book.hacktricks.wiki/zh/pentesting-web/hacking-with-cookies/cookie-jar-overflow.html) · Web 与 API 
+- [Cookie Bomb](https://book.hacktricks.wiki/zh/pentesting-web/hacking-with-cookies/cookie-bomb.html) · Web 与 API 
+- [CORS - Misconfigurations & Bypass](https://book.hacktricks.wiki/zh/pentesting-web/cors-bypass.html) · Web 与 API 
+- [CRLF (%0D%0A) Injection](https://book.hacktricks.wiki/zh/pentesting-web/crlf-0d-0a.html) · Web 与 API 
+- [CSRF (Cross Site Request Forgery)](https://book.hacktricks.wiki/zh/pentesting-web/csrf-cross-site-request-forgery.html) · Web 与 API 跨站请求伪造
+- [Dangling Markup - HTML scriptless injection](https://book.hacktricks.wiki/zh/pentesting-web/dangling-markup-html-scriptless-injection/index.html) · Web 与 API 
+- [DApps - Decentralized Applications](https://book.hacktricks.wiki/zh/pentesting-web/dapps-DecentralizedApplications.html) · Web 与 API 
+- [Dependency Confusion](https://book.hacktricks.wiki/zh/pentesting-web/dependency-confusion.html) · Web 与 API 
+- [Deserialization](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/index.html) · Web 与 API 反序列化
+- [NodeJS - \_\_proto\_\_ & prototype Pollution](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/nodejs-proto-prototype-pollution/index.html) · Web 与 API 反序列化 原型链污染
+- [Client Side Prototype Pollution](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/nodejs-proto-prototype-pollution/client-side-prototype-pollution.html) · Web 与 API 反序列化 原型链污染
+- [Express Prototype Pollution Gadgets](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/nodejs-proto-prototype-pollution/express-prototype-pollution-gadgets.html) · Web 与 API 反序列化 原型链污染
+- [Prototype Pollution to RCE](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/nodejs-proto-prototype-pollution/prototype-pollution-to-rce.html) · Web 与 API 反序列化 原型链污染
+- [Java JSF ViewState (.faces) Deserialization](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/java-jsf-viewstate-.faces-deserialization.html) · Web 与 API 反序列化
+- [Java DNS Deserialization, GadgetProbe and Java Deserialization Scanner](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/java-dns-deserialization-and-gadgetprobe.html) · Web 与 API 反序列化
+- [Basic Java Deserialization (ObjectInputStream, readObject)](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/basic-java-deserialization-objectinputstream-readobject.html) · Web 与 API 反序列化
+- [Apache Shiro rememberMe Cookie Deserialization](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/java-apache-shiro-rememberme.html) · Web 与 API 反序列化
+- [Java Hessian, Burlap and AMF Deserialization](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/java-hessian-burlap-amf-deserialization.html) · Web 与 API 反序列化
+- [Java Signedobject Gated Deserialization](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/java-signedobject-gated-deserialization.html) · Web 与 API 反序列化
+- [Livewire Hydration Synthesizer Abuse](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/livewire-hydration-synthesizer-abuse.html) · Web 与 API 反序列化
+- [PHP - Deserialization + Autoload Classes](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/php-deserialization-%2B-autoload-classes.html) · Web 与 API 反序列化
+- [CommonsCollection1 Payload - Java Transformers to Rutime exec() and Thread Sleep](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/java-transformers-to-rutime-exec-payload.html) · Web 与 API 反序列化
+- [Basic .Net deserialization (ObjectDataProvider gadget, ExpandedWrapper, and Json.Net)](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/basic-.net-deserialization-objectdataprovider-gadgets-expandedwrapper-and-json.net.html) · Web 与 API 反序列化
+- [Exploiting \_\_VIEWSTATE knowing the secrets](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/exploiting-__viewstate-knowing-the-secret.html) · Web 与 API 反序列化
+- [Exploiting \_\_VIEWSTATE without knowing the secrets](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/exploiting-__viewstate-parameter.html) · Web 与 API 反序列化
+- [Python Yaml Deserialization](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/python-yaml-deserialization.html) · Web 与 API 反序列化
+- [JNDI - Java Naming and Directory Interface & Log4Shell](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/jndi-java-naming-and-directory-interface-and-log4shell.html) · Web 与 API 反序列化
+- [Ruby Json Pollution](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/ruby-_json-pollution.html) · Web 与 API 反序列化
+- [Ruby Class Pollution](https://book.hacktricks.wiki/zh/pentesting-web/deserialization/ruby-class-pollution.html) · Web 与 API 反序列化
+- [Domain/Subdomain takeover](https://book.hacktricks.wiki/zh/pentesting-web/domain-subdomain-takeover.html) · Web 与 API 
+- [Email Injections](https://book.hacktricks.wiki/zh/pentesting-web/email-injections.html) · Web 与 API 
+- [File Inclusion/Path traversal](https://book.hacktricks.wiki/zh/pentesting-web/file-inclusion/index.html) · Web 与 API 文件包含 目录穿越
+- [phar:// deserialization](https://book.hacktricks.wiki/zh/pentesting-web/file-inclusion/phar-deserialization.html) · Web 与 API 反序列化 文件包含
+- [LFI2RCE via PHP Filters](https://book.hacktricks.wiki/zh/pentesting-web/file-inclusion/lfi2rce-via-php-filters.html) · Web 与 API 文件包含
+- [LFI2RCE via Nginx temp files](https://book.hacktricks.wiki/zh/pentesting-web/file-inclusion/lfi2rce-via-nginx-temp-files.html) · Web 与 API 文件包含
+- [LFI2RCE via PHP_SESSION_UPLOAD_PROGRESS](https://book.hacktricks.wiki/zh/pentesting-web/file-inclusion/via-php_session_upload_progress.html) · Web 与 API 文件上传 文件包含
+- [LFI2RCE via phpinfo()](https://book.hacktricks.wiki/zh/pentesting-web/file-inclusion/lfi2rce-via-phpinfo.html) · Web 与 API 文件包含
+- [LFI2RCE Via temp file uploads](https://book.hacktricks.wiki/zh/pentesting-web/file-inclusion/lfi2rce-via-temp-file-uploads.html) · Web 与 API 文件上传 文件包含
+- [LFI2RCE via Eternal waiting](https://book.hacktricks.wiki/zh/pentesting-web/file-inclusion/lfi2rce-via-eternal-waiting.html) · Web 与 API 文件包含
+- [LFI2RCE Via compress.zlib + PHP_STREAM_PREFER_STUDIO + Path Disclosure](https://book.hacktricks.wiki/zh/pentesting-web/file-inclusion/lfi2rce-via-compress.zlib-%2B-php_stream_prefer_studio-%2B-path-disclosure.html) · Web 与 API 文件包含
+- [File Upload](https://book.hacktricks.wiki/zh/pentesting-web/file-upload/index.html) · Web 与 API 文件上传
+- [PDF Upload - XXE and CORS bypass](https://book.hacktricks.wiki/zh/pentesting-web/file-upload/pdf-upload-xxe-and-cors-bypass.html) · Web 与 API 文件上传
+- [Formula/CSV/Doc/LaTeX/GhostScript Injection](https://book.hacktricks.wiki/zh/pentesting-web/formula-csv-doc-latex-ghostscript-injection.html) · Web 与 API 
+- [gRPC-Web Pentest](https://book.hacktricks.wiki/zh/pentesting-web/grpc-web-pentest.html) · Web 与 API 
+- [HTTP Connection Contamination](https://book.hacktricks.wiki/zh/pentesting-web/http-connection-contamination.html) · Web 与 API 
+- [HTTP Connection Request Smuggling](https://book.hacktricks.wiki/zh/pentesting-web/http-connection-request-smuggling.html) · Web 与 API 请求走私
+- [HTTP Request Smuggling / HTTP Desync Attack](https://book.hacktricks.wiki/zh/pentesting-web/http-request-smuggling/index.html) · Web 与 API 请求走私
+- [Browser HTTP Request Smuggling](https://book.hacktricks.wiki/zh/pentesting-web/http-request-smuggling/browser-http-request-smuggling.html) · Web 与 API 请求走私
+- [Request Smuggling in HTTP/2 Downgrades](https://book.hacktricks.wiki/zh/pentesting-web/http-request-smuggling/request-smuggling-in-http-2-downgrades.html) · Web 与 API 请求走私
+- [HTTP/2 Protocol-Level DoS (CONTINUATION Flood, MadeYouReset)](https://book.hacktricks.wiki/zh/pentesting-web/http2-protocol-dos.html) · Web 与 API 
+- [HTTP Response Smuggling / Desync](https://book.hacktricks.wiki/zh/pentesting-web/http-response-smuggling-desync.html) · Web 与 API 请求走私
+- [Upgrade Header Smuggling](https://book.hacktricks.wiki/zh/pentesting-web/h2c-smuggling.html) · Web 与 API 请求走私
+- [hop-by-hop headers](https://book.hacktricks.wiki/zh/pentesting-web/abusing-hop-by-hop-headers.html) · Web 与 API 
+- [IDOR](https://book.hacktricks.wiki/zh/pentesting-web/idor.html) · Web 与 API 
+- [JWT Vulnerabilities (Json Web Tokens)](https://book.hacktricks.wiki/zh/pentesting-web/hacking-jwt-json-web-tokens.html) · Web 与 API 令牌 认证
+- [JSON, XML and YAML Hacking](https://book.hacktricks.wiki/zh/pentesting-web/json-xml-yaml-hacking.html) · Web 与 API 
+- [LDAP Injection](https://book.hacktricks.wiki/zh/pentesting-web/ldap-injection.html) · 域与身份 
+- [Login Bypass](https://book.hacktricks.wiki/zh/pentesting-web/login-bypass/index.html) · Web 与 API 
+- [Login bypass List](https://book.hacktricks.wiki/zh/pentesting-web/login-bypass/sql-login-bypass.html) · Web 与 API 数据库 注入
+- [Mass Assignment Cwe 915](https://book.hacktricks.wiki/zh/pentesting-web/mass-assignment-cwe-915.html) · Web 与 API 
+- [NoSQL injection](https://book.hacktricks.wiki/zh/pentesting-web/nosql-injection.html) · Web 与 API 数据库 注入
+- [OAuth to Account takeover](https://book.hacktricks.wiki/zh/pentesting-web/oauth-to-account-takeover.html) · Web 与 API 认证 授权
+- [Open Redirect](https://book.hacktricks.wiki/zh/pentesting-web/open-redirect.html) · Web 与 API 
+- [ORM Injection](https://book.hacktricks.wiki/zh/pentesting-web/orm-injection.html) · Web 与 API 
+- [Parameter Pollution | JSON Injection](https://book.hacktricks.wiki/zh/pentesting-web/parameter-pollution.html) · Web 与 API 
+- [Phone Number Injections](https://book.hacktricks.wiki/zh/pentesting-web/phone-number-injections.html) · Web 与 API 
+- [PostMessage Vulnerabilities](https://book.hacktricks.wiki/zh/pentesting-web/postmessage-vulnerabilities/index.html) · Web 与 API 
+- [Blocking main page to steal postmessage](https://book.hacktricks.wiki/zh/pentesting-web/postmessage-vulnerabilities/blocking-main-page-to-steal-postmessage.html) · Web 与 API 
+- [Bypassing SOP with Iframes - 1](https://book.hacktricks.wiki/zh/pentesting-web/postmessage-vulnerabilities/bypassing-sop-with-iframes-1.html) · Web 与 API 
+- [Bypassing SOP with Iframes - 2](https://book.hacktricks.wiki/zh/pentesting-web/postmessage-vulnerabilities/bypassing-sop-with-iframes-2.html) · Web 与 API 
+- [Steal postmessage modifying iframe location](https://book.hacktricks.wiki/zh/pentesting-web/postmessage-vulnerabilities/steal-postmessage-modifying-iframe-location.html) · Web 与 API 
+- [Proxy / WAF Protections Bypass](https://book.hacktricks.wiki/zh/pentesting-web/proxy-waf-protections-bypass.html) · Web 与 API 
+- [Race Condition](https://book.hacktricks.wiki/zh/pentesting-web/race-condition.html) · Web 与 API 
+- [Rate Limit Bypass](https://book.hacktricks.wiki/zh/pentesting-web/rate-limit-bypass.html) · Web 与 API 
+- [Reflected File Download (RFD)](https://book.hacktricks.wiki/zh/pentesting-web/reflected-file-download.html) · Web 与 API 
+- [Registration & Takeover Vulnerabilities](https://book.hacktricks.wiki/zh/pentesting-web/registration-vulnerabilities.html) · Web 与 API 
+- [Regular expression Denial of Service - ReDoS](https://book.hacktricks.wiki/zh/pentesting-web/regular-expression-denial-of-service-redos.html) · Web 与 API 
+- [Reset/Forgotten Password Bypass](https://book.hacktricks.wiki/zh/pentesting-web/reset-password.html) · Web 与 API 密码 口令
+- [Reverse Tab Nabbing](https://book.hacktricks.wiki/zh/pentesting-web/reverse-tab-nabbing.html) · 移动与逆向 逆向
+- [RSQL Injection](https://book.hacktricks.wiki/zh/pentesting-web/rsql-injection.html) · Web 与 API 数据库 注入
+- [SAML Attacks](https://book.hacktricks.wiki/zh/pentesting-web/saml-attacks/index.html) · Web 与 API 单点登录
+- [SAML Basics](https://book.hacktricks.wiki/zh/pentesting-web/saml-attacks/saml-basics.html) · Web 与 API 单点登录
+- [Server Side Inclusion/Edge Side Inclusion Injection](https://book.hacktricks.wiki/zh/pentesting-web/server-side-inclusion-edge-side-inclusion-injection.html) · Web 与 API 文件包含
+- [Server-Side JavaScript Injection (Node.js eval, Function, vm)](https://book.hacktricks.wiki/zh/pentesting-web/server-side-javascript-injection.html) · Web 与 API 
+- [Soap Jax Ws Threadlocal Auth Bypass](https://book.hacktricks.wiki/zh/pentesting-web/soap-jax-ws-threadlocal-auth-bypass.html) · Web 与 API 
+- [SQL Injection](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/index.html) · Web 与 API 数据库 注入
+- [MS Access SQL Injection](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/ms-access-sql-injection.html) · Web 与 API 数据库 注入
+- [MSSQL Injection](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/mssql-injection.html) · Web 与 API 数据库 注入
+- [MySQL injection](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/mysql-injection/index.html) · Web 与 API 数据库 注入
+- [MySQL File priv to SSRF/RCE](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/mysql-injection/mysql-ssrf.html) · Web 与 API 数据库 注入 服务端请求伪造
+- [Oracle injection](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/oracle-injection.html) · Web 与 API 数据库 注入 权限 访问控制
+- [Cypher Injection (neo4j)](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/cypher-injection-neo4j.html) · Web 与 API 数据库 注入
+- [HQL Injection (Hibernate)](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/hql-jpql-injection.html) · Web 与 API 数据库 注入
+- [SQLite Injection](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/sqlite-injection.html) · Web 与 API 数据库 注入
+- [Sqlmap](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/sqlmap.html) · Web 与 API 数据库 注入
+- [PostgreSQL injection](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/postgresql-injection/index.html) · Web 与 API 数据库 注入
+- [dblink/lo_import data exfiltration](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/postgresql-injection/dblink-lo_import-data-exfiltration.html) · Web 与 API 数据库 注入
+- [PL/pgSQL Password Bruteforce](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/postgresql-injection/pl-pgsql-password-bruteforce.html) · Web 与 API 密码 口令 数据库 注入
+- [Network - Privesc, Port Scanner and NTLM chanllenge response disclosure](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/postgresql-injection/network-privesc-port-scanner-and-ntlm-chanllenge-response-disclosure.html) · 域与身份 认证 中继 数据库 注入
+- [Big Binary Files Upload (PostgreSQL)](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/postgresql-injection/big-binary-files-upload-postgresql.html) · 移动与逆向 数据库 注入 文件上传
+- [RCE with PostgreSQL Languages](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/postgresql-injection/rce-with-postgresql-languages.html) · Web 与 API 数据库 注入
+- [RCE with PostgreSQL Extensions](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/postgresql-injection/rce-with-postgresql-extensions.html) · Web 与 API 数据库 注入
+- [SQLMap - CheatSheet](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/sqlmap/index.html) · Web 与 API 数据库 注入
+- [Second Order Injection - SQLMap](https://book.hacktricks.wiki/zh/pentesting-web/sql-injection/sqlmap/second-order-injection-sqlmap.html) · Web 与 API 数据库 注入
+- [SSRF (Server Side Request Forgery)](https://book.hacktricks.wiki/zh/pentesting-web/ssrf-server-side-request-forgery/index.html) · Web 与 API 服务端请求伪造
+- [URL Format Bypass](https://book.hacktricks.wiki/zh/pentesting-web/ssrf-server-side-request-forgery/url-format-bypass.html) · Web 与 API 服务端请求伪造
+- [SSRF Vulnerable Platforms](https://book.hacktricks.wiki/zh/pentesting-web/ssrf-server-side-request-forgery/ssrf-vulnerable-platforms.html) · Web 与 API 服务端请求伪造
+- [Cloud SSRF](https://book.hacktricks.wiki/zh/pentesting-web/ssrf-server-side-request-forgery/cloud-ssrf.html) · 云与容器 服务端请求伪造
+- [SSTI (Server Side Template Injection)](https://book.hacktricks.wiki/zh/pentesting-web/ssti-server-side-template-injection/index.html) · Web 与 API 
+- [EL - Expression Language](https://book.hacktricks.wiki/zh/pentesting-web/ssti-server-side-template-injection/el-expression-language.html) · Web 与 API 
+- [Jinja2 SSTI](https://book.hacktricks.wiki/zh/pentesting-web/ssti-server-side-template-injection/jinja2-ssti.html) · Web 与 API 
+- [Timing Attacks](https://book.hacktricks.wiki/zh/pentesting-web/timing-attacks.html) · Web 与 API 
+- [Unicode Injection](https://book.hacktricks.wiki/zh/pentesting-web/unicode-injection/index.html) · Web 与 API 
+- [Unicode Normalization](https://book.hacktricks.wiki/zh/pentesting-web/unicode-injection/unicode-normalization.html) · Web 与 API 
+- [UUID Insecurities](https://book.hacktricks.wiki/zh/pentesting-web/uuid-insecurities.html) · Web 与 API 
+- [Webhook Security (Inbound Webhook Forgery)](https://book.hacktricks.wiki/zh/pentesting-web/webhook-security.html) · Web 与 API 
+- [WebSocket Attacks](https://book.hacktricks.wiki/zh/pentesting-web/websocket-attacks.html) · Web 与 API 
+- [Web Tool - WFuzz](https://book.hacktricks.wiki/zh/pentesting-web/web-tool-wfuzz.html) · Web 与 API 
+- [XPATH injection](https://book.hacktricks.wiki/zh/pentesting-web/xpath-injection.html) · Web 与 API 
+- [XSLT Server Side Injection (Extensible Stylesheet Language Transformations)](https://book.hacktricks.wiki/zh/pentesting-web/xslt-server-side-injection-extensible-stylesheet-language-transformations.html) · Web 与 API 
+- [XXE - XEE - XML External Entity](https://book.hacktricks.wiki/zh/pentesting-web/xxe-xee-xml-external-entity.html) · Web 与 API 
+- [XML Injection (Tag Injection)](https://book.hacktricks.wiki/zh/pentesting-web/xml-injection.html) · Web 与 API 
+- [XSS (Cross Site Scripting)](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/index.html) · Web 与 API 跨站脚本
+- [Abusing Service Workers](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/abusing-service-workers.html) · Web 与 API 跨站脚本
+- [Chrome Cache to XSS](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/chrome-cache-to-xss.html) · Web 与 API 跨站脚本 缓存
+- [Debugging Client Side JS](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/debugging-client-side-js.html) · Web 与 API 跨站脚本
+- [Dom Clobbering](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/dom-clobbering.html) · Web 与 API 跨站脚本
+- [DOM Invader](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/dom-invader.html) · Web 与 API 跨站脚本
+- [DOM XSS](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/dom-xss.html) · Web 与 API 跨站脚本
+- [Iframes in XSS, CSP and SOP](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/iframes-in-xss-and-csp.html) · Web 与 API 跨站脚本
+- [Integer Overflow](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/integer-overflow.html) · Web 与 API 跨站脚本
+- [JS Hoisting](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/js-hoisting.html) · Web 与 API 跨站脚本
+- [Misc JS Tricks & Relevant Info](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/other-js-tricks.html) · Web 与 API 跨站脚本
+- [PDF Injection](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/pdf-injection.html) · Web 与 API 跨站脚本
+- [Server Side XSS (Dynamic PDF)](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/server-side-xss-dynamic-pdf.html) · Web 与 API 跨站脚本
+- [Shadow DOM](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/shadow-dom.html) · Web 与 API 跨站脚本
+- [SOME - Same Origin Method Execution](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/some-same-origin-method-execution.html) · Web 与 API 跨站脚本
+- [XSS Information Exfiltration Payload](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/xss-information-exfiltration-payload.html) · Web 与 API 跨站脚本
+- [Wasm Linear Memory Template Overwrite Xss](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/wasm-linear-memory-template-overwrite-xss.html) · Web 与 API 跨站脚本
+- [XSS in Markdown](https://book.hacktricks.wiki/zh/pentesting-web/xss-cross-site-scripting/xss-in-markdown.html) · Web 与 API 跨站脚本
+- [XSSI (Cross-Site Script Inclusion)](https://book.hacktricks.wiki/zh/pentesting-web/xssi-cross-site-script-inclusion.html) · Web 与 API 跨站脚本 文件包含
+- [XS-Search/XS-Leaks](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/index.html) · Web 与 API 
+- [Connection Pool Examples](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/connection-pool-example.html) · Web 与 API 
+- [Connection Pool by Destination Example](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/connection-pool-by-destination-example.html) · Web 与 API 
+- [Cookie Bomb + Onerror XS Leak](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/cookie-bomb-%2B-onerror-xs-leak.html) · Web 与 API 
+- [URL Max Length - Client Side](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/url-max-length-client-side.html) · Web 与 API 
+- [performance.now example](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/performance.now-example.html) · Web 与 API 
+- [performance.now + Force heavy task](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/performance.now-%2B-force-heavy-task.html) · Web 与 API 
+- [Event Loop Blocking + Lazy images](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/event-loop-blocking-%2B-lazy-images.html) · Web 与 API 
+- [JavaScript Execution XS Leak](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/javascript-execution-xs-leak.html) · Web 与 API 
+- [CSS Injection](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/css-injection/index.html) · Web 与 API 
+- [CSS Injection Code](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/css-injection/css-injection-code.html) · Web 与 API 
+- [LESS Code Injection](https://book.hacktricks.wiki/zh/pentesting-web/xs-search/css-injection/less-code-injection.html) · Web 与 API 
+- [Iframe Traps](https://book.hacktricks.wiki/zh/pentesting-web/iframe-traps.html) · Web 与 API 
+- [Blockchain Concepts and Web3 Security](https://book.hacktricks.wiki/zh/blockchain/blockchain-and-crypto-currencies/index.html) · Web 与 API 
+- [Investment Terms](https://book.hacktricks.wiki/zh/blockchain/blockchain-and-crypto-currencies/investment-terms.html) · Web 与 API 
+- [DeFi/AMM Hook Precision](https://book.hacktricks.wiki/zh/blockchain/blockchain-and-crypto-currencies/defi-amm-hook-precision.html) · Web 与 API 
+- [DeFi AMM Virtual Balance Cache Exploitation](https://book.hacktricks.wiki/zh/blockchain/blockchain-and-crypto-currencies/defi-amm-virtual-balance-cache-exploitation.html) · Web 与 API 缓存
+- [Mutation Testing With Slither](https://book.hacktricks.wiki/zh/blockchain/smart-contract-security/mutation-testing-with-slither.html) · Web 与 API 
+- [ERC-4337 Smart Account Security Pitfalls](https://book.hacktricks.wiki/zh/blockchain/blockchain-and-crypto-currencies/erc-4337-smart-account-security-pitfalls.html) · Web 与 API 
+- [State Divergence Default Value Authorization Bypasses](https://book.hacktricks.wiki/zh/blockchain/blockchain-and-crypto-currencies/state-divergence-default-value-authorization-bypasses.html) · Web 与 API 
+- [Value-Centric Web3 Red Teaming](https://book.hacktricks.wiki/zh/blockchain/blockchain-and-crypto-currencies/value-centric-web3-red-teaming.html) · Web 与 API 
+- [Web3 Signing Workflow Compromise: Safe Delegatecall Proxy Takeover](https://book.hacktricks.wiki/zh/blockchain/blockchain-and-crypto-currencies/web3-signing-workflow-compromise-safe-delegatecall-proxy-takeover.html) · Web 与 API 
+- [Physical Attacks](https://book.hacktricks.wiki/zh/hardware-physical-access/physical-attacks.html) · Web 与 API 
+- [Hardware Hacking](https://book.hacktricks.wiki/zh/hardware-physical-access/hardware-hacking/index.html) · Web 与 API 
+- [Fault Injection Attacks](https://book.hacktricks.wiki/zh/hardware-physical-access/hardware-hacking/fault_injection_attacks.html) · Web 与 API 
+- [I2C](https://book.hacktricks.wiki/zh/hardware-physical-access/hardware-hacking/i2c.html) · Web 与 API 
+- [Side Channel Analysis](https://book.hacktricks.wiki/zh/hardware-physical-access/hardware-hacking/side_channel_analysis.html) · Web 与 API 
+- [UART](https://book.hacktricks.wiki/zh/hardware-physical-access/hardware-hacking/uart.html) · Web 与 API 
+- [Radio](https://book.hacktricks.wiki/zh/hardware-physical-access/hardware-hacking/radio.html) · Web 与 API 
+- [JTAG](https://book.hacktricks.wiki/zh/hardware-physical-access/hardware-hacking/jtag.html) · Web 与 API 
+- [ARM CoreSight Instruction Tracing over SWO](https://book.hacktricks.wiki/zh/hardware-physical-access/hardware-hacking/arm-coresight-instruction-tracing.html) · Web 与 API 
+- [SPI](https://book.hacktricks.wiki/zh/hardware-physical-access/hardware-hacking/spi.html) · Web 与 API 
+- [Radio Hacking](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/index.html) · Web 与 API 
+- [Maxiprox Mobile Cloner](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/maxiprox-mobile-cloner.html) · 移动与逆向 
+- [Pentesting RFID](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/pentesting-rfid.html) · Web 与 API 
+- [Infrared](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/infrared.html) · Web 与 API 
+- [Sub-GHz RF](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/sub-ghz-rf.html) · Web 与 API 
+- [VSAT Forward-Link Signal Injection](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/vsat-forward-link-injection.html) · Web 与 API 
+- [iButton](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/ibutton.html) · Web 与 API 
+- [Flipper Zero](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/flipper-zero/index.html) · Web 与 API 
+- [FZ - NFC](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/flipper-zero/fz-nfc.html) · Web 与 API 
+- [FZ - Sub-GHz](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/flipper-zero/fz-sub-ghz.html) · Web 与 API 
+- [FZ - Infrared](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/flipper-zero/fz-infrared.html) · Web 与 API 
+- [FZ - iButton](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/flipper-zero/fz-ibutton.html) · Web 与 API 
+- [FZ - 125kHz RFID](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/flipper-zero/fz-125khz-rfid.html) · Web 与 API 
+- [Proxmark 3](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/proxmark-3.html) · Web 与 API 
+- [FISSURE - The RF Framework](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/fissure-the-rf-framework.html) · Web 与 API 
+- [Low-Power Wide Area Network](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/low-power-wide-area-network.html) · Web 与 API 
+- [Pentesting BLE - Bluetooth Low Energy](https://book.hacktricks.wiki/zh/hardware-physical-access/radio-hacking/pentesting-ble-bluetooth-low-energy.html) · Web 与 API 
+- [Escaping from KIOSKs](https://book.hacktricks.wiki/zh/hardware-physical-access/escaping-from-gui-applications.html) · 移动与逆向 苹果 移动
+- [Firmware Analysis](https://book.hacktricks.wiki/zh/hardware-physical-access/firmware-analysis/index.html) · Web 与 API 
+- [UEFI IFR and NVRAM Security-Setting Patching](https://book.hacktricks.wiki/zh/hardware-physical-access/firmware-analysis/uefi-ifr-nvram-security-setting-patching.html) · Web 与 API 
+- [Android Mediatek Secure Boot Bl2 Ext Bypass El3](https://book.hacktricks.wiki/zh/hardware-physical-access/firmware-analysis/android-mediatek-secure-boot-bl2_ext-bypass-el3.html) · 移动与逆向 安卓 移动
+- [Bootloader testing](https://book.hacktricks.wiki/zh/hardware-physical-access/firmware-analysis/bootloader-testing.html) · Web 与 API 
+- [Firmware Integrity](https://book.hacktricks.wiki/zh/hardware-physical-access/firmware-analysis/firmware-integrity.html) · Web 与 API 
+- [MediaTek XFlash Carbonara DA2 Hash Bypass](https://book.hacktricks.wiki/zh/hardware-physical-access/firmware-analysis/mediatek-xflash-carbonara-da2-hash-bypass.html) · Web 与 API 
+- [Synology PAT/SPK Encrypted Archive Decryption](https://book.hacktricks.wiki/zh/hardware-physical-access/firmware-analysis/synology-encrypted-archive-decryption.html) · Web 与 API 
+- [Basic Stack Binary Exploitation Methodology](https://book.hacktricks.wiki/zh/binary-exploitation/basic-stack-binary-exploitation-methodology/index.html) · 移动与逆向 
+- [ELF Basic Information](https://book.hacktricks.wiki/zh/binary-exploitation/basic-stack-binary-exploitation-methodology/elf-tricks.html) · 移动与逆向 
+- [Exploiting Tools](https://book.hacktricks.wiki/zh/binary-exploitation/basic-stack-binary-exploitation-methodology/tools/index.html) · 移动与逆向 
+- [PwnTools](https://book.hacktricks.wiki/zh/binary-exploitation/basic-stack-binary-exploitation-methodology/tools/pwntools.html) · 移动与逆向 
+- [Stack Overflow](https://book.hacktricks.wiki/zh/binary-exploitation/stack-overflow/index.html) · 移动与逆向 
+- [Pointer Redirecting](https://book.hacktricks.wiki/zh/binary-exploitation/stack-overflow/pointer-redirecting.html) · 移动与逆向 
+- [Ret2win](https://book.hacktricks.wiki/zh/binary-exploitation/stack-overflow/ret2win/index.html) · 移动与逆向 
+- [Ret2win - arm64](https://book.hacktricks.wiki/zh/binary-exploitation/stack-overflow/ret2win/ret2win-arm64.html) · 移动与逆向 
+- [Stack Shellcode](https://book.hacktricks.wiki/zh/binary-exploitation/stack-overflow/stack-shellcode/index.html) · 移动与逆向 
+- [Stack Shellcode - arm64](https://book.hacktricks.wiki/zh/binary-exploitation/stack-overflow/stack-shellcode/stack-shellcode-arm64.html) · 移动与逆向 
+- [Stack Pivoting](https://book.hacktricks.wiki/zh/binary-exploitation/stack-overflow/stack-pivoting.html) · 移动与逆向 
+- [Uninitialized Variables](https://book.hacktricks.wiki/zh/binary-exploitation/stack-overflow/uninitialized-variables.html) · 移动与逆向 
+- [ROP & JOP](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/index.html) · 移动与逆向 
+- [BROP - Blind Return Oriented Programming](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/brop-blind-return-oriented-programming.html) · 移动与逆向 
+- [Ret2csu](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/ret2csu.html) · 移动与逆向 
+- [Ret2dlresolve](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/ret2dlresolve.html) · 移动与逆向 
+- [Ret2esp / Ret2reg](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/ret2esp-ret2reg.html) · 移动与逆向 
+- [Ret2lib](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/ret2lib/index.html) · 移动与逆向 
+- [Leaking libc address with ROP](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/ret2lib/rop-leaking-libc-address/index.html) · 移动与逆向 
+- [Leaking libc - template](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/ret2lib/rop-leaking-libc-address/rop-leaking-libc-template.html) · 移动与逆向 
+- [One Gadget](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/ret2lib/one-gadget.html) · 移动与逆向 
+- [Ret2lib + Printf leak - arm64](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/ret2lib/ret2lib-printf-leak-arm64.html) · 移动与逆向 
+- [Ret2syscall](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/rop-syscall-execv/index.html) · 移动与逆向 
+- [Ret2syscall - arm64](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/rop-syscall-execv/ret2syscall-arm64.html) · 移动与逆向 
+- [Ret2vDSO](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/ret2vdso.html) · 移动与逆向 
+- [SROP - Sigreturn-Oriented Programming](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/srop-sigreturn-oriented-programming/index.html) · 移动与逆向 
+- [SROP - arm64](https://book.hacktricks.wiki/zh/binary-exploitation/rop-return-oriented-programing/srop-sigreturn-oriented-programming/srop-arm64.html) · 移动与逆向 
+- [Windows SEH Overflow](https://book.hacktricks.wiki/zh/binary-exploitation/stack-overflow/windows-seh-overflow.html) · 移动与逆向 主机 提权
+- [Array Indexing](https://book.hacktricks.wiki/zh/binary-exploitation/array-indexing.html) · 移动与逆向 
+- [PHP Request OOM Bailout and Stale State](https://book.hacktricks.wiki/zh/binary-exploitation/php-request-oom-bailout-and-stale-state.html) · 移动与逆向 
+- [Chrome Exploiting](https://book.hacktricks.wiki/zh/binary-exploitation/chrome-exploiting.html) · 移动与逆向 
+- [Common Exploiting Problems Unsafe Relocation Fixups](https://book.hacktricks.wiki/zh/binary-exploitation/common-exploiting-problems-unsafe-relocation-fixups.html) · 移动与逆向 
+- [Integer Overflow](https://book.hacktricks.wiki/zh/binary-exploitation/integer-overflow-and-underflow.html) · 移动与逆向 
+- [Format Strings](https://book.hacktricks.wiki/zh/binary-exploitation/format-strings/index.html) · 移动与逆向 
+- [Format Strings - Arbitrary Read Example](https://book.hacktricks.wiki/zh/binary-exploitation/format-strings/format-strings-arbitrary-read-example.html) · 移动与逆向 
+- [Format Strings Template](https://book.hacktricks.wiki/zh/binary-exploitation/format-strings/format-strings-template.html) · 移动与逆向 
+- [Libc Heap](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/index.html) · 移动与逆向 
+- [Bins & Memory Allocations](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/bins-and-memory-allocations.html) · 移动与逆向 
+- [Heap Memory Functions](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/heap-memory-functions/index.html) · 移动与逆向 
+- [free](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/heap-memory-functions/free.html) · 移动与逆向 
+- [malloc & sysmalloc](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/heap-memory-functions/malloc-and-sysmalloc.html) · 移动与逆向 
+- [unlink](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/heap-memory-functions/unlink.html) · 移动与逆向 
+- [Heap Functions Security Checks](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/heap-memory-functions/heap-functions-security-checks.html) · 移动与逆向 
+- [Use After Free](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/use-after-free/index.html) · 移动与逆向 
+- [First Fit](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/use-after-free/first-fit.html) · 移动与逆向 
+- [Double Free](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/double-free.html) · 移动与逆向 
+- [Gnu Obstack Function Pointer Hijack](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/gnu-obstack-function-pointer-hijack.html) · 移动与逆向 
+- [Overwriting a freed chunk](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/overwriting-a-freed-chunk.html) · 移动与逆向 
+- [Heap Overflow](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/heap-overflow.html) · 移动与逆向 
+- [Unlink Attack](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/unlink-attack.html) · 移动与逆向 
+- [Fast Bin Attack](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/fast-bin-attack.html) · 移动与逆向 
+- [Unsorted Bin Attack](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/unsorted-bin-attack.html) · 移动与逆向 
+- [Large Bin Attack](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/large-bin-attack.html) · 移动与逆向 
+- [Tcache Bin Attack](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/tcache-bin-attack.html) · 移动与逆向 缓存
+- [Off by one overflow](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/off-by-one-overflow.html) · 移动与逆向 
+- [House of Spirit](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/house-of-spirit.html) · 移动与逆向 
+- [House of Lore | Small bin Attack](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/house-of-lore.html) · 移动与逆向 
+- [House of Einherjar](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/house-of-einherjar.html) · 移动与逆向 
+- [House of Force](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/house-of-force.html) · 移动与逆向 
+- [House of Orange](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/house-of-orange.html) · 移动与逆向 
+- [House of Rabbit](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/house-of-rabbit.html) · 移动与逆向 
+- [House of Roman](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/house-of-roman.html) · 移动与逆向 
+- [Common Binary Exploitation Protections & Bypasses](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/index.html) · 移动与逆向 
+- [ASLR](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/aslr/index.html) · 移动与逆向 
+- [Ret2plt](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/aslr/ret2plt.html) · 移动与逆向 
+- [Ret2ret & Reo2pop](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/aslr/ret2ret.html) · 移动与逆向 
+- [CET & Shadow Stack](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/cet-and-shadow-stack.html) · 移动与逆向 
+- [Libc Protections](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/libc-protections.html) · 移动与逆向 
+- [Memory Tagging Extension (MTE)](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/memory-tagging-extension-mte.html) · 移动与逆向 
+- [No-exec / NX](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/no-exec-nx.html) · 移动与逆向 
+- [PIE](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/pie/index.html) · 移动与逆向 
+- [BF Addresses in the Stack](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/pie/bypassing-canary-and-pie.html) · 移动与逆向 
+- [Relro](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/relro.html) · 移动与逆向 
+- [Stack Canaries](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/stack-canaries/index.html) · 移动与逆向 
+- [BF Forked & Threaded Stack Canaries](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/stack-canaries/bf-forked-stack-canaries.html) · 移动与逆向 
+- [Print Stack Canary](https://book.hacktricks.wiki/zh/binary-exploitation/common-binary-protections-and-bypasses/stack-canaries/print-stack-canary.html) · 移动与逆向 
+- [Write What Where 2 Exec](https://book.hacktricks.wiki/zh/binary-exploitation/arbitrary-write-2-exec/index.html) · 移动与逆向 
+- [Aw2exec Sips Icc Profile](https://book.hacktricks.wiki/zh/binary-exploitation/arbitrary-write-2-exec/aw2exec-sips-icc-profile.html) · 移动与逆向 
+- [WWW2Exec - atexit()](https://book.hacktricks.wiki/zh/binary-exploitation/arbitrary-write-2-exec/www2exec-atexit.html) · 移动与逆向 
+- [WWW2Exec - .dtors & .fini_array](https://book.hacktricks.wiki/zh/binary-exploitation/arbitrary-write-2-exec/www2exec-.dtors-and-.fini_array.html) · 移动与逆向 
+- [WWW2Exec - GOT/PLT](https://book.hacktricks.wiki/zh/binary-exploitation/arbitrary-write-2-exec/aw2exec-got-plt.html) · 移动与逆向 
+- [WWW2Exec - \_\_malloc_hook & \_\_free_hook](https://book.hacktricks.wiki/zh/binary-exploitation/arbitrary-write-2-exec/aw2exec-__malloc_hook.html) · 移动与逆向 
+- [WWW2Exec - \_\_printf_arginfo_table](https://book.hacktricks.wiki/zh/binary-exploitation/arbitrary-write-2-exec/aw2exec-__printf_arginfo_table.html) · 移动与逆向 
+- [Common Exploiting Problems](https://book.hacktricks.wiki/zh/binary-exploitation/common-exploiting-problems.html) · 移动与逆向 
+- [FreeBSD Kernel Exploitation and VNET Jail Escape](https://book.hacktricks.wiki/zh/binary-exploitation/freebsd-kernel-exploitation-vnet-jail-escape.html) · 移动与逆向 
+- [VM Escape and Hypervisor Exploitation](https://book.hacktricks.wiki/zh/binary-exploitation/vm-escape-and-hypervisor-exploitation.html) · 移动与逆向 
+- [QEMU/KVM VM Escape Chains](https://book.hacktricks.wiki/zh/binary-exploitation/qemu-kvm-vm-escape-chains.html) · 移动与逆向 
+- [VirtualBox Slirp NAT Packet Heap Exploitation](https://book.hacktricks.wiki/zh/binary-exploitation/libc-heap/virtualbox-slirp-nat-packet-heap-exploitation.html) · 移动与逆向 
+- [VirtualBox VMSVGA COTable UAF Escape](https://book.hacktricks.wiki/zh/binary-exploitation/virtualbox-vmsvga-cotable-uaf-escape.html) · 移动与逆向 
+- [VMware HGFS OOB Read to VMX ASLR Bypass](https://book.hacktricks.wiki/zh/binary-exploitation/vmware-hgfs-oob-read-aslr-bypass.html) · 移动与逆向 
+- [VMware Workstation PVSCSI LFH Escape](https://book.hacktricks.wiki/zh/binary-exploitation/vmware-workstation-pvscsi-lfh-escape.html) · 移动与逆向 
+- [Adreno A7xx Sds Rb Priv Bypass Gpu Smmu Kernel Rw](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/adreno-a7xx-sds-rb-priv-bypass-gpu-smmu-kernel-rw.html) · 移动与逆向 主机 提权
+- [Android Kernel SELinux Bypass After Arbitrary R/W](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/android-kernel-selinux-bypass.html) · 移动与逆向 主机 提权 安卓 移动
+- [Af Unix Msg Oob Uaf Skb Primitives](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/af-unix-msg-oob-uaf-skb-primitives.html) · 移动与逆向 主机 提权
+- [AF_ALG concurrent-writer scatterlist underflow](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/af-alg-concurrent-writer-scatterlist-oob.html) · 移动与逆向 主机 提权
+- [Android Binder IPC Internals and Kernel Vulnerability Research](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/android-binder-ipc-internals-kernel-vulnerability-research.html) · 移动与逆向 主机 提权 安卓 移动
+- [Android Binder Transaction Cleanup UAF Exploitation](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/android-binder-transaction-cleanup-uaf.html) · 移动与逆向 主机 提权 安卓 移动
+- [Arm64 Static Linear Map Kaslr Bypass](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/arm64-static-linear-map-kaslr-bypass.html) · 移动与逆向 主机 提权
+- [Linux USB Audio Descriptor OOB Reads to KASLR Leaks](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/usb-audio-descriptor-oob-kaslr-leak.html) · 移动与逆向 主机 提权
+- [Futex PI UAF to Pipe Physical R/W and Workqueue Execution](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/futex-pi-uaf-pipe-buffer-workqueue-usermodehelper.html) · 移动与逆向 主机 提权
+- [Ksmbd Streams Xattr Oob Write Cve 2025 37947](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/ksmbd-streams_xattr-oob-write-cve-2025-37947.html) · 移动与逆向 主机 提权
+- [nftables Catchall Rollback UAF](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/nftables-catchall-rollback-uaf.html) · 移动与逆向 主机 提权
+- [net/sched action-IDR UAF exploitation (CVE-2026-53264)](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/net-sched-action-idr-uaf-cve-2026-53264.html) · 移动与逆向 主机 提权
+- [Pixel Bigwave Bigo Job Timeout Uaf Kernel Write](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/pixel-bigwave-bigo-job-timeout-uaf-kernel-write.html) · 移动与逆向 主机 提权
+- [POSIX CPU timers TOCTOU race and exploitation (CVE-2025-38352)](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/posix-cpu-timers-toctou-cve-2025-38352.html) · 移动与逆向 主机 提权
+- [Qualcomm KGSL VBO bind race to physical-page UAF](https://book.hacktricks.wiki/zh/binary-exploitation/linux-kernel-exploitation/qualcomm-kgsl-vbo-bind-race-physical-uaf.html) · 移动与逆向 主机 提权
+- [PS5 compromission](https://book.hacktricks.wiki/zh/binary-exploitation/freebsd-ptrace-rfi-vm_map-prot_exec-bypass-ps5.html) · 移动与逆向 
+- [Windows RIO registered-buffer UAF to kernel R/W](https://book.hacktricks.wiki/zh/binary-exploitation/windows-kernel-exploitation/afd-rio-buffer-uaf.html) · 移动与逆向 主机 提权
+- [Windows File Handle-Table Object Redirection](https://book.hacktricks.wiki/zh/binary-exploitation/windows-kernel-exploitation/file-handle-table-object-redirection.html) · 移动与逆向 主机 提权
+- [Windows UAS REPORT LUNS cached-table OOB write](https://book.hacktricks.wiki/zh/binary-exploitation/windows-kernel-exploitation/uasp-report-luns-cache-size-oob-write.html) · 移动与逆向 主机 提权 缓存
+- [Windows USB MIDI packet-size pool overflow](https://book.hacktricks.wiki/zh/binary-exploitation/windows-kernel-exploitation/usb-midi-packet-size-pool-overflow.html) · 移动与逆向 主机 提权
+- [Windows Userland Heap Grooming (x86 NT Heap)](https://book.hacktricks.wiki/zh/binary-exploitation/windows-userland-heap-grooming.html) · 移动与逆向 主机 提权
+- [Windows VBS Enclave Pointer Validation and VTL1 Code Reuse](https://book.hacktricks.wiki/zh/binary-exploitation/windows-vbs-enclave-exploitation.html) · 移动与逆向 主机 提权
+- [Windows Exploiting (Basic Guide - OSCP lvl)](https://book.hacktricks.wiki/zh/binary-exploitation/windows-exploiting-basic-guide-oscp-lvl.html) · 移动与逆向 主机 提权
+- [Windows Kernel Type Confusion to NPFS Arbitrary R/W](https://book.hacktricks.wiki/zh/binary-exploitation/windows-kernel-type-confusion-to-npfs-arbitrary-rw.html) · 移动与逆向 主机 提权
+- [Windows Vectored Overloading](https://book.hacktricks.wiki/zh/binary-exploitation/windows-vectored-overloading.html) · 移动与逆向 主机 提权
+- [iOS Exploiting](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/index.html) · 移动与逆向 苹果 移动
+- [ios CVE-2020-27950-mach_msg_trailer_t](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/CVE-2020-27950-mach_msg_trailer_t.html) · 移动与逆向 苹果 移动
+- [ios CVE-2021-30807-IOMobileFrameBuffer](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/CVE-2021-30807-IOMobileFrameBuffer.html) · 移动与逆向 苹果 移动
+- [CoreGraphics PDF/TrueType Glyph Rasterizer OOB Write](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/coregraphics-pdf-truetype-glyph-rasterizer-oob-write.html) · 移动与逆向 苹果 移动
+- [Imessage Media Parser Zero Click Coreaudio Pac Bypass](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/imessage-media-parser-zero-click-coreaudio-pac-bypass.html) · 移动与逆向 苹果 移动
+- [ios Corellium](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/ios-corellium.html) · 移动与逆向 苹果 移动
+- [ios Heap Exploitation](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/ios-example-heap-exploit.html) · 移动与逆向 苹果 移动
+- [ios Physical UAF - IOSurface](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/ios-physical-uaf-iosurface.html) · 移动与逆向 苹果 移动
+- [iOS Driver Embedded Queue-Node UAF](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/ios-driver-embedded-queue-node-uaf.html) · 移动与逆向 苹果 移动
+- [Webkit Dfg Store Barrier Uaf Angle Oob](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/webkit-dfg-store-barrier-uaf-angle-oob.html) · 移动与逆向 苹果 移动
+- [Webkit Jsc Dfg Slow Path Register Spill](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/webkit-jsc-dfg-slow-path-register-spill.html) · 移动与逆向 苹果 移动
+- [XNU vm_map COW Aliasing and Vnode TOCTOU](https://book.hacktricks.wiki/zh/binary-exploitation/ios-exploiting/xnu-vm-map-cow-vnode-toctou.html) · 移动与逆向 苹果 移动
+- [AI Security](https://book.hacktricks.wiki/zh/AI/index.html) · Web 与 API 
+- [Ai Assisted Fuzzing And Vulnerability Discovery](https://book.hacktricks.wiki/zh/AI/AI-Assisted-Fuzzing-and-Vulnerability-Discovery.html) · Web 与 API 
+- [AI-Assisted Source Review and Vulnerability Validation](https://book.hacktricks.wiki/zh/AI/AI-Assisted-Source-Review-and-Vulnerability-Validation.html) · Web 与 API 
+- [Web Black-Box AI Pentester Bots](https://book.hacktricks.wiki/zh/AI/Web-Black-Box-AI-Pentester-Bots.html) · Web 与 API 
+- [LLM Gateway Trust Boundaries](https://book.hacktricks.wiki/zh/AI/AI-LLM-Gateway-Security.html) · Web 与 API 
+- [AI Agent Security Methodology](https://book.hacktricks.wiki/zh/AI/AI-Agent-Security-Methodology.html) · Web 与 API 
+- [AI Deep Learning (AI Security Methodology) / AI Deep Learning / AI Security Methodology](https://book.hacktricks.wiki/zh/AI/AI-Deep-Learning.html) · Web 与 API 
+- [Mechanistic-Interpretability-Guided Adversarial Attacks](https://book.hacktricks.wiki/zh/AI/AI-Mechanistic-Interpretability-Adversarial-Attacks.html) · Web 与 API 
+- [Burp MCP: LLM-assisted traffic review](https://book.hacktricks.wiki/zh/AI/AI-Burp-MCP.html) · Web 与 API 
+- [AI MCP Security](https://book.hacktricks.wiki/zh/AI/AI-MCP-Servers.html) · Web 与 API 
+- [A2A Protocol Security](https://book.hacktricks.wiki/zh/AI/AI-A2A-Protocol.html) · Web 与 API 
+- [AI Model Data Preparation](https://book.hacktricks.wiki/zh/AI/AI-Model-Data-Preparation-and-Evaluation.html) · Web 与 API 
+- [AI Model Tools and Platforms](https://book.hacktricks.wiki/zh/AI/AI-Model-Tools-and-Platforms.html) · Web 与 API 
+- [Exposed Self-Hosted AI Services](https://book.hacktricks.wiki/zh/AI/AI-Exposed-Self-Hosted-AI-Services.html) · Web 与 API 
+- [AI Models RCE](https://book.hacktricks.wiki/zh/AI/AI-Models-RCE.html) · Web 与 API 
+- [KYC Bypass Using AI](https://book.hacktricks.wiki/zh/AI/KYC-Bypass-Using-AI.html) · Web 与 API 
+- [AI Prompts](https://book.hacktricks.wiki/zh/AI/AI-Prompts.html) · Web 与 API 
+- [AI Risk Frameworks](https://book.hacktricks.wiki/zh/AI/AI-Risk-Frameworks.html) · Web 与 API 
+- [AI Supervised Learning Algorithms](https://book.hacktricks.wiki/zh/AI/AI-Supervised-Learning-Algorithms.html) · Web 与 API 
+- [AI Unsupervised Learning Algorithms](https://book.hacktricks.wiki/zh/AI/AI-Unsupervised-Learning-Algorithms.html) · Web 与 API 
+- [AI Reinforcement Learning Algorithms](https://book.hacktricks.wiki/zh/AI/AI-Reinforcement-Learning-Algorithms.html) · Web 与 API 
+- [LLM Training](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/index.html) · Web 与 API 
+- [0. Basic LLM Concepts](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/0.-basic-llm-concepts.html) · Web 与 API 
+- [1. Tokenizing](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/1.-tokenizing.html) · Web 与 API 
+- [2. Data Sampling](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/2.-data-sampling.html) · Web 与 API 
+- [3. Token Embeddings](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/3.-token-embeddings.html) · Web 与 API 
+- [4. Attention Mechanisms](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/4.-attention-mechanisms.html) · Web 与 API 
+- [5. LLM Architecture](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/5.-llm-architecture.html) · Web 与 API 
+- [6. Pre-training & Loading models](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/6.-pre-training-and-loading-models.html) · Web 与 API 
+- [7.0. LoRA Improvements in fine-tuning](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/7.0.-lora-improvements-in-fine-tuning.html) · Web 与 API 
+- [7.1. Fine-Tuning for Classification](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/7.1.-fine-tuning-for-classification.html) · Web 与 API 
+- [7.2. Fine-Tuning to follow instructions](https://book.hacktricks.wiki/zh/AI/AI-llm-architecture/7.2.-fine-tuning-to-follow-instructions.html) · Web 与 API 
+- [Reversing Tools & Basic Methods](https://book.hacktricks.wiki/zh/reversing/reversing-tools-basic-methods/index.html) · 移动与逆向 
+- [Static Deobfuscation of Node.js/V8 Cached Bytecode](https://book.hacktricks.wiki/zh/reversing/reversing-tools-basic-methods/nodejs-v8-cached-bytecode.html) · 移动与逆向 缓存
+- [Angr](https://book.hacktricks.wiki/zh/reversing/reversing-tools-basic-methods/angr/index.html) · 移动与逆向 
+- [Angr - Examples](https://book.hacktricks.wiki/zh/reversing/reversing-tools-basic-methods/angr/angr-examples.html) · 移动与逆向 
+- [Z3 - Satisfiability Modulo Theories (SMT)](https://book.hacktricks.wiki/zh/reversing/reversing-tools-basic-methods/satisfiability-modulo-theories-smt-z3.html) · 移动与逆向 
+- [Cheat Engine](https://book.hacktricks.wiki/zh/reversing/reversing-tools-basic-methods/cheat-engine.html) · 移动与逆向 
+- [Blobrunner](https://book.hacktricks.wiki/zh/reversing/reversing-tools-basic-methods/blobrunner.html) · 移动与逆向 
+- [WinDbg Automation](https://book.hacktricks.wiki/zh/reversing/reversing-tools-basic-methods/windbg-automation.html) · 移动与逆向 
+- [Windows Kernel Debugging with KernelFlirt](https://book.hacktricks.wiki/zh/reversing/reversing-tools-basic-methods/windows-kernel-debugging-kernelflirt.html) · 移动与逆向 主机 提权
+- [Windows Exception-Driven Control Flow and Anti-Debugging](https://book.hacktricks.wiki/zh/reversing/windows-exception-driven-control-flow.html) · 移动与逆向 主机 提权
+- [Common API used in Malware](https://book.hacktricks.wiki/zh/reversing/common-api-used-in-malware.html) · 移动与逆向 
+- [Word Macros](https://book.hacktricks.wiki/zh/reversing/word-macros.html) · 移动与逆向 
+- [Crypto](https://book.hacktricks.wiki/zh/crypto/index.html) · Web 与 API 
+- [Crypto CTF Workflow](https://book.hacktricks.wiki/zh/crypto/ctf-workflow/index.html) · Web 与 API 
+- [Symmetric Crypto](https://book.hacktricks.wiki/zh/crypto/symmetric/index.html) · Web 与 API 
+- [Hashes, MACs & KDFs](https://book.hacktricks.wiki/zh/crypto/hashes/index.html) · Web 与 API 
+- [Public-Key Crypto](https://book.hacktricks.wiki/zh/crypto/public-key/index.html) · Web 与 API 
+- [RSA Attacks](https://book.hacktricks.wiki/zh/crypto/public-key/rsa/index.html) · Web 与 API 
+- [TLS & Certificates](https://book.hacktricks.wiki/zh/crypto/tls-and-certificates/index.html) · Web 与 API 证书
+- [Crypto in Malware](https://book.hacktricks.wiki/zh/crypto/crypto-in-malware/index.html) · Web 与 API 
+- [Crypto CTF Misc](https://book.hacktricks.wiki/zh/crypto/ctf-misc/index.html) · Web 与 API 
+- [Stego](https://book.hacktricks.wiki/zh/stego/index.html) · Web 与 API 
+- [Stego Workflow](https://book.hacktricks.wiki/zh/stego/workflow/index.html) · Web 与 API 
+- [Images](https://book.hacktricks.wiki/zh/stego/images/index.html) · Web 与 API 
+- [Audio](https://book.hacktricks.wiki/zh/stego/audio/index.html) · Web 与 API 
+- [Text Stego](https://book.hacktricks.wiki/zh/stego/text/index.html) · Web 与 API 
+- [Documents](https://book.hacktricks.wiki/zh/stego/documents/index.html) · Web 与 API 
+- [Malware & Network Stego](https://book.hacktricks.wiki/zh/stego/malware-and-network/index.html) · Web 与 API 
+- [More Tools](https://book.hacktricks.wiki/zh/todo/more-tools.html) · Web 与 API 

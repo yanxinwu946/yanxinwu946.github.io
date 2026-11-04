@@ -6,6 +6,14 @@ repo_url = "https://github.com/yanxinwu946"
 repo_name = "GitHub"
 nav = [
   { "文档库" = "index.md" },
+  { "Hacking" = [
+    { "聚合搜索" = "hacking/index.md" },
+    { "中文阅读路线" = "hacking/guide.md" },
+    { "来源与说明" = "hacking/sources.md" },
+    { "HackTricks" = "hacking/hacktricks.md" },
+    { "The Hacker Recipes" = "hacking/recipes.md" },
+    { "PayloadsAllTheThings" = "hacking/payloads.md" },
+  ] },
   { "SuperBay" = [
     { "产品介绍" = "superbay/index.md" },
     { "快速开始" = "superbay/user-guide.md" },

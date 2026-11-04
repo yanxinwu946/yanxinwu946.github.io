@@ -1,0 +1,143 @@
+# PayloadsAllTheThings 目录
+
+这里只聚合公开文章标题与来源链接。全文、更新及署名以原站为准。
+
+- [API Key and Token Leaks](https://swisskyrepo.github.io/PayloadsAllTheThings/API%20Key%20Leaks/) · Web 与 API 
+- [IIS Machine Keys](https://swisskyrepo.github.io/PayloadsAllTheThings/API%20Key%20Leaks/IIS-Machine-Keys/) · Web 与 API 
+- [Account Takeover](https://swisskyrepo.github.io/PayloadsAllTheThings/Account%20Takeover/) · Web 与 API 
+- [MFA Bypasses](https://swisskyrepo.github.io/PayloadsAllTheThings/Account%20Takeover/mfa-bypass/) · Web 与 API 
+- [Brute Force & Rate Limit](https://swisskyrepo.github.io/PayloadsAllTheThings/Brute%20Force%20Rate%20Limit/) · Web 与 API 
+- [Business Logic Errors](https://swisskyrepo.github.io/PayloadsAllTheThings/Business%20Logic%20Errors/) · Web 与 API 
+- [CORS Misconfiguration](https://swisskyrepo.github.io/PayloadsAllTheThings/CORS%20Misconfiguration/) · Web 与 API 
+- [Carriage Return Line Feed](https://swisskyrepo.github.io/PayloadsAllTheThings/CRLF%20Injection/) · Web 与 API 
+- [CSS Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/CSS%20Injection/) · Web 与 API 
+- [CSV Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/CSV%20Injection/) · Web 与 API 
+- [Common Vulnerabilities and Exposures](https://swisskyrepo.github.io/PayloadsAllTheThings/CVE%20Exploits/) · Web 与 API 
+- [CVE-2021-44228 Log4Shell](https://swisskyrepo.github.io/PayloadsAllTheThings/CVE%20Exploits/Log4Shell/) · Web 与 API 
+- [Clickjacking](https://swisskyrepo.github.io/PayloadsAllTheThings/Clickjacking/) · Web 与 API 
+- [Client Side Path Traversal](https://swisskyrepo.github.io/PayloadsAllTheThings/Client%20Side%20Path%20Traversal/) · Web 与 API 目录穿越
+- [Command Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/Command%20Injection/) · Web 与 API 命令执行
+- [Cross-Site Request Forgery](https://swisskyrepo.github.io/PayloadsAllTheThings/Cross-Site%20Request%20Forgery/) · Web 与 API 
+- [DNS Rebinding](https://swisskyrepo.github.io/PayloadsAllTheThings/DNS%20Rebinding/) · Web 与 API 
+- [DOM Clobbering](https://swisskyrepo.github.io/PayloadsAllTheThings/DOM%20Clobbering/) · Web 与 API 
+- [Denial of Service](https://swisskyrepo.github.io/PayloadsAllTheThings/Denial%20of%20Service/) · Web 与 API 
+- [Dependency Confusion](https://swisskyrepo.github.io/PayloadsAllTheThings/Dependency%20Confusion/) · Web 与 API 
+- [Directory Traversal](https://swisskyrepo.github.io/PayloadsAllTheThings/Directory%20Traversal/) · Web 与 API 目录穿越
+- [Encoding and Transformations](https://swisskyrepo.github.io/PayloadsAllTheThings/Encoding%20Transformations/) · Web 与 API 
+- [External Variable Modification](https://swisskyrepo.github.io/PayloadsAllTheThings/External%20Variable%20Modification/) · Web 与 API 
+- [File Inclusion](https://swisskyrepo.github.io/PayloadsAllTheThings/File%20Inclusion/) · Web 与 API 文件包含
+- [LFI to RCE](https://swisskyrepo.github.io/PayloadsAllTheThings/File%20Inclusion/LFI-to-RCE/) · Web 与 API 文件包含
+- [Inclusion Using Wrappers](https://swisskyrepo.github.io/PayloadsAllTheThings/File%20Inclusion/Wrappers/) · Web 与 API 文件包含
+- [Google Web Toolkit](https://swisskyrepo.github.io/PayloadsAllTheThings/Google%20Web%20Toolkit/) · Web 与 API 
+- [GraphQL Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/GraphQL%20Injection/) · Web 与 API 接口 API
+- [HTTP Parameter Pollution](https://swisskyrepo.github.io/PayloadsAllTheThings/HTTP%20Parameter%20Pollution/) · Web 与 API 
+- [Headless Browser](https://swisskyrepo.github.io/PayloadsAllTheThings/Headless%20Browser/) · Web 与 API 
+- [HTTP Hidden Parameters](https://swisskyrepo.github.io/PayloadsAllTheThings/Hidden%20Parameters/) · Web 与 API 
+- [Insecure Deserialization](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Deserialization/) · Web 与 API 反序列化
+- [.NET Deserialization](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Deserialization/DotNET/) · Web 与 API 反序列化
+- [Java Deserialization](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Deserialization/Java/) · Web 与 API 反序列化
+- [Node Deserialization](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Deserialization/Node/) · Web 与 API 反序列化
+- [PHP Deserialization](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Deserialization/PHP/) · Web 与 API 反序列化
+- [Python Deserialization](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Deserialization/Python/) · Web 与 API 反序列化
+- [Ruby Deserialization](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Deserialization/Ruby/) · Web 与 API 反序列化
+- [Insecure Direct Object References](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Direct%20Object%20References/) · Web 与 API 
+- [Insecure Management Interface](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Management%20Interface/) · Web 与 API 
+- [Insecure Randomness](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Randomness/) · Web 与 API 
+- [Insecure Source Code Management](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Source%20Code%20Management/) · Web 与 API 
+- [Bazaar](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Source%20Code%20Management/Bazaar/) · Web 与 API 
+- [Git](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Source%20Code%20Management/Git/) · Web 与 API 
+- [Mercurial](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Source%20Code%20Management/Mercurial/) · Web 与 API 
+- [Subversion](https://swisskyrepo.github.io/PayloadsAllTheThings/Insecure%20Source%20Code%20Management/Subversion/) · Web 与 API 
+- [JWT - JSON Web Token](https://swisskyrepo.github.io/PayloadsAllTheThings/JSON%20Web%20Token/) · Web 与 API 令牌 认证
+- [Java RMI](https://swisskyrepo.github.io/PayloadsAllTheThings/Java%20RMI/) · Web 与 API 
+- [LDAP Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/LDAP%20Injection/) · 域与身份 
+- [LaTeX Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/LaTeX%20Injection/) · Web 与 API 
+- [Mass Assignment](https://swisskyrepo.github.io/PayloadsAllTheThings/Mass%20Assignment/) · Web 与 API 
+- [Active Directory Attacks](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Active%20Directory%20Attack/) · Web 与 API 
+- [Bind Shell](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Bind%20Shell%20Cheatsheet/) · Web 与 API 
+- [Cloud - AWS](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Cloud%20-%20AWS%20Pentest/) · 云与容器 亚马逊 云
+- [Cloud - Azure](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Cloud%20-%20Azure%20Pentest/) · 云与容器 微软 云
+- [Cobalt Strike](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Cobalt%20Strike%20-%20Cheatsheet/) · Web 与 API 
+- [Container - Docker](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Container%20-%20Docker%20Pentest/) · 云与容器 容器
+- [Container - Kubernetes](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Container%20-%20Kubernetes%20Pentest/) · 云与容器 容器 k8s
+- [Application Escape and Breakout](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Escape%20Breakout/) · Web 与 API 
+- [HTML Smuggling](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/HTML%20Smuggling/) · Web 与 API 请求走私
+- [Hash Cracking](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Hash%20Cracking/) · Web 与 API 
+- [Initial Access](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Initial%20Access/) · Web 与 API 
+- [Linux - Evasion](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Linux%20-%20Evasion/) · 主机与提权 主机 提权
+- [Linux - Persistence](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Linux%20-%20Persistence/) · 主机与提权 主机 提权
+- [Linux - Privilege Escalation](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation/) · 主机与提权 主机 提权
+- [MSSQL Server](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/MSSQL%20Server%20-%20Cheatsheet/) · Web 与 API 数据库 注入
+- [Metasploit](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Metasploit%20-%20Cheatsheet/) · Web 与 API 
+- [Bug Hunting Methodology and Enumeration](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Methodology%20and%20enumeration/) · Web 与 API 
+- [Network Discovery](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Network%20Discovery/) · Web 与 API 
+- [Network Pivoting Techniques](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Network%20Pivoting%20Techniques/) · Web 与 API 
+- [Office - Attacks](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Office%20-%20Attacks/) · Web 与 API 
+- [Powershell](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Powershell%20-%20Cheatsheet/) · Web 与 API 
+- [Reverse Shell Cheat Sheet](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet/) · 移动与逆向 逆向
+- [Source Code Management & CI/CD Compromise](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Source%20Code%20Management/) · Web 与 API 
+- [Vulnerability Reports](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Vulnerability%20Reports/) · Web 与 API 
+- [Subdomains Enumeration](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Web%20Attack%20Surface/) · Web 与 API 
+- [Windows - AMSI Bypass](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Windows%20-%20AMSI%20Bypass/) · 主机与提权 主机 提权
+- [Windows - DPAPI](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Windows%20-%20DPAPI/) · 主机与提权 主机 提权
+- [Windows - Defenses](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Windows%20-%20Defenses/) · 主机与提权 主机 提权
+- [Windows - Download and execute methods](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Windows%20-%20Download%20and%20Execute/) · 主机与提权 主机 提权
+- [Windows - Mimikatz](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Windows%20-%20Mimikatz/) · 主机与提权 主机 提权
+- [Windows - Persistence](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Windows%20-%20Persistence/) · 主机与提权 主机 提权
+- [Windows - Privilege Escalation](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation/) · 主机与提权 主机 提权
+- [Windows - Using credentials](https://swisskyrepo.github.io/PayloadsAllTheThings/Methodology%20and%20Resources/Windows%20-%20Using%20credentials/) · 主机与提权 凭据 主机 提权
+- [NoSQL Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/NoSQL%20Injection/) · Web 与 API 数据库 注入
+- [OAuth Misconfiguration](https://swisskyrepo.github.io/PayloadsAllTheThings/OAuth%20Misconfiguration/) · Web 与 API 认证 授权
+- [ORM Leak](https://swisskyrepo.github.io/PayloadsAllTheThings/ORM%20Leak/) · Web 与 API 
+- [Open URL Redirect](https://swisskyrepo.github.io/PayloadsAllTheThings/Open%20Redirect/) · Web 与 API 
+- [Prompt Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/Prompt%20Injection/) · Web 与 API 
+- [Prototype Pollution](https://swisskyrepo.github.io/PayloadsAllTheThings/Prototype%20Pollution/) · Web 与 API 原型链污染
+- [Race Condition](https://swisskyrepo.github.io/PayloadsAllTheThings/Race%20Condition/) · Web 与 API 
+- [Regular Expression](https://swisskyrepo.github.io/PayloadsAllTheThings/Regular%20Expression/) · Web 与 API 
+- [Request Smuggling](https://swisskyrepo.github.io/PayloadsAllTheThings/Request%20Smuggling/) · Web 与 API 请求走私
+- [Reverse Proxy Misconfigurations](https://swisskyrepo.github.io/PayloadsAllTheThings/Reverse%20Proxy%20Misconfigurations/) · 移动与逆向 逆向
+- [SAML Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SAML%20Injection/) · Web 与 API 单点登录
+- [SQL Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/) · Web 与 API 数据库 注入
+- [Google BigQuery SQL Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/BigQuery%20Injection/) · Web 与 API 数据库 注入
+- [Cassandra Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/Cassandra%20Injection/) · Web 与 API 数据库 注入
+- [DB2 Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/DB2%20Injection/) · Web 与 API 数据库 注入
+- [MSSQL Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/MSSQL%20Injection/) · Web 与 API 数据库 注入
+- [MySQL Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/MySQL%20Injection/) · Web 与 API 数据库 注入
+- [Oracle SQL Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/OracleSQL%20Injection/) · Web 与 API 数据库 注入 权限 访问控制
+- [PostgreSQL Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/PostgreSQL%20Injection/) · Web 与 API 数据库 注入
+- [SQLite Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/SQLite%20Injection/) · Web 与 API 数据库 注入
+- [SQLmap](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/SQLmap/) · Web 与 API 数据库 注入
+- [Server Side Include Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Include%20Injection/) · Web 与 API 
+- [Server-Side Request Forgery](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Request%20Forgery/) · Web 与 API 
+- [SSRF Advanced Exploitation](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Request%20Forgery/SSRF-Advanced-Exploitation/) · Web 与 API 服务端请求伪造
+- [SSRF URL for Cloud Instances](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Request%20Forgery/SSRF-Cloud-Instances/) · 云与容器 服务端请求伪造
+- [Server Side Template Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/) · Web 与 API 
+- [Server Side Template Injection - ASP.NET](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/ASP/) · Web 与 API 
+- [Server Side Template Injection - Elixir](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/Elixir/) · Web 与 API 
+- [Server Side Template Injection - Java](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/Java/) · Web 与 API 
+- [Server Side Template Injection - JavaScript](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/JavaScript/) · Web 与 API 
+- [Server Side Template Injection - PHP](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/PHP/) · Web 与 API 
+- [Server Side Template Injection - Python](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/Python/) · Web 与 API 
+- [Server Side Template Injection - Ruby](https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/Ruby/) · Web 与 API 
+- [Tabnabbing](https://swisskyrepo.github.io/PayloadsAllTheThings/Tabnabbing/) · Web 与 API 
+- [Type Juggling](https://swisskyrepo.github.io/PayloadsAllTheThings/Type%20Juggling/) · Web 与 API 
+- [Upload Insecure Files](https://swisskyrepo.github.io/PayloadsAllTheThings/Upload%20Insecure%20Files/) · Web 与 API 文件上传
+- [.htaccess](https://swisskyrepo.github.io/PayloadsAllTheThings/Upload%20Insecure%20Files/Configuration%20Apache%20.htaccess/) · Web 与 API 文件上传
+- [Virtual Host](https://swisskyrepo.github.io/PayloadsAllTheThings/Virtual%20Hosts/) · Web 与 API 
+- [Web Cache Deception](https://swisskyrepo.github.io/PayloadsAllTheThings/Web%20Cache%20Deception/) · Web 与 API 缓存
+- [Web Sockets](https://swisskyrepo.github.io/PayloadsAllTheThings/Web%20Sockets/) · Web 与 API 
+- [XPATH Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/XPATH%20Injection/) · Web 与 API 
+- [XS-Leak](https://swisskyrepo.github.io/PayloadsAllTheThings/XS-Leak/) · Web 与 API 
+- [XSLT Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/XSLT%20Injection/) · Web 与 API 
+- [Cross Site Scripting](https://swisskyrepo.github.io/PayloadsAllTheThings/XSS%20Injection/) · Web 与 API 跨站脚本
+- [XSS Filter Bypass](https://swisskyrepo.github.io/PayloadsAllTheThings/XSS%20Injection/1%20-%20XSS%20Filter%20Bypass/) · Web 与 API 跨站脚本
+- [Polyglot XSS](https://swisskyrepo.github.io/PayloadsAllTheThings/XSS%20Injection/2%20-%20XSS%20Polyglot/) · Web 与 API 跨站脚本
+- [Common WAF Bypass](https://swisskyrepo.github.io/PayloadsAllTheThings/XSS%20Injection/3%20-%20XSS%20Common%20WAF%20Bypass/) · Web 与 API 跨站脚本
+- [CSP Bypass](https://swisskyrepo.github.io/PayloadsAllTheThings/XSS%20Injection/4%20-%20CSP%20Bypass/) · Web 与 API 跨站脚本
+- [XSS in Angular and AngularJS](https://swisskyrepo.github.io/PayloadsAllTheThings/XSS%20Injection/5%20-%20XSS%20in%20Angular/) · Web 与 API 跨站脚本
+- [XML External Entity](https://swisskyrepo.github.io/PayloadsAllTheThings/XXE%20Injection/) · Web 与 API 
+- [Zip Slip](https://swisskyrepo.github.io/PayloadsAllTheThings/Zip%20Slip/) · Web 与 API 
+- [Books](https://swisskyrepo.github.io/PayloadsAllTheThings/_LEARNING_AND_SOCIALS/BOOKS/) · Web 与 API 
+- [Twitter](https://swisskyrepo.github.io/PayloadsAllTheThings/_LEARNING_AND_SOCIALS/TWITTER/) · Web 与 API 
+- [Youtube](https://swisskyrepo.github.io/PayloadsAllTheThings/_LEARNING_AND_SOCIALS/YOUTUBE/) · Web 与 API 
+- [Vulnerability Title](https://swisskyrepo.github.io/PayloadsAllTheThings/_template_vuln/) · Web 与 API 

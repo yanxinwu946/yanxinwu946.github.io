@@ -41,3 +41,25 @@
 .md-typeset .library-project h3 { color: #12394a; }
 .md-typeset .library-links a:hover { color: #087f8c; }
 @media (max-width: 600px) { .md-typeset .library-intro { padding: 2rem 1.25rem; } .md-typeset .library-project { padding: 1.2rem; } }
+
+/* Hacking: existing document palette, flat layout and an explicit search focus. */
+.md-typeset .hacking-hero { padding: 2rem 0 2rem 1.5rem; border-left: .25rem solid #087f8c; margin: 1rem 0 2rem; }
+.md-typeset .hacking-label { font-size: .65rem; letter-spacing: .12em; color: #087f8c; font-weight: 700; }
+.md-typeset .hacking-hero h1 { font-size: clamp(2rem, 5vw, 3rem); color: #12394a; font-weight: 700; line-height: 1.25; margin: 1rem 0; }
+.md-typeset .hacking-hero p { max-width: 32rem; line-height: 1.8; }
+.md-typeset .hacking-hero > a { display: inline-block; color: white; background: #12394a; padding: .6rem 1rem; margin-top: .5rem; }
+.md-typeset .hacking-paths { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; }
+.md-typeset .hacking-paths a { background: #f2f7f6; padding: 1rem; color: #12394a; font-weight: 700; }
+.md-typeset .hacking-paths span { display: block; font-size: .7rem; margin-top: .5rem; font-weight: 400; }
+.hacking-browser label { display: block; font-size: .75rem; font-weight: 600; }
+.hacking-browser input, .hacking-browser select { display: block; width: 100%; border: 1px solid #87999d; border-radius: .25rem; padding: .65rem; font: inherit; background: white; color: #12394a; margin-top: .5rem; }
+.hacking-browser input:focus, .hacking-browser select:focus, .hacking-browser button:focus-visible { outline: 3px solid #087f8c; outline-offset: 2px; }
+.hacking-filters { display: grid; grid-template-columns: 1fr 1.5fr 1fr auto; gap: 1rem; align-items: end; margin-top: 1rem; }
+.hacking-browser button { cursor: pointer; padding: .65rem 1rem; border: 1px solid #87999d; border-radius: .25rem; font: inherit; }
+.hacking-browser button[hidden] { display: none; }
+#hacking-status { font-size: .7rem; color: #355a62; margin: 1.5rem 0 .5rem; }
+#hacking-results article { padding: 1rem 0; border-bottom: 1px solid #dfe4de; }
+#hacking-results a { font-size: .85rem; font-weight: 600; overflow-wrap: anywhere; }
+#hacking-results article p { font-size: .65rem; color: #355a62; margin: .35rem 0 0; }
+#hacking-more { margin-top: 1rem; }
+@media(max-width: 700px) { .hacking-filters { grid-template-columns: 1fr; gap: .75rem; } .md-typeset .hacking-paths { grid-template-columns: 1fr; } }

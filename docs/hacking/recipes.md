@@ -1,0 +1,275 @@
+# The Hacker Recipes 目录
+
+这里只聚合公开文章标题与来源链接。全文、更新及署名以原站为准。
+
+- [Reconnaissance](https://www.thehacker.recipes/ad/recon) · 域与身份 侦察 信息收集
+- [DHCP](https://www.thehacker.recipes/ad/recon/dhcp) · 域与身份 侦察 信息收集
+- [DNS](https://www.thehacker.recipes/ad/recon/dns) · 域与身份 侦察 信息收集
+- [NBT-NS](https://www.thehacker.recipes/ad/recon/nbt-ns) · 域与身份 侦察 信息收集
+- [Responder ⚙️](https://www.thehacker.recipes/ad/recon/responder) · 域与身份 侦察 信息收集
+- [Port scanning](https://www.thehacker.recipes/ad/recon/port-scanning) · 域与身份 侦察 信息收集
+- [LDAP](https://www.thehacker.recipes/ad/recon/ldap) · 域与身份 侦察 信息收集
+- [BloodHound ⚙️](https://www.thehacker.recipes/ad/recon/bloodhound) · 域与身份 侦察 信息收集
+- [MS-RPC](https://www.thehacker.recipes/ad/recon/ms-rpc) · 域与身份 侦察 信息收集
+- [enum4linux ⚙️](https://www.thehacker.recipes/ad/recon/enum4linux) · 域与身份 侦察 信息收集 主机 提权
+- [Password policy](https://www.thehacker.recipes/ad/recon/password-policy) · 域与身份 侦察 信息收集 密码 口令
+- [Dumping](https://www.thehacker.recipes/ad/movement/credentials/dumping) · 域与身份 凭据
+- [SAM & LSA secrets](https://www.thehacker.recipes/ad/movement/credentials/dumping/sam-and-lsa-secrets) · 域与身份 凭据
+- [DPAPI secrets](https://www.thehacker.recipes/ad/movement/credentials/dumping/dpapi-protected-secrets) · 域与身份 凭据
+- [NTDS secrets](https://www.thehacker.recipes/ad/movement/credentials/dumping/ntds) · 域与身份 凭据
+- [LSASS secrets](https://www.thehacker.recipes/ad/movement/credentials/dumping/lsass) · 域与身份 凭据
+- [DCSync](https://www.thehacker.recipes/ad/movement/credentials/dumping/dcsync) · 域与身份 凭据
+- [Group Policy Preferences](https://www.thehacker.recipes/ad/movement/credentials/dumping/group-policies-preferences) · 域与身份 凭据
+- [Network shares](https://www.thehacker.recipes/ad/movement/credentials/dumping/network-shares) · 域与身份 凭据
+- [Network protocols](https://www.thehacker.recipes/ad/movement/credentials/dumping/network-protocols) · 域与身份 凭据
+- [Web browsers](https://www.thehacker.recipes/ad/movement/credentials/dumping/web-browsers) · 域与身份 凭据
+- [In-memory secrets](https://www.thehacker.recipes/ad/movement/credentials/dumping/in-memory) · 域与身份 凭据
+- [Kerberos key list](https://www.thehacker.recipes/ad/movement/credentials/dumping/kerberos-key-list) · 域与身份 域认证 票据 凭据
+- [Cached Kerberos tickets](https://www.thehacker.recipes/ad/movement/credentials/dumping/cached-kerberos-tickets) · 域与身份 域认证 票据 凭据 缓存
+- [Windows Credential Manager](https://www.thehacker.recipes/ad/movement/credentials/dumping/windows-credential-manager) · 域与身份 凭据 主机 提权
+- [🛠️ Local files](https://www.thehacker.recipes/ad/movement/credentials/dumping/local-files) · 域与身份 凭据
+- [🛠️ Password managers](https://www.thehacker.recipes/ad/movement/credentials/dumping/password-managers) · 域与身份 密码 口令 凭据
+- [Cracking](https://www.thehacker.recipes/ad/movement/credentials/cracking) · 域与身份 凭据
+- [Guessing](https://www.thehacker.recipes/ad/movement/credentials/bruteforcing/guessing) · 域与身份 凭据
+- [Spraying](https://www.thehacker.recipes/ad/movement/credentials/bruteforcing/spraying) · 域与身份 凭据
+- [Stuffing](https://www.thehacker.recipes/ad/movement/credentials/bruteforcing/stuffing) · 域与身份 凭据
+- [Shuffling](https://www.thehacker.recipes/ad/movement/credentials/shuffling) · 域与身份 凭据
+- [Impersonation](https://www.thehacker.recipes/ad/movement/credentials/impersonation) · 域与身份 凭据
+- [MITM & coercion](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications) · 域与身份 
+- [ARP poisoning](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/arp-poisoning) · 域与身份 
+- [DNS spoofing](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/dns-spoofing) · 域与身份 
+- [DHCP poisoning](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/dhcp-poisoning) · 域与身份 
+- [DHCPv6 spoofing](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/dhcpv6-spoofing) · 域与身份 
+- [WSUS spoofing](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/wsus-spoofing) · 域与身份 
+- [LLMNR, NBT-NS, mDNS](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/llmnr-nbtns-mdns-spoofing) · 域与身份 
+- [ADIDNS poisoning](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/adidns-spoofing) · 域与身份 
+- [WPAD spoofing](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/wpad-spoofing) · 域与身份 
+- [MS-EFSR abuse (PetitPotam)](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/rpc-coercions/ms-efsr) · 域与身份 
+- [MS-RPRN abuse (PrinterBug)](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/rpc-coercions/ms-rprn) · 域与身份 
+- [MS-FSRVP abuse (ShadowCoerce)](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/rpc-coercions/ms-fsrvp) · 域与身份 
+- [MS-DFSNM abuse (DFSCoerce)](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/rpc-coercions/ms-dfsnm) · 域与身份 
+- [PushSubscription abuse](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/pushsubscription-abuse) · 域与身份 
+- [WebClient abuse (WebDAV)](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/webclient) · 域与身份 
+- [🛠️ NBT Name Overwrite](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/nbt-name-overwrite) · 域与身份 
+- [🛠️ ICMP Redirect](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/icmp-redirect) · 域与身份 
+- [🛠️ Living off the land](https://www.thehacker.recipes/ad/movement/mitm-and-coerced-authentications/living-off-the-land) · 域与身份 
+- [NTLM](https://www.thehacker.recipes/ad/movement/ntlm) · 域与身份 认证 中继
+- [Capture](https://www.thehacker.recipes/ad/movement/ntlm/capture) · 域与身份 认证 中继
+- [Relay](https://www.thehacker.recipes/ad/movement/ntlm/relay) · 域与身份 认证 中继
+- [Pass the hash](https://www.thehacker.recipes/ad/movement/ntlm/pth) · 域与身份 认证 中继
+- [Kerberos](https://www.thehacker.recipes/ad/movement/kerberos) · 域与身份 域认证 票据
+- [Pre-auth bruteforce](https://www.thehacker.recipes/ad/movement/kerberos/pre-auth-bruteforce) · 域与身份 域认证 票据
+- [Pass the key](https://www.thehacker.recipes/ad/movement/kerberos/pass-the/ptk) · 域与身份 域认证 票据
+- [Overpass the hash](https://www.thehacker.recipes/ad/movement/kerberos/pass-the/opth) · 域与身份 域认证 票据
+- [Pass the ticket](https://www.thehacker.recipes/ad/movement/kerberos/pass-the/ptt) · 域与身份 域认证 票据
+- [Pass the cache](https://www.thehacker.recipes/ad/movement/kerberos/pass-the/ptc) · 域与身份 域认证 票据 缓存
+- [Pass the Certificate](https://www.thehacker.recipes/ad/movement/kerberos/pass-the/pass-the-certificate) · 域与身份 域认证 票据 证书
+- [ASREQroast](https://www.thehacker.recipes/ad/movement/kerberos/roasting/asreqroast) · 域与身份 域认证 票据
+- [ASREProast](https://www.thehacker.recipes/ad/movement/kerberos/roasting/asreproast) · 域与身份 域认证 票据
+- [Kerberoast](https://www.thehacker.recipes/ad/movement/kerberos/roasting/kerberoast) · 域与身份 域认证 票据
+- [Timeroast](https://www.thehacker.recipes/ad/movement/kerberos/roasting/timeroast) · 域与身份 域认证 票据
+- [Relay](https://www.thehacker.recipes/ad/movement/kerberos/relay) · 域与身份 域认证 票据
+- [Forged tickets](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets) · 域与身份 域认证 票据
+- [Silver tickets](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/silver) · 域与身份 域认证 票据
+- [Golden tickets](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/golden) · 域与身份 域认证 票据
+- [Diamond tickets](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/diamond) · 域与身份 域认证 票据
+- [Sapphire tickets](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/sapphire) · 域与身份 域认证 票据
+- [RODC Golden tickets](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/rodc-golden-tickets) · 域与身份 域认证 票据
+- [MS14-068](https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/ms14-068) · 域与身份 域认证 票据
+- [Delegations](https://www.thehacker.recipes/ad/movement/kerberos/delegations) · 域与身份 域认证 票据 委派
+- [(KUD) Unconstrained](https://www.thehacker.recipes/ad/movement/kerberos/delegations/unconstrained) · 域与身份 域认证 票据 委派
+- [(KCD) Constrained](https://www.thehacker.recipes/ad/movement/kerberos/delegations/constrained) · 域与身份 域认证 票据 委派
+- [(RBCD) Resource-based constrained](https://www.thehacker.recipes/ad/movement/kerberos/delegations/rbcd) · 域与身份 域认证 票据 委派
+- [S4U2self abuse](https://www.thehacker.recipes/ad/movement/kerberos/delegations/s4u2self-abuse) · 域与身份 域认证 票据 委派
+- [Bronze Bit](https://www.thehacker.recipes/ad/movement/kerberos/delegations/bronze-bit) · 域与身份 域认证 票据 委派
+- [Shadow Credentials](https://www.thehacker.recipes/ad/movement/kerberos/shadow-credentials) · 域与身份 域认证 票据 凭据
+- [UnPAC the hash](https://www.thehacker.recipes/ad/movement/kerberos/unpac-the-hash) · 域与身份 域认证 票据
+- [sAMAccountName spoofing](https://www.thehacker.recipes/ad/movement/kerberos/principal-confusion/samaccountname-spoofing) · 域与身份 域认证 票据
+- [Dollar ticket](https://www.thehacker.recipes/ad/movement/kerberos/principal-confusion/dollar-ticket) · 域与身份 域认证 票据
+- [SPN-jacking](https://www.thehacker.recipes/ad/movement/kerberos/spn-jacking) · 域与身份 域认证 票据
+- [DACL abuse](https://www.thehacker.recipes/ad/movement/dacl) · 域与身份 访问控制 权限 权限 访问控制
+- [AddMember](https://www.thehacker.recipes/ad/movement/dacl/addmember) · 域与身份 访问控制 权限 权限 访问控制
+- [ForceChangePassword](https://www.thehacker.recipes/ad/movement/dacl/forcechangepassword) · 域与身份 访问控制 权限 密码 口令 权限 访问控制
+- [Targeted Kerberoasting](https://www.thehacker.recipes/ad/movement/dacl/targeted-kerberoasting) · 域与身份 访问控制 权限 权限 访问控制
+- [ReadLAPSPassword](https://www.thehacker.recipes/ad/movement/dacl/readlapspassword) · 域与身份 访问控制 权限 密码 口令 权限 访问控制
+- [ReadGMSAPassword](https://www.thehacker.recipes/ad/movement/dacl/readgmsapassword) · 域与身份 访问控制 权限 密码 口令 权限 访问控制
+- [Grant ownership](https://www.thehacker.recipes/ad/movement/dacl/grant-ownership) · 域与身份 访问控制 权限 权限 访问控制
+- [Grant rights](https://www.thehacker.recipes/ad/movement/dacl/grant-rights) · 域与身份 访问控制 权限 权限 访问控制
+- [Logon script](https://www.thehacker.recipes/ad/movement/dacl/logon-script) · 域与身份 访问控制 权限 权限 访问控制
+- [Rights on RODC object](https://www.thehacker.recipes/ad/movement/dacl/rights-on-rodc-object) · 域与身份 访问控制 权限 权限 访问控制
+- [Group policies](https://www.thehacker.recipes/ad/movement/group-policies) · 域与身份 
+- [Trusts](https://www.thehacker.recipes/ad/movement/trusts) · 域与身份 
+- [ZeroLogon](https://www.thehacker.recipes/ad/movement/netlogon/zerologon) · 域与身份 
+- [AD-CS](https://www.thehacker.recipes/ad/movement/adcs) · 域与身份 
+- [Certificate templates](https://www.thehacker.recipes/ad/movement/adcs/certificate-templates) · 域与身份 证书
+- [Certificate authority](https://www.thehacker.recipes/ad/movement/adcs/certificate-authority) · 域与身份 证书
+- [Access controls](https://www.thehacker.recipes/ad/movement/adcs/access-controls) · 域与身份 
+- [Unsigned endpoints](https://www.thehacker.recipes/ad/movement/adcs/unsigned-endpoints) · 域与身份 
+- [Certifried](https://www.thehacker.recipes/ad/movement/adcs/certifried) · 域与身份 
+- [SCCM / MECM](https://www.thehacker.recipes/ad/movement/sccm-mecm) · 域与身份 
+- [Privilege escalation](https://www.thehacker.recipes/ad/movement/sccm-mecm/privilege-escalation) · 域与身份 
+- [Credential harvesting](https://www.thehacker.recipes/ad/movement/sccm-mecm/privilege-escalation/credential-harvesting) · 域与身份 凭据
+- [Client Push coercion](https://www.thehacker.recipes/ad/movement/sccm-mecm/privilege-escalation/client-push-coercion) · 域与身份 
+- [Site takeover](https://www.thehacker.recipes/ad/movement/sccm-mecm/privilege-escalation/site-takeover) · 域与身份 
+- [Lateral movement](https://www.thehacker.recipes/ad/movement/sccm-mecm/lateral-movement) · 域与身份 
+- [Enumeration](https://www.thehacker.recipes/ad/movement/sccm-mecm/lateral-movement/enumeration) · 域与身份 
+- [Deployment](https://www.thehacker.recipes/ad/movement/sccm-mecm/lateral-movement/deployment) · 域与身份 
+- [AdminService API](https://www.thehacker.recipes/ad/movement/sccm-mecm/lateral-movement/adminservice-api) · 域与身份 
+- [Hierarchy takeover](https://www.thehacker.recipes/ad/movement/sccm-mecm/lateral-movement/hierarchy-takeover) · 域与身份 
+- [🛠️ PrivExchange](https://www.thehacker.recipes/ad/movement/exchange-services/privexchange) · 域与身份 
+- [🛠️ ProxyLogon](https://www.thehacker.recipes/ad/movement/exchange-services/proxylogon) · 域与身份 
+- [🛠️ ProxyShell](https://www.thehacker.recipes/ad/movement/exchange-services/proxyshell) · 域与身份 
+- [PrinterBug](https://www.thehacker.recipes/ad/movement/print-spooler-service/printerbug) · 域与身份 
+- [PrintNightmare](https://www.thehacker.recipes/ad/movement/print-spooler-service/printnightmare) · 域与身份 
+- [Pass the Certificate](https://www.thehacker.recipes/ad/movement/schannel/passthecert) · 域与身份 证书
+- [Security groups](https://www.thehacker.recipes/ad/movement/builtins/security-groups) · 域与身份 
+- [MachineAccountQuota](https://www.thehacker.recipes/ad/movement/builtins/machineaccountquota) · 域与身份 
+- [Pre-Windows 2000 computers](https://www.thehacker.recipes/ad/movement/builtins/pre-windows-2000-computers) · 域与身份 主机 提权
+- [RODC](https://www.thehacker.recipes/ad/movement/builtins/rodc) · 域与身份 
+- [DC Shadow](https://www.thehacker.recipes/ad/persistence/dcshadow) · 域与身份 
+- [SID History](https://www.thehacker.recipes/ad/persistence/sid-history) · 域与身份 
+- [Skeleton key](https://www.thehacker.recipes/ad/persistence/skeleton-key) · 域与身份 
+- [GoldenGMSA](https://www.thehacker.recipes/ad/persistence/goldengmsa) · 域与身份 
+- [AdminSDHolder](https://www.thehacker.recipes/ad/persistence/adminsdholder) · 域与身份 
+- [Forged tickets](https://www.thehacker.recipes/ad/persistence/kerberos/forged-tickets) · 域与身份 域认证 票据
+- [Delegation to KRBTGT](https://www.thehacker.recipes/ad/persistence/kerberos/delegation-to-krbtgt) · 域与身份 域认证 票据 委派
+- [AD-CS](https://www.thehacker.recipes/ad/persistence/adcs) · 域与身份 
+- [Certificate authority](https://www.thehacker.recipes/ad/persistence/adcs/certificate-authority) · 域与身份 证书
+- [Access controls](https://www.thehacker.recipes/ad/persistence/adcs/access-controls) · 域与身份 
+- [🛠️ Golden certificate](https://www.thehacker.recipes/ad/persistence/adcs/golden-certificate) · 域与身份 证书
+- [🛠️ DACL abuse](https://www.thehacker.recipes/ad/persistence/dacl) · 域与身份 访问控制 权限 权限 访问控制
+- [Shadow Principals (PAM)](https://www.thehacker.recipes/ad/persistence/shadow-principals) · 域与身份 
+- [DSRM](https://www.thehacker.recipes/ad/persistence/dsrm) · 域与身份 
+- [HTTP response headers](https://www.thehacker.recipes/web/recon/http-banners) · Web 与 API 侦察 信息收集
+- [Comments and metadata](https://www.thehacker.recipes/web/recon/comments-and-metadata) · Web 与 API 侦察 信息收集
+- [Error messages](https://www.thehacker.recipes/web/recon/error-messages) · Web 与 API 侦察 信息收集
+- [Site crawling](https://www.thehacker.recipes/web/recon/site-crawling) · Web 与 API 侦察 信息收集
+- [Directory fuzzing](https://www.thehacker.recipes/web/recon/directory-fuzzing) · Web 与 API 侦察 信息收集
+- [Subdomains enumeration](https://www.thehacker.recipes/web/recon/domains-enumeration) · Web 与 API 侦察 信息收集
+- [Subdomain & vhost fuzzing](https://www.thehacker.recipes/web/recon/virtual-host-fuzzing) · Web 与 API 侦察 信息收集
+- [Web Application Firewall (WAF)](https://www.thehacker.recipes/web/recon/waf-fingerprinting) · Web 与 API 侦察 信息收集
+- [Content Management System (CMS)](https://www.thehacker.recipes/web/recon/cms) · Web 与 API 侦察 信息收集
+- [Other technologies](https://www.thehacker.recipes/web/recon/web-technologies) · Web 与 API 侦察 信息收集
+- [Known vulnerabilities](https://www.thehacker.recipes/web/recon/known-vulnerabilities) · Web 与 API 侦察 信息收集
+- [Default credentials](https://www.thehacker.recipes/web/config/default-credentials) · Web 与 API 凭据
+- [HTTP methods](https://www.thehacker.recipes/web/config/http-methods) · Web 与 API 
+- [HTTP security headers](https://www.thehacker.recipes/web/config/http-headers) · Web 与 API 
+- [Clickjacking](https://www.thehacker.recipes/web/config/http-headers/clickjacking) · Web 与 API 
+- [MIME type sniffing](https://www.thehacker.recipes/web/config/http-headers/mime-sniffing) · Web 与 API 
+- [🛠️ CORS (Cross-Origin Resource Sharing)](https://www.thehacker.recipes/web/config/http-headers/cors) · Web 与 API 
+- [🛠️ CSP (Content Security Policy)](https://www.thehacker.recipes/web/config/http-headers/csp-content-security-policy) · Web 与 API 
+- [HTTP request smuggling](https://www.thehacker.recipes/web/config/http-request-smuggling) · Web 与 API 请求走私
+- [HTTP response splitting](https://www.thehacker.recipes/web/config/http-response-splitting) · Web 与 API 
+- [Insecure Cookies](https://www.thehacker.recipes/web/config/insecure-cookies) · Web 与 API 
+- [Denial of Service (DoS)](https://www.thehacker.recipes/web/config/dos-mitigations) · Web 与 API 
+- [🛠️ OAuth 2.0](https://www.thehacker.recipes/web/config/identity-and-access-management/oauth-2.0) · Web 与 API 认证 授权
+- [Security policies](https://www.thehacker.recipes/web/accounts-and-sessions/security-policies) · Web 与 API 
+- [Password change](https://www.thehacker.recipes/web/accounts-and-sessions/password-change) · Web 与 API 密码 口令
+- [🛠️ Password reset](https://www.thehacker.recipes/web/accounts-and-sessions/password-reset) · Web 与 API 密码 口令
+- [Account creation](https://www.thehacker.recipes/web/accounts-and-sessions/signing-in) · Web 与 API 
+- [🛠️ Account deletion](https://www.thehacker.recipes/web/accounts-and-sessions/account-deletion) · Web 与 API 
+- [🛠️ Logging in](https://www.thehacker.recipes/web/accounts-and-sessions/logging-in) · Web 与 API 
+- [File inclusion](https://www.thehacker.recipes/web/inputs/file-inclusion) · Web 与 API 文件包含
+- [logs poisoning](https://www.thehacker.recipes/web/inputs/file-inclusion/lfi-to-rce/logs-poisoning) · Web 与 API 文件包含
+- [phpinfo](https://www.thehacker.recipes/web/inputs/file-inclusion/lfi-to-rce/phpinfo) · Web 与 API 文件包含
+- [file upload](https://www.thehacker.recipes/web/inputs/file-inclusion/lfi-to-rce/file-upload) · Web 与 API 文件上传 文件包含
+- [PHP wrappers and streams](https://www.thehacker.recipes/web/inputs/file-inclusion/lfi-to-rce/php-wrappers-and-streams) · Web 与 API 文件包含
+- [PHP session](https://www.thehacker.recipes/web/inputs/file-inclusion/lfi-to-rce/php-session) · Web 与 API 文件包含
+- [/proc](https://www.thehacker.recipes/web/inputs/file-inclusion/lfi-to-rce/proc) · Web 与 API 文件包含
+- [RFI to RCE](https://www.thehacker.recipes/web/inputs/file-inclusion/rfi-to-rce) · Web 与 API 文件包含
+- [Unrestricted file upload](https://www.thehacker.recipes/web/inputs/unrestricted-file-upload) · Web 与 API 文件上传
+- [SQL injection](https://www.thehacker.recipes/web/inputs/sqli) · Web 与 API 数据库 注入
+- [XSS (Cross-Site Scripting)](https://www.thehacker.recipes/web/inputs/xss) · Web 与 API 跨站脚本
+- [CSRF (Cross-Site Request Forgery)](https://www.thehacker.recipes/web/inputs/csrf) · Web 与 API 跨站请求伪造
+- [SSRF (Server-Side Request Forgery)](https://www.thehacker.recipes/web/inputs/ssrf) · Web 与 API 服务端请求伪造
+- [IDOR (Insecure Direct Object Reference)](https://www.thehacker.recipes/web/inputs/idor) · Web 与 API 
+- [ORED Open redirect](https://www.thehacker.recipes/web/inputs/ored) · Web 与 API 
+- [Content-Type juggling](https://www.thehacker.recipes/web/inputs/content-type-juggling) · Web 与 API 
+- [XXE injection](https://www.thehacker.recipes/web/inputs/xxe-injection) · Web 与 API 
+- [Insecure JSON Web Tokens](https://www.thehacker.recipes/web/inputs/jwt) · Web 与 API 令牌 认证
+- [HTTP parameter pollution](https://www.thehacker.recipes/web/inputs/http-parameter-pollution) · Web 与 API 
+- [🛠️ SSTI (Server-Side Template Injection)](https://www.thehacker.recipes/web/inputs/ssti) · Web 与 API 
+- [🛠️ Insecure deserialization](https://www.thehacker.recipes/web/inputs/insecure-deserialization) · Web 与 API 反序列化
+- [🛠️ CRLF injection](https://www.thehacker.recipes/web/inputs/crlf-injection) · Web 与 API 
+- [🛠️ Arbitrary file download](https://www.thehacker.recipes/web/inputs/arbitrary-file-download) · Web 与 API 
+- [🛠️ Directory traversal](https://www.thehacker.recipes/web/inputs/directory-traversal) · Web 与 API 目录穿越
+- [🛠️ Null-byte injection](https://www.thehacker.recipes/web/inputs/null-byte-injection) · Web 与 API 
+- [🛠️ API Pentest](https://www.thehacker.recipes/web/inputs/api) · Web 与 API 
+- [🛠️ Hosts discovery](https://www.thehacker.recipes/infra/recon/hosts-discovery) · Web 与 API 侦察 信息收集
+- [Port scanning](https://www.thehacker.recipes/infra/recon/port-scanning) · Web 与 API 侦察 信息收集
+- [Initial access (protocols)](https://www.thehacker.recipes/infra/protocols) · Web 与 API 
+- [🛠️ FTP](https://www.thehacker.recipes/infra/protocols/ftp) · Web 与 API 
+- [🛠️ SSH](https://www.thehacker.recipes/infra/protocols/ssh) · Web 与 API 
+- [🛠️ Telnet](https://www.thehacker.recipes/infra/protocols/telnet) · Web 与 API 
+- [🛠️ DNS](https://www.thehacker.recipes/infra/protocols/dns) · Web 与 API 
+- [🛠️ HTTP](https://www.thehacker.recipes/infra/protocols/http) · Web 与 API 
+- [🛠️ Kerberos](https://www.thehacker.recipes/infra/protocols/kerberos) · 域与身份 域认证 票据
+- [🛠️ LDAP](https://www.thehacker.recipes/infra/protocols/ldap) · 域与身份 
+- [🛠️ SMB](https://www.thehacker.recipes/infra/protocols/smb) · Web 与 API 
+- [🛠️ RTSP](https://www.thehacker.recipes/infra/protocols/rtsp) · Web 与 API 
+- [🛠️ MSSQL](https://www.thehacker.recipes/infra/protocols/mssql) · Web 与 API 数据库 注入
+- [🛠️ NFS](https://www.thehacker.recipes/infra/protocols/nfs) · Web 与 API 
+- [🛠️ MySQL](https://www.thehacker.recipes/infra/protocols/mysql) · Web 与 API 数据库 注入
+- [🛠️ WinRM](https://www.thehacker.recipes/infra/protocols/winrm) · Web 与 API 
+- [Initial access (phishing)](https://www.thehacker.recipes/infra/phishing) · Web 与 API 
+- [Windows](https://www.thehacker.recipes/infra/privilege-escalation/windows) · 主机与提权 主机 提权
+- [🛠️ Credential dumping](https://www.thehacker.recipes/infra/privilege-escalation/windows/credential-dumping) · 主机与提权 凭据 主机 提权
+- [🛠️ Unquoted path](https://www.thehacker.recipes/infra/privilege-escalation/windows/unquoted-service-paths) · 主机与提权 主机 提权
+- [🛠️ Scheduled tasks](https://www.thehacker.recipes/infra/privilege-escalation/windows/scheduled-tasks) · 主机与提权 主机 提权
+- [🛠️ Weak service permissions](https://www.thehacker.recipes/infra/privilege-escalation/windows/weak-service-permissions) · 主机与提权 主机 提权
+- [🛠️ Vulnerable drivers](https://www.thehacker.recipes/infra/privilege-escalation/windows/vulnerable-drivers) · 主机与提权 主机 提权
+- [🛠️ Account privileges](https://www.thehacker.recipes/infra/privilege-escalation/windows/account-privileges) · 主机与提权 主机 提权
+- [🛠️ Kernel exploitation](https://www.thehacker.recipes/infra/privilege-escalation/windows/kernel-exploitation) · 主机与提权 主机 提权
+- [🛠️ Windows Subsystem for Linux](https://www.thehacker.recipes/infra/privilege-escalation/windows/windows-subsystem-for-linux) · 主机与提权 主机 提权 主机 提权
+- [🛠️ Runas saved creds](https://www.thehacker.recipes/infra/privilege-escalation/windows/runas-saved-creds) · 主机与提权 主机 提权
+- [Unattend files](https://www.thehacker.recipes/infra/privilege-escalation/windows/unattend-files) · 主机与提权 主机 提权
+- [🛠️ Network secrets](https://www.thehacker.recipes/infra/privilege-escalation/unix/network-secrets) · 主机与提权 
+- [🛠️ Living off the land](https://www.thehacker.recipes/infra/privilege-escalation/windows/living-off-the-land) · 主机与提权 主机 提权
+- [UNIX-like](https://www.thehacker.recipes/infra/privilege-escalation/unix) · 主机与提权 
+- [SUDO](https://www.thehacker.recipes/infra/privilege-escalation/unix/sudo) · 主机与提权 提权
+- [SUID/SGID binaries](https://www.thehacker.recipes/infra/privilege-escalation/unix/suid-sgid-binaries) · 主机与提权 提权
+- [🛠️ Capabilities](https://www.thehacker.recipes/infra/privilege-escalation/unix/capabilities) · 主机与提权 
+- [🛠️ Network secrets](https://www.thehacker.recipes/infra/privilege-escalation/windows/network-secrets) · 主机与提权 主机 提权
+- [🛠️ Living off the land](https://www.thehacker.recipes/infra/privilege-escalation/unix/living-off-the-land) · 主机与提权 
+- [🛠️ Port forwarding](https://www.thehacker.recipes/infra/pivoting/port-forwarding) · Web 与 API 
+- [🛠️ SOCKS proxy](https://www.thehacker.recipes/infra/pivoting/socks-proxy) · Web 与 API 
+- [(AV) Anti-Virus](https://www.thehacker.recipes/evasion/av) · Web 与 API 
+- [🛠️ Loader](https://www.thehacker.recipes/evasion/av/loader) · Web 与 API 
+- [🛠️ Dropper](https://www.thehacker.recipes/evasion/av/dropper) · Web 与 API 
+- [🛠️ Obfuscation](https://www.thehacker.recipes/evasion/av/obfuscation) · Web 与 API 
+- [🛠️ Process injection](https://www.thehacker.recipes/evasion/av/process-injection) · Web 与 API 
+- [🛠️ Stealth with C2](https://www.thehacker.recipes/evasion/av/stealth) · Web 与 API 
+- [🛠️ (EDR) Endpoint Detection and Response](https://www.thehacker.recipes/evasion/edr) · Web 与 API 
+- [Locks](https://www.thehacker.recipes/physical/lockpicking) · Web 与 API 
+- [Network Access Control](https://www.thehacker.recipes/physical/networking/network-access-control) · Web 与 API 
+- [HID injection](https://www.thehacker.recipes/physical/physical-access/hid-injection) · Web 与 API 
+- [Keylogging](https://www.thehacker.recipes/physical/physical-access/keylogging) · Web 与 API 
+- [BIOS security](https://www.thehacker.recipes/physical/physical-access/bios-security) · 移动与逆向 苹果 移动
+- [Encryption](https://www.thehacker.recipes/physical/physical-access/encryption) · Web 与 API 
+- [Airstrike attack](https://www.thehacker.recipes/physical/physical-access/airstrike-attack) · Web 与 API 
+- [🍌 Banana & chocolate cake](https://www.thehacker.recipes/physical/super-secret-zones/banana-and-chocolate-cake) · Web 与 API 
+- [🍳 Omelette du fromage](https://www.thehacker.recipes/physical/super-secret-zones/omelette-du-fromage) · Web 与 API 
+- [🍔 Burger du seigneur](https://www.thehacker.recipes/physical/super-secret-zones/burger-du-seigneur) · Web 与 API 
+- [🥞 The Pancakes of Heaven](https://www.thehacker.recipes/physical/super-secret-zones/the-pancakes-of-heaven) · Web 与 API 
+- [Emails](https://www.thehacker.recipes/intelligence-gathering/cybint/emails) · Web 与 API 
+- [Web infrastructure](https://www.thehacker.recipes/intelligence-gathering/cybint/web-infrastructure) · Web 与 API 
+- [OSINT](https://www.thehacker.recipes/intelligence-gathering/osint) · Web 与 API 
+- [GEOINT](https://www.thehacker.recipes/intelligence-gathering/geoint) · Web 与 API 
+- [Mifare Classic](https://www.thehacker.recipes/radio/rfid/mifare-classic) · Web 与 API 
+- [Default keys](https://www.thehacker.recipes/radio/rfid/mifare-classic/default-keys) · Web 与 API 
+- [Darkside](https://www.thehacker.recipes/radio/rfid/mifare-classic/darkside) · Web 与 API 
+- [Nested](https://www.thehacker.recipes/radio/rfid/mifare-classic/nested) · Web 与 API 
+- [Bluetooth](https://www.thehacker.recipes/radio/bluetooth) · Web 与 API 
+- [WEP](https://www.thehacker.recipes/radio/wi-fi/wep) · Web 与 API 
+- [🛠️ WPA2](https://www.thehacker.recipes/radio/wi-fi/wpa2) · Web 与 API 
+- [🛠️ WPA3](https://www.thehacker.recipes/radio/wi-fi/wpa3) · Web 与 API 
+- [WPS](https://www.thehacker.recipes/radio/wi-fi/wps) · Web 与 API 
+- [Wireless keyboard/mouse](https://www.thehacker.recipes/radio/wireless-keyboard-mouse) · Web 与 API 
+- [Android](https://www.thehacker.recipes/mobile-apps/android) · 移动与逆向 安卓 移动
+- [Android Debug Bridge ⚙️](https://www.thehacker.recipes/mobile-apps/android/android-debug-bridge) · 移动与逆向 安卓 移动
+- [APK transform](https://www.thehacker.recipes/mobile-apps/android/apk-transform) · 移动与逆向 安卓 移动
+- [Certificate pinning](https://www.thehacker.recipes/mobile-apps/ios/certificate-pinning) · 移动与逆向 证书 苹果 移动
+- [Write 📝](https://www.thehacker.recipes/contributing/write) · Web 与 API 
+- [Donate ❤️](https://www.thehacker.recipes/contributing/donate) · Web 与 API 
+- [Buy ads 🌟](https://www.thehacker.recipes/contributing/ads) · Web 与 API 
+- [Variables 🔄](https://www.thehacker.recipes/contributing/variables) · Web 与 API 

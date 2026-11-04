@@ -28,6 +28,18 @@ hide:
 
 <div class="library-project" markdown>
 
+<span class="project-number">HACKING / 知识索引</span>
+
+### 渗透知识库
+
+中文查主题，跨库找资料。从 HackTricks、The Hacker Recipes 到更多优质安全知识库。
+
+[进入聚合搜索 →](hacking/index.md)
+
+</div>
+
+<div class="library-project" markdown>
+
 <span class="project-number">01 / 项目文档</span>
 
 ### SuperBay
